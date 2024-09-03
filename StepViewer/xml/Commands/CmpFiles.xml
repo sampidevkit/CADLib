@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+     <!-- Description:  Open the Compare dialog and set compared filenames -->
+  <command text="Comparefiles &quot;drawing1.dxf&quot; &quot;drawing2.dxf&quot;"/>
+    <!-- Optional parameters: Flags DeletedColor AddedColor ModifiedColor UnmodifiedColor -->
+    <!-- Flags bits: 0 - Layer, 1 - LineType, 2 - LineTypeScale, 3 - Thickness, 4 - Color,
+      5 - LineWeight, 6 - GeomertyDatas-->
+    <!-- Flags bits for visual compare: 7 - GraphicsOnly, 8 - cf2048, 9 - cf4096, 10 - cf8196-->
+    <!-- If optional parameters are passed, the Compare dialog are not showed -->
+  <command text="Comparefiles &quot;drawing1.dxf&quot; &quot;drawing2.dxf&quot; 127"/>
+</cadsofttools>

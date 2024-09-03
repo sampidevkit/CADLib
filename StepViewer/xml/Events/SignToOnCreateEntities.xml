@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnCreateEntities event. The result is the handle of the created object-->    
+  <signtoevent Event="OnCreateEntities" Enabled="True"/>
+</cadsofttools>                                                    

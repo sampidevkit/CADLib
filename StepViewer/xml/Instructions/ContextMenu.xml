@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+<!-- Description: Context menu instruction allows to replace the context menu by a new one or to add new menu items to the top or to the end of the current menu. 
+When the user clicks on a menu item, its caption returns as event <MenuItemClick caption=" "/>
+ Sender and onClick parameters of theItem are optional. They should be direct addresses to Sender object and onPopup event pointers in a parent application. -->
+<!-- mode: 0 - replace, 1 - to bottom, 2: to top -->
+  <contextmenu mode="2">                     
+    <items>
+      <item caption="Menu Item 1"/>
+      <item caption="Menu Item 2" Sender="$00000000" />
+      <item caption="Menu Item 3" Sender="$00000000" onClick="$00000000"/>
+      <item caption="Menu Item 4" Sender="$00000000" onClick="$00000000" onPopup="$00000000"/>
+    </items>
+  </contextmenu>
+</cadsofttools>                      

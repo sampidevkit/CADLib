@@ -1,0 +1,52 @@
+STEP translation to Solid Edge
+Date: Sunday,August 11,2024 05:04PM
+Source File: F:\Bitbucket\SamLib\model3d\Master\BattAA-Holder-SMD.STEP
+Author: Unknown
+Organization: Unknown
+Source System: SolidWorks 2022
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 11.9 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: F:\Bitbucket\SamLib\model3d\Master
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File F:\Bitbucket\SamLib\model3d\Master\BattAA-Holder-SMD.asm
+|--+Created SE Part File F:\Bitbucket\SamLib\model3d\Master\Frame_?? ?????????.par
+|--+Created SE Part File F:\Bitbucket\SamLib\model3d\Master\Contact_?? ?????????.par
+|--+Reusing File F:\Bitbucket\SamLib\model3d\Master\Contact_?? ?????????.par
++Total Parts: 5
++Assemblies: 0
++Solid Bodies: 5
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 02

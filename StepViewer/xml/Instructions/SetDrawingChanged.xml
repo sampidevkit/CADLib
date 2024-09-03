@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <getdrawingchanged/>  
+
+  <!-- Set true or false value depending on changes were applied to the drawing by guid or Mode. -->
+  <setdrawingchanged Mode="1" changed="false"/>  
+
+  <getdrawingchanged/>  
+</cadsofttools>

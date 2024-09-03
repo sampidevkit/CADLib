@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: JPEG export settings -->
+    <!-- Enables JPEG Smooting -->
+  <command text="ExportJPEGSmooting on"/>
+    <!-- Sets JPEG Quality in percent 0..100 -->
+  <command text="ExportJPEGQuality 32"/>
+</cadsofttools>

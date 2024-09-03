@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnMeasure event. The result is the measurements with the tools on the Viewer tab on the ribbon-->    
+  <signtoevent Event="OnMeasure" Enabled="True"/>
+</cadsofttools>                                                    

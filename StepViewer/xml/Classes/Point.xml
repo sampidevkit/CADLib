@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description: Adds a Point.  -->
+  <add>     
+    <cstPoint Point="-0.56,1.9"/> 
+  </add>
+  <fittosize /> 
+</cadsofttools>    

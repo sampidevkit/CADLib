@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: set background color by RGB (BackgroundColor red green blue) -->
+  <command text="BackgroundColor 255 45 0"/>
+</cadsofttools>  

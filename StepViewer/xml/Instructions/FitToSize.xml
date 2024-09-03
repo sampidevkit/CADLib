@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description: The instruction FITTOSIZE fits the drawing to the view area proportionally. -->  
+    <fittosize/>
+  </cadsofttools>                                                         

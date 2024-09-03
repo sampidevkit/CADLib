@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!-- Description: Changing of the dimension style properties; setting the current dimension style. -->
+  <!-- ArrowType = DimRBlk: 
+  0 = _CLOSEDFILLED; 1 =_CLOSEDBLANK; 2 = _CLOSED; 3 = _DOT; 4 = _ARCHTICK; 5 = _OBLIQUE; 6 = _OPEN; 7 = _ORIGIN;  
+  8 = _ORIGIN2; 9 = _OPEN90; 10 = _OPEN30; 11 = _DOTSMALL; 12 = _DOTBLANK; 13 = _SMALL; 14 = _BOXBLANK; 15 = _BOXFILLED;
+  16 = _DATUMBLANK; 17 = _DATUMFILLED; 18 = _INTEGRAL; 20 = _NONE.-->
+     <add>
+      <cstSectionTables Name="TABLES">
+         <SubEntities>       
+            <cstTable Name="DIMSTYLE">
+               <SubEntities>
+                  <cstDimensionStyle Name="CADSoftTools" DimTxt="3.5" DimBlk="_OBLIQUE" DimBlk1="_OBLIQUE" DimBlk2="_OBLIQUE" DimAsz="2.5"/>
+               </SubEntities>                  
+            </cstTable>                                              
+         </SubEntities>
+      </cstSectionTables>
+   </add>                
+  <!--Selection of a dimension style according to its name and assignation of new values to the dimension style properties. 
+  IMPORTANT! While selecting the objects that are not visible in the area Model it is necessary to state the parameter Marker="false" -->
+   <select PathName="TABLES;DIMSTYLE;STANDARD;" Marker="false"/>
+   <apply DimBlk="_ARCHTICK" DimBlk1="_ARCHTICK" DimBlk2="_ARCHTICK" DimAsz="0.25" DimTxt="0.3"/>
+   <unselect PathName="TABLES;DIMSTYLE;STANDARD" Marker="false"/>
+  <!--Setting the dimension style as the current one. -->
+   <command text="DimStyle &quot;CADSoftTools&quot;"/> 
+</cadsofttools> 

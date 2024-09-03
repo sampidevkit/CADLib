@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Gets Entity from Entities section with the help of handle -->
+  <get Handle="@1"/>
+</cadsofttools>

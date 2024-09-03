@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!-- Description:  Demonstrates how to add a single-line text.   -->
+<cadsofttools version="2">
+  <add>
+    <cstText Point="0,0" Height="3" Rotation="90" ObliqueAngle="0" Text="Single Line Text" StyleName="STANDARD" Color="0;5;"/>
+    <cstText Point="5,15" Height="1.7" ObliqueAngle="15" WidthFactor="0.9" Text="Simbols: \U+2205, %%d, %%p" StyleName="GOST" LineWeight="0.53"/>
+  </add>
+  <fittosize/>
+</cadsofttools>

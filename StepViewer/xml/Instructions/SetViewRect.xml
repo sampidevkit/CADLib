@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!--Zooms the display area to a given rectangle. Use with GETVIEWRECT instruction.-->
+  <setviewrect Rect="1,2.55227261471941,0,6.0130718954248,-1.04249862711065,0"/>
+</cadsofttools>

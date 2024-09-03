@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <!-- Description: The following code uses many optional parametres for MText.  -->
+<cadsofttools version="2">
+  <add>     
+    <cstMText Point="10.5,5,1.33" Layer="Layer1" color="1;(145,30,45)" LineWeight="0.23" LineType="byblock" LineTypeScale="0.25" Extrusion="1,2,1" Angle="15" PScale="1,2,1" Height="3.5" StyleName="STANDARD" RectWidth="20.1" TextValue="MultilineText"/>
+  </add>
+  <fittosize />                  
+</cadsofttools> 

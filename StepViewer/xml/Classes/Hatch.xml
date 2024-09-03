@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+    <!-- Description: Instruction CREATEHATCH creates Hatch using selected entities as contours. Please select an entity with the mouse or with the help of xml Instruction SELECT before calling this Instruction. -->
+<!-- 
+Syntax: 
+  <createhatch Hatchname="" Angle="" PatternScale="" Color=""/>
+Attributes:                                                                                                                              
+Hatchname - string - name of Hatch, default is "SOLID" which creates a solid hatch. Other names: "Box", "Escher" and others can be found in Hatch dialog box of the user interface.
+Angle - Double - rotation angle of the hatch                                           
+PatternScale - Double - scale of the hatch pattern 
+Color - string CADSoftTools color structure - color as an index or RGB    
+ -->
+                            
+<cadsofttools version="2">
+  <!-- Creates a simple rectangular Solid Hatch. Handle of polyline is saved as "@1" -->
+  <add>
+    <cstLWPolyline HandleSave="@1">        
+    <SubEntities>                  
+    <cstVertex Point="140,100,0"/>                         
+    <cstVertex Point="141,100,0"/>           
+    <cstVertex Point="141,103,0"/>                    
+    <cstVertex Point="140,103,0"/> 
+    </SubEntities>
+    </cstLWPolyline>
+  </add>
+    <!-- Selects polyline -->
+  <Select Handle="@1"/>         
+    <!-- Creates hatch -->
+  <createhatch/>               
+  <UnSelect Handle="@1"/>
+
+    <!-- Creates a polyline for the Hatch,  -->
+
+  <add>                                                     
+    <cstLWPolyline HandleSave="@2">
+    <SubEntities>    
+    <cstVertex Point="141,109,0"/> 
+    <cstVertex Point="142,112,0"/> 
+    <cstVertex Point="143,109,0"/> 
+    <cstVertex Point="147,109,0"/> 
+    <cstVertex Point="144,107,0"/> 
+    <cstVertex Point="145,105,0"/> 
+    <cstVertex Point="142,107,0"/> 
+    <cstVertex Point="141,105,0"/> 
+    <cstVertex Point="141,107,0"/> 
+    <cstVertex Point="138,108,0"/> 
+    <cstVertex Point="141,109,0"/> 
+    </SubEntities>
+    </cstLWPolyline>
+  </add>
+    <!-- Selects polyline -->
+  <Select Handle="@2"/>
+    <!-- Creates hatch -->
+  <createhatch hatchname="BOX" Angle="30" PatternScale="0.1"  Color="0;34;"/>
+  <UnSelect Handle="@2"/>
+                                     
+  <!-- Creates and selects some contours for creating hatch. -->
+  <add>       
+    <cstLine point="120,120,0"  point1="130,130,0" Color="0;3;" HandleSave="@3"/>
+    <cstLine point="120,120,0"  point1="130,110,0" Color="0;3;" HandleSave="@4"/>
+    <cstLine point="130,110,0"  point1="130,130,0" Color="0;3;" HandleSave="@5"/>
+    <cstCircle point="100,100,0"  radius="10" Color="0;3;" HandleSave="@6"/>
+  </add>
+    <!-- Selects contours -->
+  <Select Handle="@3"/>                     
+  <Select Handle="@4"/>
+  <Select Handle="@5"/>
+  <Select Handle="@6"/>
+  <createhatch hatchname="SOLID" Color="0;3;"/>
+  <UnSelect Handle="@3"/>
+  <UnSelect Handle="@4"/>
+  <UnSelect Handle="@5"/>
+  <UnSelect Handle="@6"/>
+
+  <fittosize />
+</cadsofttools>
+

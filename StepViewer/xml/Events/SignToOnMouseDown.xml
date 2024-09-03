@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnMouseDown event. Result is X and Y in the screen and global coordinates.
+         Please also see the OnMouseMove, OnMouseUp, OnMouseWheel events-->    
+  <signtoevent Event="OnMouseDown" Enabled="True"/>
+</cadsofttools>                                                    

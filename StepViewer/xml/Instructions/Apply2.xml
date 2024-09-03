@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!--Description: Changing layer properties. -->
+  <!--Adds layers-->
+  <add>   
+      <cstSectionTables Name="TABLES">
+      <SubEntities>
+        <cstTable Name="LAYER">
+          <SubEntities>
+            <cstLayer name="Layer1" Color="0;3;" />
+            <cstLayer name="Layer2"/> 
+          </SubEntities>
+        </cstTable> 
+      </SubEntities>
+    </cstSectionTables>
+  </add> 
+  <!--Selection of layers for changing. 
+  IMPORTANT! While selecting the objects that are not visible in the area Model it is necessary to state the parameter Marker="false"-->
+  <select PathName="TABLES;LAYER;Layer1" Marker="false"/>   
+  <!--Assignation of new values to the properties of the selected layers. -->
+  <apply visible="false" Locked="true"/>  
+  <!--Deselection of the selected layers.-->     
+  <unselect PathName="TABLES;LAYER;Layer1" Marker="false"/>
+</cadsofttools>    

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: Sets default SHX path -->
+  <command text="shxdefaultpath &quot;C:\Users\sampi\AppData\Roaming\CADSoftTools\Resources\SHX\&quot;"/>
+</cadsofttools>

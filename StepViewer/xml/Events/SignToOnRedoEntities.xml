@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnRedoEntities event. The result is a list of handles of the objects that have been modified, deleted or added after the Redo command applied.
+         Please also see the OnUndoEntities event-->    
+  <signtoevent Event="OnRedoEntities" Enabled="True"/>
+</cadsofttools>                                                    

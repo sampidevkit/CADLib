@@ -1,0 +1,6 @@
+Measure=[Distance/PolylineLength/Area]
+Length=Distance
+pline=Polyline
+Zoom=[zoomIn(+)/zoomOut(-)/zoomUndo/Rectzooming/Fittowindow]
+Find=[FindPoint/FindText/]
+Background=[BlackBackground/CustomBackground/ChangeBackgroundColor]

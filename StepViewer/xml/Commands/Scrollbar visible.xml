@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">         
+    <!-- Description: Hide ScrollBar in the drawing -->   
+  <command text="ShowScrollbar Off" />
+    <!-- Description: Show ScrollBar in the drawing -->    
+  <command text="ShowScrollbar On" />                           
+</cadsofttools>                                                                                      

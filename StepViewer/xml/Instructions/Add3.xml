@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description: the example shows how to work with HandleSave -->  
+  <add>     
+    <cstText point="10,10,0" Text="HandleSave is @77" Height="3" HandleSave="@77" />  
+</add>            
+<!-- Handles alias @77 can be used for select and other instructions -->
+<select Handle="@77" />
+ <apply Color="0;1;"/>     
+<FitToSize/>                      
+   <!-- Signs to OnSelectEntity event. Handle in result will be the last selected entity. 
+    If you press the entity which is created in this example, the result will be its real Handle. -->
+  <signtoevent Event="OnSelectEntity"/>
+</cadsofttools>                       

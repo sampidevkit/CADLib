@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <!-- Description:  A circle is specified by a Point and a Radius.   -->
+<cadsofttools version="2">
+  <!-- Adds entities -->
+  <add>
+    <cstSpline Point="0,0,0" StartTangentVector="0,0,0" EndTangentVector="0,0,0">
+<FitPoints Type="FPoint" Values="0,0,0|0,10.5,0|8.1,-10,0|15,10,0|20,-10,0"/>
+  </cstSpline>
+  </add>
+ <fittosize /> 
+  </cadsofttools>

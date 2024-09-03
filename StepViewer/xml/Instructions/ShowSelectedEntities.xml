@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Instruction SHOWSELECTEDENTITIES zooms view to show selected entities. Please select any entities with the mouse or with the help of SELECT instruction before executing SHOWSELECTEDENTITIES. -->  
+  <ShowSelectedEntities/>                                                                                  
+  </cadsofttools>

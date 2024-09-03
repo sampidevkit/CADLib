@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Shows the tab set with open drawing -->
+  <command text="ShowTabSet"/>
+    <!-- Shows application system buttons -->
+  <command text="ShowSysButtons"/>
+    <!-- Shows the application statusbar -->
+  <command text="ShowStatusbar"/>
+    <!-- Shows the tab set with layouts -->
+  <command text="ShowLayoutPanel"/>
+    <!-- Shows the Interface -->
+  <command text="ShowInterface"/>
+    <!-- Shows the menu button -->
+  <command text="ShowMenuButton"/>
+    <!-- Shows the Ribbon -->
+  <command text="Ribbon on"/>
+    <!-- Shows the Toolbar with caption Tools on the Page with caption Viewer -->
+  <command text="&quot;ToolbarConf&quot; &quot;Viewer&quot; &quot;Tools&quot; &quot;True&quot;"/>
+    <!-- Shows the Editor page with page caption Editor -->
+  <command text="&quot;ToolbarConf&quot; &quot;Editor&quot; &quot;allpage&quot; &quot;True&quot;"/>
+</cadsofttools>
+
+
+
+
+

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!-- Description: Changing of the text style properties; setting of the current text style. -->
+  <!--XML for adding a new text style --> 
+   <add>
+      <cstSectionTables Name="TABLES">
+         <SubEntities>
+            <cstTable Name="STYLE">
+               <SubEntities>
+                  <cstStyle Name="Arial bold" PrimaryFont="arialbd.ttf" FontName="Arial" FontStyle="2"/>
+               </SubEntities>                  
+            </cstTable>
+         </SubEntities>
+      </cstSectionTables>
+   </add>
+  <!--Selection of a text style according to its name and assignation of new values to the text style properties. 
+  IMPORTANT! While selecting the objects that are not visible in the area Model it is necessary to state the parameter Marker="false" -->
+   <select PathName="TABLES;STYLE;Arial bold;" Marker="false"/>
+   <apply PrimaryFont="arialbi.ttf" FontStyle="3" FixedHeight="6"/>
+   <unselect PathName="TABLES;STYLE;Arial bold" Marker="false"/>
+  <!--Setting a new text style as the current one. -->
+   <command text="TextStyle &quot;Arial bold&quot;"/> 
+</cadsofttools>

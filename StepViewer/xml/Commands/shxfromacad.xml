@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: Imports SHX paths to the path list for search SHX fonts -->
+  <command text="shxfromacad"/>
+</cadsofttools>                                                                        

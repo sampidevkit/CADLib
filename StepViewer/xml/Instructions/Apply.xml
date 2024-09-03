@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: Instruction APPLY assigns new values to the entity attributes. The entity must be selected at first, by using Select Instruction, by mouse, etc. -->  
+    <!-- XML for adding a line to select by handle parameter -->
+    <add>     
+        <cstLine point="0,0,0" Point1="10,0,0" Handlesave="@1" />
+    </add>                  
+                   
+    <Select Handle="@1"/>                       
+    <apply lineweight="2.00 MM" point1="50,10,0" Color="0;33;"/>
+    <!-- Zoom rect of the selected entities to the screen -->
+    <ShowSelectedEntities/>            
+    <UnSelect Handle="@1"/>  
+</cadsofttools>                     

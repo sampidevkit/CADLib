@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!--Resizes the drawing display area.-->
+  <apply mode="interface">
+    <DrawingNavigator ClientWidth="640" ClientHeight="480"/>
+  </apply>                 
+</cadsofttools>                                      

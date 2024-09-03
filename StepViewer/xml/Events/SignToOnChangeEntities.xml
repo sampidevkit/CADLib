@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnChangeEntities event. The result is a list of handles of the modified objects-->    
+  <signtoevent Event="OnChangeEntities" Enabled="True"/>
+</cadsofttools>                                                    

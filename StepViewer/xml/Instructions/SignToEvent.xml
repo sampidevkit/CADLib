@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">   
+  <!-- Description: Instruction SignToEvent signs for particular events to accept callbacks with XML data. -->  
+
+  <!-- Description: mouse events. -->  
+  <signtoevent Event="OnMouseDown" Enabled="True"/>
+  <signtoevent Event="OnMouseMove" Enabled="True"/>
+  <signtoevent Event="OnMouseUp" Enabled="True"/>
+  <signtoevent Event="OnMouseWheel" Enabled="True"/>
+
+  <!-- Description: editor events. -->  
+  <signtoevent Event="OnChangeEntities" Enabled="True"/>
+  <signtoevent Event="OnCopyEntities" Enabled="True"/>
+  <signtoevent Event="OnCreateEntities" Enabled="True"/>
+  <signtoevent Event="OnDeleteEntities" Enabled="True"/>
+  <signtoevent Event="OnLayoutAfterChange" Enabled="True"/>
+  <signtoevent Event="OnLayoutBeforeChange" Enabled="True"/>
+  <signtoevent Event="OnPasteEntities" Enabled="True"/>
+  <signtoevent Event="OnRedoEntities" Enabled="True"/>
+  <signtoevent Event="OnUndoEntities" Enabled="True"/>
+  <signtoevent Event="OnSelectEntity" Enabled="True"/>
+  <signtoevent Event="OnConfirmEntitiesDeletion" Enabled="True"/>
+                                                               
+  <!-- Description: key events. -->  
+  <signtoevent Event="OnKeyDown" Enabled="True"/>
+  <signtoevent Event="OnKeyUp" Enabled="True"/>
+  <signtoevent Event="OnKeyPress" Enabled="True"/>
+
+
+  <!-- Description: main events. -->  
+  <signtoevent Event="OnPaint" Enabled="True"/>
+
+  <!-- To find out if an event was set, use the command signtoevent without attributes.  -->
+  <signtoevent/>
+</cadsofttools>

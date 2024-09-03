@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+<!-- Description: This example adds an entity and gets its parameters. 
+HandleSave="@1" and Handle="@1" are used for handling of the entity. -->
+  <add>
+    <cstLine point="10,10,0" point1="20,30,0" Color="0;1;" HandleSave="@1" />
+  </add>
+  <get Handle="@1"/>
+</cadsofttools>                                  

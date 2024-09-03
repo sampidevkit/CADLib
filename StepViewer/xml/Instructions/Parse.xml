@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description: Example for parsing XML data. -->  
+  <add>
+    <cstArc point="100,100,0" radius="40" color="0;137;" startangle = "0" endangle = "90" HandleSave="@1" />
+    <cstCircle point="10,10,0" radius="20" color="0;1;" HandleSave="@2" />
+  </add>
+  <fittosize />
+  <get Handle="@1" />
+</cadsofttools>

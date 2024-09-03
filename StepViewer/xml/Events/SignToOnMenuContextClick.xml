@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnMenuContextClick event. The result is the caption and the index of the button in the custom context menu-->    
+  <signtoevent Event="OnMenuContextClick" Enabled="True"/>
+</cadsofttools>                                                    

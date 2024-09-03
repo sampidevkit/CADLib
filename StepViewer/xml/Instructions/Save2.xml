@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!--Description: the example shows how to save several CAD files in one multipage PDF -->
+  <save>
+      <ExportParams FileName="C:\Users\sampi\OneDrive\Documents\ABViewer 14\Drawings\MultipagePDF" Format=".pdf">
+          <!-- Parameters for all files-->
+          <Margin>5</Margin><!-- page margins in millimeters -->
+          <Author>Author</Author>
+          <DrawMode>0</DrawMode><!-- 0: Color; 1: Black&White; -->
+          <Quality>0.01</Quality><!-- Value in range 0.5-0.01;  0.5: lowest quality; 0.01: highest quality; -->
+          <!-- Select layouts for export: 0: Model; 1:AllPaperSpaces; 2:LayoutByName; 3:AllLayouts+Model; 4:CurrentLayout;  -->
+          <LayoutExportMode>3</LayoutExportMode>
+          <LayoutNameExportMode>Model</LayoutNameExportMode><!-- Used if layouts export mode is 'LayoutByName' -->
+          <sources>
+              <item FileName="C:\Users\sampi\OneDrive\Documents\ABViewer 14\Samples\Gasket.dwg"/>
+              <item FileName="C:\Users\sampi\OneDrive\Documents\ABViewer 14\Samples\3DLamborgini.dwg">
+                  <!--Parameters for the second CAD file -->
+                  <PageWidth>1024</PageWidth><!-- page width in millimeters -->
+                  <PageHeight>512</PageHeight><!-- page height in millimeters -->
+              </item>
+              <item FileName="C:\Users\sampi\OneDrive\Documents\ABViewer 14\Samples\Entities.dxf">
+                  <!--Parameters for the third CAD file -->
+                  <PageWidth>210</PageWidth><!-- page width in millimeters -->
+                  <PageHeight>297</PageHeight><!-- page height in millimeters -->
+              </item>
+          </sources>
+      </ExportParams>
+  </save>
+</cadsofttools>
+
+

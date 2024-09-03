@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!--Invalidates the current layout or area specified by the Box attribute.-->
+  <Invalidate/>
+  <Invalidate Box="10,10,0,1,1,0"/>
+</cadsofttools>

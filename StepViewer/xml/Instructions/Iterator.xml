@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- The Iterator Instruction* executes** XML content*** for the selected entities and iterates the block content. Use a standard filter like the one of the get or the select command
+   Mode:
+   bit 0: Iterates the content of a block;
+   bit 1: Executes XML for the owner entity;
+   -->
+
+
+  <Iterator Mode="2">
+    <apply Color="1;65535"/>
+  </Iterator>
+</cadsofttools>                               

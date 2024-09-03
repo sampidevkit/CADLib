@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: Sets interface language -->
+  <command text="SetLanguage Russian"/>
+</cadsofttools>

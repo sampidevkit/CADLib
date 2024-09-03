@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description: Adding a linear leader to the drawing. --> 
+  <!-- ArrowType = DimRBlk: 
+  0 = _CLOSEDFILLED; 1 =_CLOSEDBLANK; 2 = _CLOSED; 3 = _DOT; 4 = _ARCHTICK; 5 = _OBLIQUE; 6 = _OPEN; 7 = _ORIGIN;  
+  8 = _ORIGIN2; 9 = _OPEN90; 10 = _OPEN30; 11 = _DOTSMALL; 12 = _DOTBLANK; 13 = _SMALL; 14 = _BOXBLANK; 15 = _BOXFILLED;
+  16 = _DATUMBLANK; 17 = _DATUMFILLED; 18 = _INTEGRAL; 20 = _NONE.-->
+  <add>
+    <!-- Simplified adding of a leader -->  
+    <cstLeader DimStyle="STANDARD" ArrowType="10" ArrowSize="2.8" color="0;1">
+        <ControlPoints Values="0,20|5,28|10,28" />                                                                            
+    </cstLeader>                                     
+
+    <!-- Adds a leader with properties by dimension style. When the instruction "Properties" is used, 
+    the properties of the instruction "cstLeader" are overridden and a leader is created according 
+    to the set Dimension Style. -->          
+    <cstLeader DimStyle="GENISO" HandleSave="@1">                                 
+        <ControlPoints Values="0,10|5,18|10,18" />
+        <Properties/>
+    </cstLeader>                       
+                                          
+    <!-- Adds a leader and overrides the values of the style properties. -->       
+    <cstLeader DimStyle="GENISO">                
+        <ControlPoints Values="0,0|5,8|10,8" />
+        <Properties DimRBlk="_ORIGIN2" DimAsz="4"/>
+    </cstLeader>    
+  </add> 
+
+  <!-- Selects the leader with handle "@1" and changes the type of the leader using the instruction "Properties". -->
+  <select Handle="@1"/>                                                               
+  <apply color="0;4">                                                          
+    <Properties DimRBlk="_DATUMFILLED" DimAsz="3"/> 
+  </apply>
+  <unselect handle="@1"/> 
+  <fittosize />                                                  
+</cadsofttools>  

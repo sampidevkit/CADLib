@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Mode="0" is default. If Mode="0" then watermark parameters are gotten , if "1", watermark parameters are set  -->
+  <Watermark Mode="1">
+    <!-- if the Scale is set, then Scale apply by axis X -->
+    <!-- Aling:
+      "0" - Center - for default
+      "1" - TopLeft
+      "2" - BottomLeft
+      "3" - TopRight
+      "4" - BottomRight -->
+    <Parameters Angle="45" FontName="Arial" Color="$00FF00" Scale="1" Align="0"/>
+    <Text Value="WaterMark"/>
+  </Watermark>
+</cadsofttools>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!-- Description: getting a list of all the layers of a drawing and their info. -->
+  <get PathName="TABLES;LAYER"/>  
+</cadsofttools>  

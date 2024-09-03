@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnKeyDown event. The result is the key of the pressed key.
+         Please also see the OnKeyUp, OnKeyPress event-->    
+  <signtoevent Event="OnKeyDown" Enabled="True"/>
+</cadsofttools>                                                    

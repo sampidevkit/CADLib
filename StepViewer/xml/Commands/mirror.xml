@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Mirror of the selected objects by base point and angle: mirror BasePoint Angle -->
+  <command text="mirror 1,1 30"/>
+</cadsofttools>

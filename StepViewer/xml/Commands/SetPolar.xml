@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: Sets polar snap settings -->
+    <!-- Enables polar tracking -->
+  <command text="PolarTracking on"/>
+    <!-- Sets polar angle step -->
+  <command text="POLARANG 15"/>
+</cadsofttools>

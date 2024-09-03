@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnLayoutBeforeChange event. The result is the events before switchingto the layout.
+         Please also see the OnLayoutAfterChange event-->    
+  <signtoevent Event="OnLayoutBeforeChange" Enabled="True"/>
+</cadsofttools>                                                    

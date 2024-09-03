@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnCopyEntities event. The result is the number and a list of handles of the copied objects-->    
+  <signtoevent Event="OnCopyEntities" Enabled="True"/>
+</cadsofttools>                                                    

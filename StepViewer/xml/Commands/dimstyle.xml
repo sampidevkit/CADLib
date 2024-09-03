@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description:  Sets dimension style: DimStyle dimStyleName -->
+  <command text="DimStyle STANDARD"/>
+</cadsofttools>

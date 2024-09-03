@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnApplicationExeption event. The result is the id of the drawing, the name and the description of the error-->    
+  <signtoevent Event="OnApplicationExeption" Enabled="True"/>
+</cadsofttools>                                                    

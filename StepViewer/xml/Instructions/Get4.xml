@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+<!-- Description: use of the filter in the instruction GET. -->
+<!-- Getting of the red lines and the green circles situated in the layer called “Layer1”. -->  
+  <get Layer="Layer1">                                                                                       
+    <cstLine color="0;1;"/>        
+    <cstCircle color="0;3;"/>
+  </get>
+
+<!-- Getting of all block references of the drawing. -->
+  <get>
+    <cstInsert/>               
+  </get>  
+
+<!-- Getting a list of invisible layers. -->
+  <get PathName="TABLES;LAYER;" Visible="false"/>  
+</cadsofttools> 

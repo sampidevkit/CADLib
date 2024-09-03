@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+<!-- Description: buttonmenu command enables you to add/remove/activate user buttons in the ribbon. -->
+<!-- Attribute description -->
+<!-- Mode is a mandatory attribute. The possible values are "ADD/DEL/EN/DIS". ADD –adds a button. DEL – Removes a button. EN – enables a button. DIS – disables a button -->
+<!-- Caption is a mandatory attribute. This is a displayed button name as well as a unique id of the user button -->
+<!-- Page is a mandatory attribute if Mode="ADD". This is the name of the tab in the ribbon where you wish to add the button -->
+<!-- ToolBar is a mandatory attribute if Mode="ADD". The is the name of the toolbar in the ribbon where you wish to add the button -->
+<!-- Type is a mandatory attribute if Mode="ADD". It can take the following values: "1/2/3", where "1" – stands for a big button, the icon size is 32*32, "2" – stands for a small button without caption, "3" – stands for a small button with a caption. For "2" and "3" the icon size is 16*16 -->
+<!-- To add a button with an icon, use the subcommand icon -->
+<!-- The subcommand icon uses base64 to transmit the data. It can have the following attributes -->
+<!-- img – contains an icon in base64 format -->
+<!-- Mode determines for which button mode the icon is used. The value "0" means that the image is used for the activated button. The value "1" means that the icon is used for the inactive button -->
+
+<!-- You will find examples below -->
+
+<!-- Here is an example of adding a big button with an icon. Please mind that the button will have no icon in the inactive mode -->
+<buttonmenu  Caption="MyButton1" ToolBar="Tools" Page="Viewer" Type="1"  Mode="ADD">
+       <icon img="Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA/wD/ AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A /wD/AP8A/wDe3t4A3t7eANzc3ADc3NwA3NzcANzc3ADc3NwA3NzcANzc3ADc3NwA3NzcANzc3ADc 3NwA3t7eAN7e3gDgu6IArEwQAKQ8AACgOQAAnTYAAJk0AACVMQAAkS4AAI4rAACKKQAAhyYAAIMk AAB/IQAAhS4QALqXjADe3t4AtlMSAP///wD///8A////AP///wD///8A////AP///wD///8A//// AP///wD///8A////AP///wCGLhIA3NzcALZJAADRnX4Aumo/AObArAD/6+IA/OXbANaljwCfTSwA m0orAL1/aQD+4NIA/t7PAP7czAD///8AgiIAANzc3AC6TAAA/fv5AMiBVgD/8OkA/+7mAP/s4wDk uqcAkC0AAJY8FQD74NMA/uPWAP7h0wD+39AA////AIcmAADc3NwAv1AAAP///wDfq4oA6MGqAO7N uwDty7kAvXFJAJo0AADLjnEA/ufcAP7l2gD+49cA/uHUAP///wCMKgAA3NzcAMRUAAD///8A+uvi AL5aFwDBaTAAul0kAKg/AACkPQMA9tvOAP/q4AD+6N0A/ubbAP7k2AD///8AkS4AANzc3ADJVwAA ////AP/69wDbmmoA/fLsAN2kfwCyRgAAx3tNAP/u5wD/7OQA/+rhAP7p3gD+59wA////AJUxAADc 3NwAzlsAAP///wD//PsA8c+1AOu/nwDJaCIAu00AAOzHsAD/8esA/+/oAP/t5QD/6+IA/+ngAP// /wCbNQAA3NzcANNfAAD///8A////AP77+QDYfTUAyVcAAMxqIgD/9vEA44U2AOOFNgDjhTYA44U2 AOOFNgD///8AoDkAANzc3ADYYgAA////AP///wD///8A67GAANJeAADpsokA//j1ANy3mADctpcA 3LaXANy2lgDctZYA////AKQ8AADc3NwA3WYAAP///wD///8A////APvs3gDebAwA/PLpAP/7+QD/ +fYA//fzAP/18AD/8+4A//HrAP///wCpQAAA3t7eAOV2EgD///8A////AP///wD///8A////AP// /wD//f0A//z6AP/69wD/+PQA//byAP/07wD///8AslESAN7e3gD2y6IA5XYSAN9oAADcZQAA2GIA ANVgAADRXQAAzVoAAMlXAADGVQAAwlIAAL5PAAC7TQAAvVcSAOW8ogD/AP8A/wD/AP8A/wD/AP8A /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AA==" Mode="0"/>
+</buttonmenu>
+
+<!-- Here is an example of adding a small button without any caption.  -->
+<buttonmenu  Caption="MyButton2" ToolBar="Tools" Page="Viewer" Type="2"  Mode="ADD"/>
+
+<!-- Here is an example of adding a small button without an icon and without a caption.  -->
+<buttonmenu  Caption="MyButton3" ToolBar="Tools" Page="Viewer" Type="3"  Mode="ADD"/>
+
+<!-- Here is an example of removing  button  from the ribbon -->
+<buttonmenu  Caption="MyButton1" Mode="DEL"/>
+
+<!-- Here is an example of enabling a button -->
+<buttonmenu  Caption="MyButton2" Mode="EN"/>
+
+<!-- Here is an example of disabling a button  -->
+<buttonmenu  Caption="MyButton2" Mode="DIS"/>
+</cadsofttools>

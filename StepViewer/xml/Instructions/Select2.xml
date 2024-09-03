@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+   <add>    
+      <cstSectionTables Name="TABLES">
+         <SubEntities>
+            <cstTable Name="LAYER">
+               <SubEntities>
+                  <cstLayer name="Layer2" HandleSave="@1"/>
+                  <cstLayer name="Layer3" HandleSave="@2"/>            
+               </SubEntities>
+            </cstTable>
+         </SubEntities>
+      </cstSectionTables>   
+      <cstLine Point="0,0" Point1="10,10" Layer="Layer2"/>
+      <cstLine Point="0,5" Point1="10,15" Layer="Layer3"/>      
+   </add>
+   
+   <!-- To edit objects that cannot be selected in the editor window set the variable Marker="False". -->
+   <!-- After selecting an object with the help of Select instruction and fulfilling the needed operations, 
+   please, deselect this object as it remains selected. -->
+   <!-- Here are two ways of selecting objects: 
+   1) by specifying the object's Handle (@1)
+   2) by specifying the section in the file and the object name. -->
+
+   <Select Handle="@1" Marker="False"/>
+   <apply lineweight="0.5" Color="0;1;"/>  
+   <UnSelect Handle="@1" Marker="False"/> 
+                                                               
+   <Select PathName="STYLE;STANDARD" Marker="False"/>      
+   <apply WidthFactor="0.75" PrimaryFont="txt.shx"/>
+   <UnSelect PathName="STYLE;STANDARD" Marker="False"/>
+                 
+   <FitToSize/>   
+</cadsofttools>    
+
+
+
+

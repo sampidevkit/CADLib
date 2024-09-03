@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Adds entities -->
+  <add>
+
+  <cstSectionObjects Name="OBJECTS">
+    <SubEntities>
+      <cstDictionary name="IMAGEDEFS">
+        <SubEntities>
+          <!-- FileName="Specify the file path" -->
+          <cstImageDef  FileName="C:\Users\sampi\OneDrive\Documents\ABViewer 14\Samples\image.jpg"   HandleSave="@1"/>
+        </SubEntities>
+      </cstDictionary>
+    </SubEntities>
+  </cstSectionObjects>
+
+  
+   <!-- Point - insertion point (corresponds to the bottom left corner of the image) -->
+   <!-- Point1 - top left corner in the drawing coordinates (top left corner of the image) -->
+   <!-- Point2 - bottom right corner in the drawing coordinates (bottom right corner of the image) -->
+   <cstImageEnt Point="0,0,0" imagedef="@1">    
+     <Calc mode="0" Point1="0,100,0" Point2="100,0,0"/>
+   </cstImageEnt>                                           
+ 
+   <cstImageEnt Point="0,0,0" imagedef="@1">
+     <Calc mode="1" Width="100" Height="400" Angle="30"/>                   
+   </cstImageEnt> 
+  
+  </add>
+    <fittosize />
+</cadsofttools>
+

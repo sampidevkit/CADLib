@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description: The example shows how to add a complicated Drawing Structure Data to the current drawing. -->  
+  <add>
+    <cstSectionTables Name="TABLES">
+      <SubEntities>               
+        <cstTable Name="LAYER">
+          <SubEntities>
+            <cstLayer name="Layer2" Color="0;3;" Visible="False" Locked="True"/>
+          </SubEntities>                                                  
+        </cstTable>
+      </SubEntities>
+    </cstSectionTables>
+</add>                                                                 
+  </cadsofttools>

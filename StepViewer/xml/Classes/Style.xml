@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">  
+   <!-- Description: Setting the font (regular, italic, bold, bold italic) when adding a text style. It is compulsory to use
+   the parameters PrimaryFont and FontStyle. Names for other fonts in PrimaryFont can differ from FontName.  -->
+   <add>
+      <cstSectionTables Name="TABLES">
+         <SubEntities>
+            <cstTable Name="STYLE">
+               <SubEntities>
+                  <cstStyle Name="STANDARD-1" PrimaryFont="arial.ttf" FontName="Arial" FontStyle="0"/>
+                  <cstStyle Name="STANDARD-2" PrimaryFont="ariali.ttf" FontName="Arial" FontStyle="1"/>
+                  <cstStyle Name="STANDARD-3" PrimaryFont="arialbd.ttf" FontName="Arial" FontStyle="2"/>
+                  <cstStyle Name="STANDARD-4" PrimaryFont="arialbi.ttf" FontName="Arial" FontStyle="3"/>
+               </SubEntities>
+            </cstTable>
+         </SubEntities>    
+      </cstSectionTables>                       
+   </add>             
+</cadsofttools>  
+                                                                                        

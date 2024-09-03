@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+   <add>
+      <cstLine Point="0,0"  Point1="10,5" HandleSave="@1"/>     
+      <cstText Point="2,3" Text="Example text" Height="0.5" HandleSave="@2"/>
+      <cstLine Point="0,-3"  Point1="10,2" HandleSave="@3"/>      
+   </add>                
+                                                                           
+   <!--Changes the color and the line weight of the object selection for all the drawings.-->
+   <CustomSelectMode CustomDraw="True" Color="0;33;" LineWeight="3" />
+                                                                                                
+   <!-- Changes the color and the line weight of the object selection for the object with Handle=@3 
+   and displays a confirmation dialog when deleting it. --> 
+   <CustomSelectMode ReadOnly="False" AskOnDelete="True" CustomDraw="True" Color="0;5;" LineWeight="2" Handle="@3"/>
+           
+   <!-- The object with Handle="@2" is read only; it cannot be deleted. -->
+   <CustomSelectMode ReadOnly="True" Handle="@1"/>
+                 
+   <fittosize/>
+</cadsofttools>

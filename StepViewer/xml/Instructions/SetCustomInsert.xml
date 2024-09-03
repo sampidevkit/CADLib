@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!--  Changes the color and lineweight for the insert -->
+  <SetCustomInsert Handle="@1" Color="0;3;" LineWeight="3"/>
+</cadsofttools>

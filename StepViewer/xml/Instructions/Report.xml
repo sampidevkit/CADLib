@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- The function extracts attributes of objects on the entire floor from the provided DXF file into a resulting XML file. В обном DXF файле будет только один объект "Этаж". -->
+  <Report Name="ExtractFloorPlanXML" FileName="C:\ReportsXML.xml"/>  
+
+  <!-- The function extracts an image (in PNG or PDF format) of the entire floor plan from the provided DXF file -->                       
+  <Report Name="ExtractFloorPlanImage" >               
+      <ExportParams FileName="C:\ImagePNG" Format=".png">
+         <Width>1024</Width>
+         <Height>-1</Height>
+         <Proportional>True</Proportional>
+         <BitPerPixel>24</BitPerPixel>
+         <MeasureInPixels>True</MeasureInPixels>
+      </ExportParams>             
+  </Report>  
+
+  <!-- The function extracts an image of the provided object from the DXF file. На выходе должна получиться картинка в формате PNG или PDF.-->                        
+  <Report Name="ExtractObjectImage" Layer="Layer1" ObjectId="12547367.3.003" CADBuffer="2">               
+      <ExportParams FileName="C:\ImagePDF" Format=".pdf">
+         <Width>1024</Width>
+         <Height>-1</Height>
+         <Proportional>True</Proportional>
+         <BitPerPixel>24</BitPerPixel>
+         <MeasureInPixels>True</MeasureInPixels>
+      </ExportParams>             
+  </Report>                          
+</cadsofttools>

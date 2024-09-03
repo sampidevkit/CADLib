@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+   <add>
+      <cstLWPolyline HandleSave="@1">
+         <SubEntities>
+            <cstVertex Point="0,0"/>
+            <cstVertex Point="10,0"/>
+            <cstVertex Point="10,10"/> 
+            <cstVertex Point="0,10"/>             
+            <cstVertex Point="0,0"/>                         
+         </SubEntities>
+      </cstLWPolyline> 
+      <cstLine Point="-5,3" Point1="2,7" HandleSave="@2"/>
+   </add>   
+
+   <!-- The Editor instruction specifies global settings for the ShowSelectedEntities instruction. 
+   The ShowEntityMethod parameter can have the following values: 
+   0- offset is specified in percents from the size of the selected object; 
+   1- offset is specified in pixels; 
+   2- there is no offset. -->
+   <!-- In this example, the offset is defined as 10 pixels from the working area in the ShowSelectedEntities instruction, 
+   then the object with Handle="@2" is selected and is fitted to the working area with the help 
+   of the ShowSelectedEntities instruction with the margins set. -->    
+   <Editor ReadOnly="False" ShowEntityMethod="1" ShowEntityPrecision="20"/>       
+                                                            
+   <Select Handle="@2"/>
+   <ShowSelectedEntities/>
+   <UnSelect Handle="@2"/>   
+</cadsofttools>                                                                                             

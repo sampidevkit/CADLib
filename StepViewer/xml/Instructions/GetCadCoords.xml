@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Converts screen coordinates into the CAD coordinate system. The origin of screen coordinates is located in the top left corner of the display area.  -->
+  <getcadcoords Point="10,10"/>
+  <getcadcoords Point="10,10" Mode="ScreenToCad"/>
+  <!-- Converts CAD coordinates to the screen coordinate system. The origin of screen coordinates is located in the top left corner of the display area.   -->
+  <getcadcoords Point="0.050,2.076" Mode="CadToScreen"/> 
+</cadsofttools>

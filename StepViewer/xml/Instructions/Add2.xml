@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description: The example shows how to add a complicated Drawing Structure Data to the current drawing. -->  
+  <add>
+    <cstSectionTables Name="TABLES">
+      <SubEntities>             
+        <cstTable Name="LAYER">
+          <SubEntities>
+            <cstLayer name="Layer2" Color="0;3;" />
+            <cstLayer name="Invisible" Visible="False" />
+            <cstLayer name="Locked" Locked="True" />
+          </SubEntities>
+        </cstTable>
+      </SubEntities>
+    </cstSectionTables>
+    <cstSectionBlocks Name="BLOCKS">
+      <SubEntities>
+        <cstBlock name="block1">
+          <SubEntities>
+            <cstLine point="0,0,0" point1="50,0,0" />
+            <cstText point="0,3,0" text="This is a block" height="3" />
+          </SubEntities>
+        </cstBlock>
+      </SubEntities>
+    </cstSectionBlocks>
+    <!-- Add entities Model -->
+    <cstInsert blockname="block1" point="0,50,0" layer="Layer2" />
+    <cstLine point="10,10,0" point1="20,30,0" Color="0;1;" HandleSave="@1" />
+    <cstCircle point="10,10,0" radius="20" HandleSave="@2" />
+    <cstText point="0,-20,0" text="Enghlish Русский Französisch Français" height="3" />
+    <!-- Add to an existing block -->
+    <cstSectionBlocks Name="BLOCKS">
+      <SubEntities>
+        <cstBlock name="block1">
+          <SubEntities>
+            <cstLWPolyline>
+              <SubEntities>
+                <cstVertex point="10,10,0" />
+                <cstVertex point="10,40,0" />
+                <cstVertex point="40,40,0" />
+              </SubEntities>
+            </cstLWPolyline>
+          </SubEntities>
+        </cstBlock>
+      </SubEntities>
+    </cstSectionBlocks>
+  </add>
+  <fittosize />
+  <!-- To get the handle of the created entities, use the attribute HandleSave="@Index". -->
+  <!-- Then you'll be able to use it as an alias to the real Handle of the object. -->
+  <!-- To get the real Handle, use the command <get Handle="@Index"/> -->
+  <get Handle="@1" />
+</cadsofttools>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!-- PathName allows to get access to the object according to its path in the Converter name space -->
+   <!-- Example: "TABLES;LAYER" "TABLES;STYLE;STANDARD" -->
+  <get PathName="TABLES;LAYER"/>
+</cadsofttools>

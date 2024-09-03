@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description:  Zoom to the rectangle area specified by two points: left-bottom corner (X, Y), right-top corner (X, Y) -->
+  <command text="RectZooming 0,0 5,5"/>
+</cadsofttools>

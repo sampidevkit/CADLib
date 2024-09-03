@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+<!--0 - Registration error. -->
+<!--1 - Registration was successful. -->
+<!--2 - The application has been registered before. -->
+  <registration User="" EMail="" Key=""/>
+</cadsofttools>

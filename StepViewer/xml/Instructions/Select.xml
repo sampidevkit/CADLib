@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+   <!-- Description: Instruction SELECT selects entity(ies) by its handle(s).  -->
+   <add>
+      <cstText Point="-18, 0, 0" Height="1" Text="Text marker is visible while Ellipse markers is not shown." HandleSave="@1"/>
+      <cstEllipse Point="0,0,0" RadPt="20,0,0" Ratio="0.5" StartAngle="0" EndAngle="360" HandleSave="@2"/>
+   </add>                    
+   <FitToSize/>                               
+  
+   <!-- The following selects Text (@1) and ellipse (@2) but the marker is shown only for text. -->
+   <!-- After selecting an object with the help of Select instruction and fulfilling the needed operations, 
+   please, deselect this object as it remains selected. -->    
+   <!-- Mode - this mode is used if the Marker attribute is "True":
+           0 - set entities
+           1 - remove from the selected entities
+           2 - add to the selected entities -->
+   <select Handle="@1" Marker="True" Mode="0"/>                    
+   <select Handle="@2" Marker="False"/>   
+                                 
+   <!-- Changes color for both selected entities -->
+   <apply Color="0;1"/>                       
+</cadsofttools>        
+                                                                            
+

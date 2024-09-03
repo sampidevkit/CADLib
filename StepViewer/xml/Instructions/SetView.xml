@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!--Zooms the display area to given cstVport data. Use with GETVIEW instruction.-->
+  <setview>
+    <cstVport CircleZoomPercent="100" UCSOrigin="0,0,1" UCSXDir="1,0,0" UCSYDir="0,1,0" UCSVP="false" ViewAspectRatio="1" ViewCenterPoint="0,0,0" ViewDirection="0,0,1" ViewTarget="0,0,0" ViewHeight="0" ViewTwistAngle="0"/>
+  </setview>
+</cadsofttools>

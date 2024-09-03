@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description:  A circle is specified by a Point and a Radius.   -->
+  <add>
+    <cstCircle point="0,0,0" Radius="10"/>
+   </add>
+   <fittosize /> 
+ </cadsofttools>

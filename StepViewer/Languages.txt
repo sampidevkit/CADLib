@@ -1,0 +1,33 @@
+﻿Languages supported: 
+- Arabic - translated by Mohammad Atiyeh Deeb
+- Brazilian Portuguese - translated by Fabio Campos
+- Bulgarian - translated by Nickola Vasilev
+- Belarusian - translated by Demetrius Cooper
+- Catalan - translated by Lluís Blasco
+- Chinese - translated by planningall, Zhang Meng
+- Czech - translated by Jiri Martinek, Martin Grepl, Miroslav Ondik
+- Danish - translated by Max Jens Jensen
+- Dutch - translated by Evert van Beek, Jac van Paassen, Roel Hessels 
+- English 
+- Estonian - translated by Toomas Miring
+- Finnish - translated by Matti Pitkanen
+- French - translated by Stephane Borel, moveax
+- German - translated by Olav Seyfarth
+- Hebrew - translated by Jack Gorji
+- Hungarian - translated by Kiss Karoly, Sziladi Zsolt, Peter Csubak
+- Italiano - translated by Davide Unico, Maurizio Bonafini
+- Korean - translated by Song, Woo, Young Moon
+- Nederlands - Alfons  Van de Meutter
+- Norwegian - translated by Nils-Fredrik Pedersen
+- Polish - translated by Piotr Kramarczyk
+- Portuguese (Portugal) - translated by Fortunato 
+- Romanian - translated by Lucian Crisan
+- Russian - translated by SoftGold
+- Slovak - translated by Martin Grepl
+- Slovenian - translated by Karel Ferk
+- Spanish - translated by Federico Lуpez Bervejillo, Carlos Hernandez Visier, Jesus Ruiz Navarrete
+- Swedish - translated by Hans-Еke Larsson
+- Taiwanese - translated by WuKim
+- Turkish - translated by Halil Gorentas
+- Ukrainian - translated by Anatoly Petrichenko
+- Serbian -  translated by Dragisa B.

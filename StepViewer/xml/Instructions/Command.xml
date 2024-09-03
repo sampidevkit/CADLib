@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: Instruction Command executes Command line with parameters described in Text attribute. Commands are described in the user manual, also there are many command examples provided in "Commands" section. -->
+                                                                                                                                       
+    <!-- Executes "Line" command, i.e. starts to draw a line with the mouse: -->
+  <command text="line"/>                                               
+</cadsofttools>                                                

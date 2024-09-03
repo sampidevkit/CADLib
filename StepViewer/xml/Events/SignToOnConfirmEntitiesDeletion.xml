@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnConfirmEntitiesDeletion event. Result is a list of deleted entities handles.
+         The entities deletion works only with xml commands. -->
+  <signtoevent Event="OnConfirmEntitiesDeletion" Enabled="True"/>
+</cadsofttools>                        

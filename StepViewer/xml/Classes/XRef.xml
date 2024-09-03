@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!-- Description:  Adding a file to the current drawing as an external reference. The path to the Xref is specified in the BLOCKS section, the Flags and Name parameters are compulsory. --> 
+  <add>
+    <cstSectionBlocks Name="BLOCKS">
+      <SubEntities>
+        <cstBlock Flags="4" Name="xref">
+          <SubEntities>
+            <!-- FileName="Specify the file path" -->
+            <cstXref FileName="C:\Users\sampi\OneDrive\Documents\ABViewer 14\Samples\Gasket.dwg"/>
+          </SubEntities>
+        </cstBlock>
+      </SubEntities>
+    </cstSectionBlocks>
+    <!-- Adds entities Model --> 
+    <cstInsert Point="0.5,-0.5,0" BlockName="xref" Extrusion="0,0,1" Angle="0" PScale="1,1,1"/>
+  </add>
+  <fittosize />
+</cadsofttools>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: Uses the commands HideTabSet, HideSysButtons, HideStatusbar, 
+  HideLayoutPanel, HideInterface, HideMenuButton + on/off to hide toolbars and panels -->
+
+                                        
+    <!-- Hides the tab set with the open drawing -->
+  <command text="HideTabSet"/>
+    <!-- Hides application system buttons -->
+  <command text="HideSysButtons"/>
+    <!-- Hides the application statusbar -->
+  <command text="HideStatusbar"/>
+    <!-- Hides the tab set with layouts -->
+  <command text="HideLayoutPanel"/>                     
+    <!-- Hides the Interface -->
+  <command text="HideInterface"/>
+    <!-- Hides the menu button -->
+  <command text="HideMenuButton"/>
+    <!-- Hides the Ribbon -->
+  <command text="Ribbon off"/>
+   <!-- Hides the Toolbar with caption Tools on the Page with caption Viewer -->
+  <command text="&quot;ToolbarConf&quot; &quot;Viewer&quot; &quot;Tools&quot; &quot;False&quot;"/>
+    <!-- Hides Editor page with page caption Editor -->
+  <command text="&quot;ToolbarConf&quot; &quot;Editor&quot; &quot;allpage&quot; &quot;False&quot;"/>
+</cadsofttools>
+                   
+

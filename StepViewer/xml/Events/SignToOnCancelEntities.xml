@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnCancelEntities event. The result is the handle of the object that will not be added.
+         For instance, the user has started to create a line and then pressed esc. As a result, the handle of this line will be returned-->    
+  <signtoevent Event="OnCancelEntities" Enabled="True"/>
+</cadsofttools>                                                    

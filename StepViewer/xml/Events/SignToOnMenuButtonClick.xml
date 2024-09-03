@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnMenuButtonClick event. The result is the caption and the handle of the button in the custom menu in the ribbon-->    
+  <signtoevent Event="OnMenuButtonClick" Enabled="True"/>
+</cadsofttools>                                                    

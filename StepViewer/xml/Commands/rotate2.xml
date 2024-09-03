@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">     
+    <!-- Description: Rotates the selected objects by base point and the second point, which defines the angle: rotate BasePoint SecondPoint -->
+  <command text="rotate 1,1 0,4"/>
+</cadsofttools>                                                        

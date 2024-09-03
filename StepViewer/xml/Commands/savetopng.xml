@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Saves as PNG: save Filename.png Width Height Bitperpixel[default = 24] -->
+  <command text="filedia 0"/>
+  <command text="save &quot;C:\Users\sampi\OneDrive\Documents\ABViewer 14\Drawings\Image1.png&quot; 200 100"/>
+  <command text="filedia 1"/>
+</cadsofttools>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description:  When a Point is added, the maximal number of parameters is used. -->
+  <add> 
+    <cstPoint Point="-0.56,1.69,-10.15" Layer="Layer1" Color="0;5" LineWeight="0.25" LineType="byblock" LineTypeScale="0.3"/> 
+  </add> 
+</cadsofttools>

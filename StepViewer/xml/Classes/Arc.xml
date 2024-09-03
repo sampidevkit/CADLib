@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cadsofttools version="2">
+  <!-- Description:  An arc is specified by a Point, a Radius, Start and End angles. -->
+  <add>
+     <cstArc Point="0,0,0" StartAngle="0" EndAngle="180" Radius="1"/>
+  </add>
+  <fittosize />
+</cadsofttools>

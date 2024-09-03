@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- SelectByScreenPoint X Y is_find_owned_insert -->
+  <command text="SelectByScreenPoint 10 5 False"/>
+</cadsofttools>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description: get background color to XML IDE -->
+  <command text="GetCommandStatus BackgroundColor"/>
+</cadsofttools> 

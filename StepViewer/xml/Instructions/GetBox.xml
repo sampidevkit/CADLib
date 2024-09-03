@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <getbox/>
+  <select Handle="@1;@2"/>
+  <getbox/>
+  <unselect Handle="@1;@2"/>
+  <getbox Handle="@1;@2"/>
+  <getbox PathName="BLOCKS;block1"/>
+</cadsofttools>

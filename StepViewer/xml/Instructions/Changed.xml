@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!-- Description: CHANGED is a result of GETDRAWINGCHANGED instruction. CHANGED returns True if any changes have been implemented in a Drawing. -->  
+  <getdrawingchanged/>
+</cadsofttools>                                                                                            

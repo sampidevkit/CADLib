@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Please run "add.xml" and Select all (Ctrl+A) entities. Then run 'getSelected.xml' and add unselect Handle="HANDLE" for each Handle. After that, run this xml.  -->
+  <unselect Handle="HANDLE"/>
+</cadsofttools>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Loads file="Specify the file path" -->
+  <load file="C:\Users\sampi\OneDrive\Documents\ABViewer 14\Samples\3DLamborgini.dwg"/>
+</cadsofttools>

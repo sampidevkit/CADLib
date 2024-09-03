@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description:  Rotates the selected objects by angle: rotate RotatePoint Angle -->
+  <command text="rotate 1,1 30"/>
+</cadsofttools>

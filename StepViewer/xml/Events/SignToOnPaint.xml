@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnPaint event. The result is the id of the drawing where the background or object color has been modified-->    
+  <signtoevent Event="OnPaint" Enabled="True"/>
+</cadsofttools>                                                    

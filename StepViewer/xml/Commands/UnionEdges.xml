@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Sets UnionEdgesPrecision variable -->
+  <command text="UnionEdgesPrecision 2"/>
+    <!-- Executes UnionEdges command -->
+  <command text="UnionEdges"/>
+</cadsofttools>

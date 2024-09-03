@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Signs to OnPasteEntities event. The result is the handle of the pasted object-->    
+  <signtoevent Event="OnPasteEntities" Enabled="True"/>
+</cadsofttools>                                                    

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!-- Description: An Mtext is specified by a Point, a Height and a Textvalue.   -->
+<cadsofttools version="2">
+  <add>     
+    <cstMText Point="0,0" Height="3" TextValue="MultilineText"/>       
+  </add> 
+  <fittosize />                 
+</cadsofttools> 

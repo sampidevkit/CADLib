@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+  <!-- Saves using XML export parametrs -->
+
+  <!-- Saves as PNG in stream -->
+  <save>
+      <ExportParams Format=".png">
+         <Width>1024</Width>
+         <Height>-1</Height>
+         <Proportional>True</Proportional>
+         <BitPerPixel>24</BitPerPixel>
+         <MeasureInPixels>True</MeasureInPixels>
+      </ExportParams>
+  </save>
+
+</cadsofttools>
+

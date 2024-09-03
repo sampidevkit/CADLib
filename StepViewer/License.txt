@@ -1,0 +1,74 @@
+               ABViewer License Agreement and Limited Warranty
+
+This Soft Gold License Agreement ("LICENSE AGREEMENT") is a legal agreement between you (either individual or an entity)and Soft Gold Limited ("SOFT GOLD") for ABViewer ("SOFTWARE"). By installing, copying, accessing, or otherwise using the SOFTWARE, you agree to be bound by the terms of this LICENSE AGREEMENT. 
+If you do not agree to the terms of this LICENSE AGREEMENT, you must cease using the SOFTWARE immediately.
+
+1.OWNERSHIP
+
+All copyrights to SOFTWARE and everything that comes with it are exclusively owned by the author - SOFT GOLD, CADSoftTools trademark.
+     
+This SOFTWARE is protected by copyright laws and international copyright treaties. At all times SOFT GOLD retains full title to the SOFTWARE. Subject to your acceptance of and accordance with the terms and conditions stated in this LICENSE AGREEMENT, you shall be granted a SOFTWARE license. Any previous agreement with SOFT GOLD is superseded by this LICENSE AGREEMENT.
+
+2.UNREGISTERED VERSION
+
+You may distribute the unregistered version of SOFTWARE freely, provided that all files are included and remain unmodified and that no extra files have been added to the package. You may not ask any money for the distribution. You may use the unregistered version of SOFTWARE free of charge for testing purposes, but if you want to use it for other purposes than testing - you have to register it.
+
+The unregistered version has some restrictions: Nagscreen, demo text when saving, copying and printing images.
+
+3.GRANT OF LICENSE AND SCOPE OF USE
+
+3.1. Named User licenses.
+
+3.1.1. Grant of Named User license.
+
+Subject to the terms and conditions of this License, SOFT GOLD grants to you, if you are an individual, or, if you are an entity, one (1) designated person in your organization ("Named User") a personal, nonexclusive, and limited license to store, install, run and use the software, get access to it or to handle it otherwise. 
+
+You may use the software only in the way specified in the License Agreement. The license includes the conditions for use of the program which don’t presuppose exclusive rights to use and expand the software.
+You may install the Software on a reasonable number of machines provided that the Named User is the only individual permitted to use the Software. All rights not specifically granted to you herein are retained by Soft Gold.
+
+3.1.2.  Multiple Licensed Copies.
+
+You may purchase from Soft Gold or its authorized reseller additional licenses to permit multiple Named Users to use the Software (each, a "Named User License"). Such rights will be effective only when granted by Soft Gold or its authorized reseller and are conditioned upon your payment of the applicable fees. If you purchase additional Named User Licenses for the Software then you are granted for each Named User License the personal, nonexclusive, nontransferable and limited license to designate one individual in your organization as the Named User and permit such Named User to install and use the Software. In such case, the Software may be used exclusively by the specifically 
+designated Named Users, subject to all the terms and conditions of this License. You agree that you will not designate more Named Users than the number of Named User Licenses that Soft Gold or its authorized reseller has expressly granted to you and you will not allow the Software to be used by any individuals other than the Named Users designated by you.
+
+You may store, install and run a copy of the program from the accessible device of the data storage. 
+It is necessary to purchase a separate license for each computer on which this program is installed or started from the network server.
+
+3.2. Floating licenses.
+Subject to the terms and conditions of this License, SOFT GOLD grants to you, if you are an individual, or, if you are an entity, a designated number of Users a nonexclusive, and limited license to store, install, run, serve licenses from the network server and use the software, get access to it or to handle it otherwise.
+
+You may use the software only in the way specified in the License Agreement. The license includes the conditions for use of the program which don’t presuppose exclusive rights to use and expand the software.
+
+You may install the Software on as many computers connected to the designated network as required. One (1) floating license permits one concurrent use of the Software. A designated number of Users may borrow a Floating License from the license server for a specified period of time provided that this reduces the number of licenses available to other users in the designated network until the licenses are returned. All rights not specifically granted to you herein are retained by Soft Gold.
+
+4.DISCLAIMER OF WARRANTY
+
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OF MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. BECAUSE OF THE VARIOUS HARDWARE AND SOFTWARE ENVIRONMENTS INTO WHICH SOFTWARE MAY BE PUT, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED.YOU ASSUME THE WHOLE RISK CONCERNING QUALITY AND WORK OF SOFTWARE.IF THE SOFTWARE PROVES TO BE DEFECTIVE YOU ASSUME COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+Good data processing procedure dictates that any program be thoroughly tested with non-critical data before relying on it. The user must assume the entire risk of using the program.
+You may not alter this software in any way, including changing or removing any windows.
+
+5. ENGAGING IN ANY OF THE ACTIVITIES LISTED BELOW WILL TERMINATE THE SOFTWARE LICENSE.  
+IN ADDITION TO SOFTWARE LICENSE TERMINATION, SOFTWARE MAY PURSUE CRIMINAL, CIVIL, OR ANY OTHER AVAILABLE REMEDIES.
+
+5.1. Removal of proprietary notices, labels or marks from the SOFTWARE or SOFTWARE Documentation.
+
+5.2. Renovation of the program source code or its bringing into a state suitable for analysis.  
+
+5.3. Granting to outliers a right to use, sell and lease the program. 
+
+5.4. Disclosure of registration codes for the program. 
+
+6. LIMITATIONS OF DAMAGES
+
+SOFT GOLD LTD SHALL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES 
+(INCLUDING DAMAGES FOR LOSS OF BUSINESS, LOSS OF PROFITS, OR THE LIKE), WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR OTHERWISE, EVEN IF SOFT GOLD LTD OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.
+
+Thank you for using ABViewer!
+Soft Gold Ltd., 2018
+
+Address:
+     Russia, 300057 Tula, Malye Gonchary 14.
+     Tel: +1 (800) 469-9789
+     World Wide Web: http://www.cadsofttools.com
+     E-mail: info@cadsofttools.com

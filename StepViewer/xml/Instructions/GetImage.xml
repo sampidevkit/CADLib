@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+    <!-- Description:  Returns picture of the current view in Base64 encoding. -->
+  <getimage>
+      <ExportParams FileName = "C:\Users\sampi\OneDrive\Documents\ABViewer 14\Drawings\Image" Format=".png"><!-- attribute 'FileName' calls additional saving to file -->
+         <Width>1024</Width><!--always needs setup  -->
+         <Height>768</Height><!--always needs setup -->
+         <Proportional>True</Proportional>
+         <BitPerPixel>24</BitPerPixel>
+         <MeasureInPixels>True</MeasureInPixels>
+         <Transparent>True</Transparent>
+         <BackgroundColor>$FFFFFF</BackgroundColor><!--default value white -->
+         <DefaultColor>$000000</DefaultColor><!--default value black -->
+         <ClipMode>4</ClipMode>
+         <ClipRect>0,0,0,2048,1536,0</ClipRect>
+         <LayoutNameExportMode>Layout Bud2</LayoutNameExportMode><!--default current layout. The first char '@' of this name is layout index -->
+      </ExportParams>
+    </getimage>
+</cadsofttools>

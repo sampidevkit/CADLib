@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadsofttools version="2">
+   <add>
+      <cstLWPolyline>
+         <SubEntities>
+            <cstVertex Point="0,0"/>
+            <cstVertex Point="10,0"/>
+            <cstVertex Point="10,5"/> 
+            <cstVertex Point="0,5"/>             
+            <cstVertex Point="0,0"/>                         
+         </SubEntities>
+      </cstLWPolyline> 
+   </add>   
+         
+   <!-- The editor is switched to the ReadOnly mode, modifying of objects is turned off for the current drawing, 
+   but it is possible to add new elements. -->
+   <Editor ReadOnly="True"/>    
+               
+   <fittosize/>
+</cadsofttools>                  
