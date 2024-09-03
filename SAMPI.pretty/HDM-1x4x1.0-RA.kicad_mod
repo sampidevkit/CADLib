@@ -1,0 +1,218 @@
+(footprint "HDM-1x4x1.0-RA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2fd3e5c6-8e3a-45bf-85d0-06989e7891af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HDM-1x4x1.0-RA"
+		(at 0 -2.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8878b9a1-00b3-479f-9a26-3fa28917cf28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c6ef003-b612-4f5a-9709-b1040f313b21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06eed9b-0b93-4851-ada3-31eea5037cc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ee3e896-ce58-465f-8c67-db36f0a109d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -2.35)
+		(end -2.2 -2.35)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51eeb5cd-8eb4-4cce-83e9-0edbe29fb849")
+	)
+	(fp_line
+		(start -3 -0.1)
+		(end -3 -2.35)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ae92ee5-1dd2-4dfd-8ceb-39fe80f17dcc")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end 1.9 1.9)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9e49e1a-a76f-44ae-9f93-3a01dd811710")
+	)
+	(fp_line
+		(start 2.2 -2.35)
+		(end 3 -2.35)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "958a33f4-74a4-4680-af2e-f27d6ce85be2")
+	)
+	(fp_line
+		(start 3 -0.1)
+		(end 3 -2.35)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8b8ade1-f0b0-4a32-bc8b-34bb49e05921")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "271f287a-1207-4edd-aeb5-2cfced10170d")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8c14d902-11a2-4cb8-8e84-a3e69ec17032")
+	)
+	(fp_rect
+		(start -3.7 -3.85)
+		(end 3.7 2.3)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4197193d-2824-4db4-bdcd-d0d75bfc25bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13813f2c-954f-4d33-b7fc-147dd3a734fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" smd rect
+		(at -2.8 1.1)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "dc436fa2-482f-4a59-9192-16067ef15d56")
+	)
+	(pad "0" smd rect
+		(at 2.8 1.1)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "47e1b3b7-1df1-4c31-95c6-1c2b75ddf4c9")
+	)
+	(pad "1" smd rect
+		(at -1.5 -2.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7a44618a-222c-41c4-9209-0b5fbb9834a6")
+	)
+	(pad "2" smd rect
+		(at -0.5 -2.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5d6fa740-0f6b-4550-b104-89be206afa6e")
+	)
+	(pad "3" smd rect
+		(at 0.5 -2.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "aa8ee4ab-2c0e-4349-9b24-d3f900483e93")
+	)
+	(pad "4" smd rect
+		(at 1.5 -2.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6c87413c-beff-42a9-8a86-b1cf6b1e3a07")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Qwiic_10147606-4p.igs"
+		(offset
+			(xyz 6 -1.9 1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)

@@ -1,0 +1,222 @@
+(footprint "RV-8263-C7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "16bc24a8-66a4-467f-8d74-fa5f44b20b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RV-8263-C7"
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e6efc6c-c5dc-4764-bc11-05558a8627ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "717eaa56-cd2c-4d93-a92c-cea4150478f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e93c17bd-d5af-4787-a2f5-7b81d76f3d43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d31bed6a-cac4-4946-b76c-62f9cab2a0cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -1.3)
+		(end -1.9 -0.2)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb5329c3-879c-4ab0-8534-e1eba853b5ea")
+	)
+	(fp_line
+		(start -1.9 -1.3)
+		(end 1.9 -1.3)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d06df031-c982-46bb-807e-0be734bf6005")
+	)
+	(fp_line
+		(start -1.9 1.3)
+		(end -1.9 0.75)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ec461749-6ef6-4b4f-a037-50e5f4f471eb")
+	)
+	(fp_line
+		(start -1.350002 1.3)
+		(end -1.9 1.3)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "878709fd-f538-4e61-a402-4ba7a8c45889")
+	)
+	(fp_line
+		(start -0.7 1.3)
+		(end 1.9 1.3)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2ef737b-73d5-452f-9422-c231d2637953")
+	)
+	(fp_line
+		(start 1.9 -1.3)
+		(end 1.9 1.3)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "93295720-cfe4-4df8-83fa-aa6367127654")
+	)
+	(fp_rect
+		(start -2.25 -1.65)
+		(end 2.25 1.65)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9b4ccf17-0aed-4558-9263-aef3a6bcd6ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98162420-2f2b-4183-a141-c08c1ffc6b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.35 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e687c621-7521-4259-8267-529344c83c78")
+	)
+	(pad "2" smd rect
+		(at -0.45 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ac1c37dd-5a66-4174-be5f-3870cbfd4f49")
+	)
+	(pad "3" smd rect
+		(at 0.45 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1ccbc722-a58e-4069-8b1f-3489d3aa1f97")
+	)
+	(pad "4" smd rect
+		(at 1.35 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "61e99fc8-5585-4ed4-a9fb-a39cce4820cf")
+	)
+	(pad "5" smd rect
+		(at 1.35 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c7b4a8a5-b3ea-4c45-a02e-9cd9cd38e84c")
+	)
+	(pad "6" smd rect
+		(at 0.45 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0b3f9ab7-1320-4da5-9d6d-a83436238e35")
+	)
+	(pad "7" smd rect
+		(at -0.45 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c5326674-ac7a-42f3-8d52-c6b24e7829de")
+	)
+	(pad "8" smd rect
+		(at -1.35 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "669a4b38-17c7-4b18-b4c8-9b68df602fcf")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RV8263C7.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,24 @@
+Path
+KICAD8_3DMODEL_DIR	C:\Program Files\KiCad\8.0\share\kicad\3dmodels\	
+KICAD8_3RD_PARTY	D:\OneDrive\Documents\KiCad\8.0\3rdparty	
+KICAD8_FOOTPRINT_DIR	C:\Program Files\KiCad\8.0\share\kicad\footprints\	
+KICAD8_SYMBOL_DIR	C:\Program Files\KiCad\8.0\share\kicad\symbols\	
+KICAD8_TEMPLATE_DIR	C:\Program Files\KiCad\8.0\share/kicad/template	
+KICAD_USER_TEMPLATE_DIR	D:\OneDrive\Documents\KiCad\8.0\template\	
+RP_LIB_DIR	D:\Git\RPGit\KicadLib\master	
+SAMPI_3DMODEL_DIR	D:\Git\SampiGit\Library\Model3D\master\Master	
+SAMPI_LIB_DIR	D:\Git\SampiGit\Library\Kicad\master\LiemLib	
+
+Symbol
+1	1	SAMPI	${SAMPI_LIB_DIR}/Liem.kicad_sym	KiCad		
+1	1	TUANLIB	${RP_LIB_DIR}/symbols/TUANLIB.kicad_sym	KiCad		
+1	1	My_Library	${RP_LIB_DIR}/symbols/My_Library.kicad_sym	KiCad		
+1	1	Liem	${RP_LIB_DIR}/symbols/Liem.kicad_sym	KiCad		
+1	1	TrietLIB	${RP_LIB_DIR}/symbols/Triet_KiCAD_Sym.kicad_sym	KiCad		
+
+Footprint
+1	SAMPI	${SAMPI_LIB_DIR}/Liem.pretty	KiCad		
+1	My_Library	${RP_LIB_DIR}/footprints/My_Library.pretty	KiCad		
+1	tuanlib	${RP_LIB_DIR}/footprints/tuanlib.pretty	KiCad		
+1	Triet_KiCAD_Fprint	${RP_LIB_DIR}/footprints/Triet_KiCAD_Fprint.pretty	KiCad		
+1	Liem	${RP_LIB_DIR}/footprints/Liem.pretty	KiCad		

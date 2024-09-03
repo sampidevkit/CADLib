@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VSEN2
+D Power symbol creates a global label with name "VSEN2"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

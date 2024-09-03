@@ -1,0 +1,7 @@
+Function								RGB (32-bit)
+Label - Connect to 5.5V tolerant pin	#FF0000FF
+Label - Connect to analog pin	 		#00B76FFF
+Label - Connect to open-drain pin	 	#0066FFFF
+Label - Connect to general pin	 		#725600FF
+Shape body (background fill)	 		#FFFFC2FF
+Shape border (outline)	 				#840000FF
