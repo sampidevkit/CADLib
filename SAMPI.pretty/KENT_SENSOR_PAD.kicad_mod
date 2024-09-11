@@ -1,0 +1,177 @@
+(footprint "KENT_SENSOR_PAD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5e032128-7195-4353-8211-aaced5c08ed6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KENT_SENSOR_PAD"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "185141cf-6d81-435b-9549-1dc350635a56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "711e4ca0-d339-4f4d-9d4d-62db7432531a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85537164-1808-49a2-a349-33dd2473b929")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1f5dd1-3caa-4fcb-a91b-ac4d9da591f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 3 2) (xy 3.5 1.5) (xy 3.5 2.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e0dea2d5-5baf-4e9f-920a-2343c2734a8a")
+	)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "87b2f382-7279-407a-9b9d-e417663147de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd34a8a5-4aec-454f-925c-30dadfe2c64a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 2)
+		(size 5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d1822393-ddfa-4cee-a07d-df1b9a1f6d18")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "804a0a56-dfce-49f9-acd4-8a905c012be1")
+	)
+	(pad "3" smd rect
+		(at 0 -2)
+		(size 5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7829b8eb-4bef-49d1-81c7-4f4b8bc05b67")
+	)
+	(pad "4" smd rect
+		(at 0 -2)
+		(size 5 1)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ca9f77d1-66ba-463a-873b-c86ef4485ce5")
+	)
+	(pad "5" smd rect
+		(at 0 0)
+		(size 5 1)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "af9997e7-8726-438f-b6ed-250d8bf4e074")
+	)
+	(pad "6" smd rect
+		(at 0 2)
+		(size 5 1)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8300e870-57e8-4cd1-a5d5-fc8c5ce07d5a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu")
+		(uuid "b522047c-924a-40d0-b938-7b05f877fe1a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.5 -2.5) (xy 2.5 -2.5) (xy 2.5 2.5) (xy -2.5 2.5)
+			)
+		)
+	)
+)

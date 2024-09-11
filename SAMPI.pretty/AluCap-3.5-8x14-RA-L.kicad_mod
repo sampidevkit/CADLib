@@ -1,0 +1,175 @@
+(footprint "AluCap-3.5-8x14-RA-L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.7 -4.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "393c726a-424f-4ff5-8f74-33475b0494d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AluCap-3.5-8x14-RA-L"
+		(at -0.7 -3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8f77f25-2d06-4588-8c7e-f943e3556377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.7 -4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c179126-481f-46dc-8913-7fb590753b4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.7 -4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb94f9ee-a54a-4fc4-ab62-b24339af1541")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.7 -4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f94dba9-a15e-40f7-be45-be97ee709896")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.6 -1.75)
+		(end 0 -1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "285040bd-12da-4d88-8726-77ee7c6153bc")
+	)
+	(fp_line
+		(start 1.6 1.75)
+		(end 0 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4bdca3bb-c8a0-493f-b8ef-8badedd58e70")
+	)
+	(fp_line
+		(start 2.8 -3.999998)
+		(end 2.8 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30e80090-2ae5-4dc2-ba2c-027740b13953")
+	)
+	(fp_line
+		(start 3.3 -3.499999)
+		(end 2.3 -3.499999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3218a1f4-1651-42fb-ab77-d932f7fe2003")
+	)
+	(fp_rect
+		(start -14.3 -4)
+		(end 0 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7329e5a9-7670-4922-962a-fb66e8c60139")
+	)
+	(fp_rect
+		(start -14.6 -4.3)
+		(end 3.9 4.3)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6758882f-e271-4ab9-ac40-74f2476105b3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.7 -1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60db5953-bb46-4690-b4f7-3f33dd728ba8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "+" thru_hole roundrect
+		(at 2.8 -1.75 180)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "62e16419-7f85-4895-873f-c190ee3baf32")
+	)
+	(pad "-" thru_hole roundrect
+		(at 2.799999 1.75 180)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "d4bb8efa-c0a3-4d79-828c-4bc602fcdf63")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/AluCap-3.5-8x14-RA-L.stp"
+		(offset
+			(xyz -0.2 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
+		)
+	)
+)
