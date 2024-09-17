@@ -160,6 +160,7 @@
 		(uuid "5f801947-fdb3-4611-81ac-7bf0bc0ed729")
 	)
 	(model "${SAMPI_3DMODEL_DIR}/HDF-TH-1x3x2.54R.STEP"
+		(hide yes)
 		(offset
 			(xyz 4.05 1.6 0)
 		)
@@ -171,15 +172,14 @@
 		)
 	)
 	(model "${SAMPI_3DMODEL_DIR}/HDM-TH-1x3x2.54R.STEP"
-		(hide yes)
 		(offset
-			(xyz -2.54 2.7 1.2)
+			(xyz -2.85 -0.28 -2.7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz 0 0 0)
 		)
 	)
 )
