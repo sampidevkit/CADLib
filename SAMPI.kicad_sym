@@ -47499,23 +47499,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U3"
-			(at 20.32 8.89 0)
+		(property "Reference" "U"
+			(at 6.35 6.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PIC32MM0256GPM028-I_M6"
-			(at 20.32 6.35 0)
+		(property "Value" "MCU"
+			(at 6.985 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "tuanlib:PIC32MM0256GPM028"
+		(property "Footprint" "SAMPI:UQFN28-4x4-EP"
 			(at 5.08 5.08 0)
 			(effects
 				(font
@@ -47535,7 +47535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Microchip PIC32MM0256GPM028-I/ML, 32bit microAptiv CPU Microcontroller, 25MHz, 256 kB Flash, 28-Pin QFN"
+		(property "Description" "IC MCU 32BIT 64KB FLASH 28UQFN 4x4x0.4PITCH"
 			(at 10.16 6.35 0)
 			(effects
 				(font
@@ -47544,19 +47544,29 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 80.645 -39.37 0)
+		(property "MNP" "PIC32MM0064GPM028-E/M6"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Microchip Technology"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "PIC32MM0256GPM028-I_M6_0_0"
-			(pin input line
-				(at 2.54 -18.415 0)
+			(pin bidirectional line
+				(at 91.44 1.905 180)
 				(length 2.54)
-				(name "MCLR"
+				(name "PGED1/AN2/C1IND/C2INB/C3INC/RP6/OCM2C/RB0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47564,60 +47574,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 2.54 -5.715 0)
-				(length 2.54)
-				(name "OSC2/CLKO/AN6/C3IND/RP4/OCM1D/RA3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 91.44 -8.255 180)
-				(length 2.54)
-				(name "SOSCI/AN7/RP10/OCM3C/RB4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 2.54 -8.255 0)
-				(length 2.54)
-				(name "SOSCO/SCLKI/RP5/PWRLCLK/OCM3D/RA4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47635,7 +47591,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47653,7 +47609,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47671,7 +47627,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47689,7 +47645,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47707,7 +47663,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47725,7 +47681,7 @@
 						)
 					)
 				)
-				(number "18"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47743,25 +47699,7 @@
 						)
 					)
 				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 2.54 1.905 0)
-				(length 2.54)
-				(name "PGEC2/VREF+/CVREF+/AN0/RP1/OCM1E/INT3/RA0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47779,7 +47717,7 @@
 						)
 					)
 				)
-				(number "20"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47797,7 +47735,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47815,7 +47753,25 @@
 						)
 					)
 				)
-				(number "22"
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 91.44 -0.635 180)
+				(length 2.54)
+				(name "PGEC1/AN3/C1INC/C2INA/RP7/OCM2D/RB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47833,7 +47789,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47851,7 +47807,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47869,7 +47825,7 @@
 						)
 					)
 				)
-				(number "25"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47887,7 +47843,7 @@
 						)
 					)
 				)
-				(number "26"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47905,7 +47861,7 @@
 						)
 					)
 				)
-				(number "27"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47917,6 +47873,60 @@
 				(at 2.54 -31.115 0)
 				(length 2.54)
 				(name "AVDD/VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -18.415 0)
+				(length 2.54)
+				(name "MCLR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 1.905 0)
+				(length 2.54)
+				(name "PGEC2/VREF+/CVREF+/AN0/RP1/OCM1E/INT3/RA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 -0.635 0)
+				(length 2.54)
+				(name "PGED2/VREF-/AN1/RP2/OCM1F/RA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47950,60 +47960,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -0.635 0)
-				(length 2.54)
-				(name "PGED2/VREF-/AN1/RP2/OCM1F/RA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 91.44 1.905 180)
-				(length 2.54)
-				(name "PGED1/AN2/C1IND/C2INB/C3INC/RP6/OCM2C/RB0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 91.44 -0.635 180)
-				(length 2.54)
-				(name "PGEC1/AN3/C1INC/C2INA/RP7/OCM2D/RB1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 91.44 -3.175 180)
 				(length 2.54)
 				(name "AN4/C1INB/RP8/SDA2/OCM2E/RB2"
@@ -48013,7 +47969,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48031,7 +47987,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48049,7 +48005,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48061,6 +48017,60 @@
 				(at 2.54 -3.175 0)
 				(length 2.54)
 				(name "OSC1/CLKI/AN5/RP3/OCM1C/RA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 -5.715 0)
+				(length 2.54)
+				(name "OSC2/CLKO/AN6/C3IND/RP4/OCM1D/RA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 91.44 -8.255 180)
+				(length 2.54)
+				(name "SOSCI/AN7/RP10/OCM3C/RB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 -8.255 0)
+				(length 2.54)
+				(name "SOSCO/SCLKI/RP5/PWRLCLK/OCM3D/RA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48086,6 +48096,26 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(symbol "PIC32MM0256GPM028-I_M6_1_0"
+			(pin no_connect line
+				(at 2.54 -22.225 0)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
