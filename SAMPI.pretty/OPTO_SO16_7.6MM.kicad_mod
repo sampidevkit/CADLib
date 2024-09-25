@@ -1,4 +1,4 @@
-(footprint "OPTO_SO16_6.5MM"
+(footprint "OPTO_SO16_7.6MM"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "OPTO_SO16_6.5MM"
+	(property "Value" "OPTO_SO16_7.6MM"
 		(at 0 -4.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

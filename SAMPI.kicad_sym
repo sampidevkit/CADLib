@@ -2,6 +2,129 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "+24V_ISO"
+		(power)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V_ISO"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V_ISO\""
+			(at 0.635 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+24V_ISO_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+24V_ISO_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+24V_ISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "+3V3_ISO"
 		(power)
 		(pin_names
@@ -16660,27 +16783,25 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "MD"
-			(at 0 0 0)
+		(property "Reference" "MD1"
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.5 1.5)
 					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "DC-DC"
-			(at 0 -1.905 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Liem:B1524S-1WR3"
+			(at 0.635 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,7 +16810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -5.08 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16697,8 +16818,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "DC DC CONVERTER 5V 1W"
+			(at 0.635 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "B0505S-1WR3"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Mornsun America, LLC"
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16709,7 +16848,7 @@
 		(symbol "DC-DC_0_1"
 			(polyline
 				(pts
-					(xy 3.81 -3.81) (xy 3.81 -16.51)
+					(xy -1.27 0) (xy -1.27 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -16721,7 +16860,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -3.81) (xy 6.35 -16.51)
+					(xy 1.27 0) (xy 1.27 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -16734,8 +16873,8 @@
 		)
 		(symbol "DC-DC_1_1"
 			(rectangle
-				(start 0 -3.81)
-				(end 10.16 -16.51)
+				(start -5.08 0)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -16745,7 +16884,7 @@
 				)
 			)
 			(text "DC    DC"
-				(at 5.08 -10.16 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16754,17 +16893,17 @@
 				)
 			)
 			(text "ISOLATION"
-				(at 5.08 -10.16 900)
+				(at 0 -6.35 900)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -5.08 0)
+			(pin passive line
+				(at -7.62 -11.43 0)
 				(length 2.54)
-				(name "VI+"
+				(name "VI-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16780,9 +16919,9 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -15.24 0)
+				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "VI-"
+				(name "VI+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16797,8 +16936,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 -15.24 180)
+			(pin passive line
+				(at 7.62 -11.43 180)
 				(length 2.54)
 				(name "DC-"
 					(effects
@@ -16816,7 +16955,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -5.08 180)
+				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "DC+"
 					(effects
@@ -44105,6 +44244,307 @@
 					)
 				)
 				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "OPTO-BJT-1CH"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "OP"
+			(at -1.27 0.635 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPTO-BJT-1CH"
+			(at -5.715 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SAMPI:OPTO_SO4_7.6MM"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OPTOISOLTR 5KV TRANSISTOR 4-SOP"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "EL1018(TA)-VG"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Everlight Electronics Co Ltd"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OPTO-BJT-1CH_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -6.35) (xy -1.27 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -6.985) (xy -1.905 -6.985) (xy -1.905 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -4.445) (xy -1.905 -4.445) (xy -1.905 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "OPTO-BJT-1CH_1_1"
+			(rectangle
+				(start -3.175 -3.175)
+				(end 3.81 -8.255)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -5.715) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.35) (xy 2.54 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -4.445) (xy 1.27 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -4.445) (xy 1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -4.445) (xy 3.81 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -6.985) (xy 2.54 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -5.715) (xy 0.635 -5.715) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 -6.985) (xy 2.286 -6.858) (xy 2.159 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy -1.27 -5.08) (xy -1.905 -6.35) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin input line
+				(at -5.715 -4.445 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.715 -6.985 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -6.985 180)
+				(length 2.54)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -4.445 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
