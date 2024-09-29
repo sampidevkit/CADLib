@@ -16783,27 +16783,25 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "MD"
-			(at 0 0 0)
+		(property "Reference" "MD1"
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.5 1.5)
 					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "DC-DC"
-			(at 0 -1.905 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Liem:B1524S-1WR3"
+			(at 0.635 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,7 +16810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -5.08 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16820,8 +16818,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "DC DC CONVERTER 5V 1W"
+			(at 0.635 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "B0505S-1WR3"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Mornsun America, LLC"
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16832,7 +16848,7 @@
 		(symbol "DC-DC_0_1"
 			(polyline
 				(pts
-					(xy 3.81 -3.81) (xy 3.81 -16.51)
+					(xy -1.27 0) (xy -1.27 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -16844,7 +16860,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -3.81) (xy 6.35 -16.51)
+					(xy 1.27 0) (xy 1.27 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -16857,8 +16873,8 @@
 		)
 		(symbol "DC-DC_1_1"
 			(rectangle
-				(start 0 -3.81)
-				(end 10.16 -16.51)
+				(start -5.08 0)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -16868,7 +16884,7 @@
 				)
 			)
 			(text "DC    DC"
-				(at 5.08 -10.16 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16877,17 +16893,17 @@
 				)
 			)
 			(text "ISOLATION"
-				(at 5.08 -10.16 900)
+				(at 0 -6.35 900)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -5.08 0)
+			(pin passive line
+				(at -7.62 -11.43 0)
 				(length 2.54)
-				(name "VI+"
+				(name "VI-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16903,9 +16919,9 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -15.24 0)
+				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "VI-"
+				(name "VI+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16920,8 +16936,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 -15.24 180)
+			(pin passive line
+				(at 7.62 -11.43 180)
 				(length 2.54)
 				(name "DC-"
 					(effects
@@ -16939,7 +16955,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -5.08 180)
+				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "DC+"
 					(effects
@@ -53347,6 +53363,226 @@
 			)
 		)
 	)
+	(symbol "RES-ARR4"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -0.635 1.905 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RES-ARR4"
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RES-ARR4_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -0.635 -1.905) (xy -0.635 -3.175) (xy 0 -1.905) (xy 0 -3.175) (xy 0.635 -1.905)
+					(xy 0.635 -3.175) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RES-ARR4_1_1"
+			(pin bidirectional line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RES-ARR4_2_1"
+			(pin bidirectional line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RES-ARR4_3_1"
+			(pin bidirectional line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RES-ARR4_4_1"
+			(pin bidirectional line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "RGB_CA"
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -54946,6 +55182,479 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+		)
+	)
+	(symbol "SAMM-FTPRO"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "SAMM-FTPRO"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:HDM-1x13x2.54-SMD-RA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD R/A 13POS 2.54MM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "GBC13SGSN-M89"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SAMM-FTPRO_1_0"
+			(pin output line
+				(at -6.35 -27.94 0)
+				(length 2.54)
+				(name "TX3/IO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -30.48 0)
+				(length 2.54)
+				(name "RX3/IO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -33.02 0)
+				(length 2.54)
+				(name "TX4/IO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -35.56 0)
+				(length 2.54)
+				(name "RX4/IO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -6.35 -7.62 0)
+				(length 2.54)
+				(name "VO5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -6.35 -10.16 0)
+				(length 2.54)
+				(name "VOADJ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -12.7 0)
+				(length 2.54)
+				(name "USB_D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -15.24 0)
+				(length 2.54)
+				(name "USB_D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -17.78 0)
+				(length 2.54)
+				(name "TX1/IO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -20.32 0)
+				(length 2.54)
+				(name "RX1/IO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -22.86 0)
+				(length 2.54)
+				(name "TX2/IO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -25.4 0)
+				(length 2.54)
+				(name "RX2/IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SAMM-FTPRO_1_1"
+			(rectangle
+				(start -3.81 -3.175)
+				(end 4.445 -37.465)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -34.925) (xy 8.89 -34.925) (xy 9.525 -35.56) (xy 8.89 -36.195) (xy 4.445 -36.195) (xy 4.445 -34.925)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -32.385) (xy 8.89 -32.385) (xy 9.525 -33.02) (xy 8.89 -33.655) (xy 4.445 -33.655) (xy 4.445 -32.385)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -29.845) (xy 8.89 -29.845) (xy 9.525 -30.48) (xy 8.89 -31.115) (xy 4.445 -31.115) (xy 4.445 -29.845)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -27.305) (xy 8.89 -27.305) (xy 9.525 -27.94) (xy 8.89 -28.575) (xy 4.445 -28.575) (xy 4.445 -27.305)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -24.765) (xy 8.89 -24.765) (xy 9.525 -25.4) (xy 8.89 -26.035) (xy 4.445 -26.035) (xy 4.445 -24.765)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -22.225) (xy 8.89 -22.225) (xy 9.525 -22.86) (xy 8.89 -23.495) (xy 4.445 -23.495) (xy 4.445 -22.225)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -19.685) (xy 8.89 -19.685) (xy 9.525 -20.32) (xy 8.89 -20.955) (xy 4.445 -20.955) (xy 4.445 -19.685)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -17.145) (xy 8.89 -17.145) (xy 9.525 -17.78) (xy 8.89 -18.415) (xy 4.445 -18.415) (xy 4.445 -17.145)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -14.605) (xy 8.89 -14.605) (xy 9.525 -15.24) (xy 8.89 -15.875) (xy 4.445 -15.875) (xy 4.445 -14.605)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -12.065) (xy 8.89 -12.065) (xy 9.525 -12.7) (xy 8.89 -13.335) (xy 4.445 -13.335) (xy 4.445 -12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -9.525) (xy 8.89 -9.525) (xy 9.525 -10.16) (xy 8.89 -10.795) (xy 4.445 -10.795) (xy 4.445 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -6.985) (xy 8.89 -6.985) (xy 9.525 -7.62) (xy 8.89 -8.255) (xy 4.445 -8.255) (xy 4.445 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -4.445) (xy 8.89 -4.445) (xy 9.525 -5.08) (xy 8.89 -5.715) (xy 4.445 -5.715) (xy 4.445 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
