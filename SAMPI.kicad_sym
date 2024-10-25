@@ -13560,7 +13560,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "BT"
-			(at -3.175 1.27 0)
+			(at -1.27 1.27 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -13569,7 +13569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Button"
+		(property "Value" "BT SMD"
 			(at -3.175 -0.635 0)
 			(effects
 				(font
@@ -13765,7 +13765,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "BT1"
+		(property "Reference" "BT"
 			(at -1.27 1.27 0)
 			(effects
 				(font
@@ -13775,8 +13775,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RESET"
-			(at -1.905 -0.635 0)
+		(property "Value" "BT SMD2"
+			(at -3.175 -0.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14024,7 +14024,7 @@
 				)
 			)
 		)
-		(property "Value" "BT SMD2"
+		(property "Value" "BT SMD3"
 			(at 0 -1.905 0)
 			(effects
 				(font
@@ -50596,7 +50596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:TQFP48-7x7_MCHP"
 			(at 7.62 -36.83 0)
 			(effects
 				(font
@@ -56998,7 +56998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Liem:HDM-2x4x1.27-TH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65139,7 +65139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:QFN-24-4x4-EP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65251,7 +65251,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.255 -47.625 90)
+				(at -10.16 -47.625 90)
 				(length 2.54)
 				(name "SDA/SMBDATA/NON_REM1"
 					(effects
@@ -65269,7 +65269,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -0.635 -47.625 90)
+				(at -2.54 -47.625 90)
 				(length 2.54)
 				(name "SCL/SMBCLK/CFG_SEL0"
 					(effects
@@ -65323,7 +65323,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.985 -47.625 90)
+				(at 5.08 -47.625 90)
 				(length 2.54)
 				(name "SUSP_IND/LOCAL_PWR/NON_REM0"
 					(effects
@@ -66415,7 +66415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:USB4105"
 			(at 0.635 0 0)
 			(effects
 				(font
