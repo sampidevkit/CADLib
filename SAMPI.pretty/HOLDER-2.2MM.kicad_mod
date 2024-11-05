@@ -68,15 +68,27 @@
 			)
 		)
 	)
+	(clearance 1)
 	(fp_circle
 		(center 0 0)
-		(end 1.4 0)
+		(end 2.1 0)
 		(stroke
 			(width 0.01)
-			(type default)
+			(type solid)
 		)
-		(fill none)
-		(layer "F.Fab")
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "34f4427c-a975-4866-a77a-17366e0fc339")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
 		(uuid "1733bed7-3aad-4f15-ad3e-271e17ce7edd")
 	)
 	(fp_text user "${REFERENCE}"
