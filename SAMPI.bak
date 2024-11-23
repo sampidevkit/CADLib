@@ -31714,7 +31714,7 @@
 			(pin input line
 				(at -13.97 -25.4 0)
 				(length 2.54)
-				(name "~{INV_FLT}"
+				(name "~{MC_PWM_FLT}"
 					(effects
 						(font
 							(size 1.27 1.27)
