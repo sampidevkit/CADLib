@@ -1,0 +1,170 @@
+(footprint "SOD-80C_DO-213AC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "729e4ab3-fd2a-439c-a2c1-bf2abc7adece")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SOD-80C_DO-213AC"
+		(at 0 -0.15 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "2d533b62-492f-42d3-96be-bdcdfa8cc5c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47d88ad0-dafe-4c43-af1d-309c297367da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "335e0d41-0139-4cbc-a0e0-2cdaa60b8c7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b7c89ea-8797-499e-89b4-d0740a295420")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.05 -0.75)
+		(end 1.05 -0.75)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c438a81f-4b33-4cb8-a615-8293cffefa4b")
+	)
+	(fp_line
+		(start -1.05 0.75)
+		(end 1.05 0.75)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "39166a91-e3cc-44b1-b9ee-90aa8789f52e")
+	)
+	(fp_line
+		(start 0.5 -0.75)
+		(end 0.5 0.75)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8816f40-308f-49c1-91bf-131db7f11fa1")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "74c0a0e8-90fe-41e4-ad14-b9a7841e49c1")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f70949c7-94e3-4b21-a91e-32bcecb546bd")
+	)
+	(fp_rect
+		(start -2.45 -1.125)
+		(end 2.45 1.125)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9dcc9e66-ab6f-4d89-a64b-c3bebff28276")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "546e176b-935c-45f4-b088-17499f7f8255")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.75 0)
+		(size 0.8 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3880de5e-0fce-4273-bbd6-cc6d6151ad2e")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 0.8 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f4e9c0b3-f468-469e-8d3f-59ad96a2c8a7")
+	)
+	(model "${SAMPI_3DMODEL_DIR}/SOD-80C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
