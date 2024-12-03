@@ -242,7 +242,7 @@
 		)
 		(uuid "7cb4a4fa-8919-49c9-aadc-25ce8409f741")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/SMT-0827-S-HT-R.step"
+	(model "${SAMPI_3DMODEL_DIR}/SMT-0827-S-HT-R.step"
 		(offset
 			(xyz 0 0 1.3)
 		)
