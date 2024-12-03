@@ -40544,6 +40544,279 @@
 			)
 		)
 	)
+	(symbol "MCDBG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J4"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "DEBUGGER"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:IDC-2x5x2MM-TH"
+			(at 1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 10POS 2MM"
+			(at 7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "SBH21-NBPN-D05-ST-BK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MCDBG_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MCDBG_1_1"
+			(rectangle
+				(start -2.54 7.62)
+				(end 2.54 6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin output line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "DV_TXD"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "PGC/SWIO"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "DV_RXD"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "DV_RTS"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "DV_CTS"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "PGD/SWCK"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "DB_TXD"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "MCHP_PRG"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47515,7 +47788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SOT353"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47533,7 +47806,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP GP 1 CIRCUIT SC88A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "NCV21871SQ3T2G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Onsemi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47545,7 +47836,7 @@
 		(symbol "NCV21871SQ3T2G_1_1"
 			(polyline
 				(pts
-					(xy 12.7 -5.08) (xy 12.7 -20.32) (xy 25.4 -12.7) (xy 12.7 -5.08)
+					(xy -10.795 1.27) (xy -10.795 -13.97) (xy 1.905 -6.35) (xy -10.795 1.27)
 				)
 				(stroke
 					(width 0)
@@ -47556,7 +47847,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -8.255 0)
+				(at -13.335 -1.905 0)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -47574,7 +47865,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -19.05 90)
+				(at -4.445 -12.7 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -47592,7 +47883,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -17.145 0)
+				(at -13.335 -10.795 0)
 				(length 2.54)
 				(name "IN-"
 					(effects
@@ -47610,7 +47901,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 -12.7 180)
+				(at 4.445 -6.35 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -47628,7 +47919,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -6.35 270)
+				(at -4.445 0 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
