@@ -7541,6 +7541,1240 @@
 			)
 		)
 	)
+	(symbol "ATSAME70J20B"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "ATSAME70J20B"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:TQFP64_10x10_MCHP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC MCU 32BIT 1MB FLASH 64LQFP"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "ATSAME70J20B-AN"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Microchip"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ATSAME70J20B_1_0"
+			(pin bidirectional line
+				(at 30.48 -5.08 180)
+				(length 2.54)
+				(name "PD0/PWM1.L0/USDCD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -78.74 180)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -53.34 0)
+				(length 2.54)
+				(name "PB3/AD0.2/USRTS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -33.02 0)
+				(length 2.54)
+				(name "PA21/AD0.1/PWM1.F0/USRXD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -29.21 -78.74 0)
+				(length 2.54)
+				(name "VDDCORE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -29.21 -93.98 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -12.7 0)
+				(length 2.54)
+				(name "PA7/PWM0.H3/XIN32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -15.24 0)
+				(length 2.54)
+				(name "PA8/PWM1.H3/XOUT32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -35.56 0)
+				(length 2.54)
+				(name "PA22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -27.94 0)
+				(length 2.54)
+				(name "PA13/PWM0.H2/PWM1.L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -30.48 0)
+				(length 2.54)
+				(name "PA14/PWM0.H3/PWM1.H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -50.8 180)
+				(length 2.54)
+				(name "PD31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -45.72 180)
+				(length 2.54)
+				(name "PD25/PWM0.L1/URXD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -48.26 180)
+				(length 2.54)
+				(name "PD26/PWM0.L2/UTXD1/UTXD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -43.18 180)
+				(length 2.54)
+				(name "PD24/PWM0.L0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -38.1 0)
+				(length 2.54)
+				(name "PA24/PWM0.H1/USRTS1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -29.21 -81.28 0)
+				(length 2.54)
+				(name "VDDCORE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -40.64 180)
+				(length 2.54)
+				(name "PD22/PWM0.H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -38.1 180)
+				(length 2.54)
+				(name "PD21/PWM0.H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -22.86 0)
+				(length 2.54)
+				(name "PA11/PWM0.H0/PWM1.L0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -20.32 0)
+				(length 2.54)
+				(name "PA10/UTXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -25.4 0)
+				(length 2.54)
+				(name "PA12/PWM0.H1/PWM1.H0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -29.21 -76.2 0)
+				(length 2.54)
+				(name "VDDOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -40.64 0)
+				(length 2.54)
+				(name "PA27/USDTR1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -91.44 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -10.16 0)
+				(length 2.54)
+				(name "PA5/PWM1.L3/URXD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -17.78 0)
+				(length 2.54)
+				(name "PA9/PWM0.F0/URXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -7.62 0)
+				(length 2.54)
+				(name "PA4/SCL0/UTXD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -60.96 0)
+				(length 2.54)
+				(name "PB6/SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 -63.5 180)
+				(length 2.54)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 -66.04 180)
+				(length 2.54)
+				(name "TST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -71.12 0)
+				(length 2.54)
+				(name "PB12/PWM0.L1/ERASE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -63.5 0)
+				(length 2.54)
+				(name "PB7/SWDCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -76.2 180)
+				(length 2.54)
+				(name "VDDIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -35.56 180)
+				(length 2.54)
+				(name "PD12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -81.28 180)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -33.02 180)
+				(length 2.54)
+				(name "PD11/PWM0.H0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -30.48 180)
+				(length 2.54)
+				(name "PD10/PWM0.L0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 -68.58 180)
+				(length 2.54)
+				(name "JTAGSEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -55.88 0)
+				(length 2.54)
+				(name "PB4/PWM0.H2/SDA1/USTXD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -58.42 0)
+				(length 2.54)
+				(name "PB5/PWM0.L0/SCL1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -27.94 180)
+				(length 2.54)
+				(name "PD9/PWM0.F2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -25.4 180)
+				(length 2.54)
+				(name "PD8/PWM0.F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -71.12 180)
+				(length 2.54)
+				(name "VREFP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -22.86 180)
+				(length 2.54)
+				(name "PD7/PWM1.H3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -20.32 180)
+				(length 2.54)
+				(name "PD6/PWM1.L3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -29.21 -88.9 0)
+				(length 2.54)
+				(name "VDDPLL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -17.78 180)
+				(length 2.54)
+				(name "PD5/PWM1.H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -15.24 180)
+				(length 2.54)
+				(name "PD4/PWM1.L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -12.7 180)
+				(length 2.54)
+				(name "PD3/PWM1.H1/USRI0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -10.16 180)
+				(length 2.54)
+				(name "PD2/PWM1.L1/USDSR0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -7.62 180)
+				(length 2.54)
+				(name "PD1/PWM1.H0/USDTR0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -83.82 180)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -55.88 180)
+				(length 2.54)
+				(name "DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -93.98 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -58.42 180)
+				(length 2.54)
+				(name "DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -29.21 -83.82 0)
+				(length 2.54)
+				(name "VDDCORE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -66.04 0)
+				(length 2.54)
+				(name "PB8/XOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -68.58 0)
+				(length 2.54)
+				(name "PB9/XIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -86.36 180)
+				(length 2.54)
+				(name "VDDPLLUSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -48.26 0)
+				(length 2.54)
+				(name "PB1/AD1.0/PWM0.H1/USTXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -45.72 0)
+				(length 2.54)
+				(name "PB0/AD0.10/PWM0.H0/USRXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -50.8 0)
+				(length 2.54)
+				(name "PB2/AD0.5/USCTS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ATSAME70J20B_1_1"
+			(rectangle
+				(start -26.67 -3.175)
+				(end 27.94 -95.885)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -29.21 -5.08 0)
+				(length 2.54)
+				(name "PA3/SDA0/USLONCOL1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "AVDD"
 		(power)
 		(pin_names
@@ -31321,6 +32555,24 @@
 			)
 		)
 		(symbol "HW.ACIM-MCU_1_0"
+			(pin passive line
+				(at -14.605 -40.64 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 13.335 -30.48 180)
 				(length 2.54)
@@ -31331,7 +32583,7 @@
 						)
 					)
 				)
-				(number "10L"
+				(number "L10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31349,7 +32601,7 @@
 						)
 					)
 				)
-				(number "11L"
+				(number "L11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31367,7 +32619,7 @@
 						)
 					)
 				)
-				(number "12L"
+				(number "L12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31385,7 +32637,7 @@
 						)
 					)
 				)
-				(number "13L"
+				(number "L13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31403,7 +32655,7 @@
 						)
 					)
 				)
-				(number "14L"
+				(number "L14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31421,7 +32673,7 @@
 						)
 					)
 				)
-				(number "15L"
+				(number "L15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31439,7 +32691,7 @@
 						)
 					)
 				)
-				(number "16L"
+				(number "L16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31457,7 +32709,7 @@
 						)
 					)
 				)
-				(number "17L"
+				(number "L17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31475,7 +32727,7 @@
 						)
 					)
 				)
-				(number "18L"
+				(number "L18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31493,205 +32745,7 @@
 						)
 					)
 				)
-				(number "19L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -14.605 -40.64 0)
-				(length 2.54)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 13.335 -17.78 180)
-				(length 2.54)
-				(name "PFC_PWM_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -14.605 -15.24 0)
-				(length 2.54)
-				(name "UAC_DIV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.335 -15.24 180)
-				(length 2.54)
-				(name "~{PFC_FLT}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -14.605 -12.7 0)
-				(length 2.54)
-				(name "UDC_DIV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.335 -12.7 180)
-				(length 2.54)
-				(name "PFC_IB_SEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -14.605 -10.16 0)
-				(length 2.54)
-				(name "IDC_SEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.335 -10.16 180)
-				(length 2.54)
-				(name "PFC_IA_SEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -14.605 -7.62 0)
-				(length 2.54)
-				(name "ENC_HOME"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.335 -7.62 180)
-				(length 2.54)
-				(name "ENC_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28L"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -14.605 -5.08 0)
-				(length 2.54)
-				(name "ENC_IDX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29L"
+				(number "L19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31709,7 +32763,25 @@
 						)
 					)
 				)
-				(number "2L"
+				(number "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.335 -17.78 180)
+				(length 2.54)
+				(name "PFC_PWM_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31718,16 +32790,160 @@
 				)
 			)
 			(pin input line
-				(at 13.335 -5.08 180)
+				(at -14.605 -15.24 0)
 				(length 2.54)
-				(name "ENC_B"
+				(name "UAC_DIV"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "30L"
+				(number "L21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -15.24 180)
+				(length 2.54)
+				(name "~{PFC_FLT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -14.605 -12.7 0)
+				(length 2.54)
+				(name "UDC_DIV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -12.7 180)
+				(length 2.54)
+				(name "PFC_IB_SEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -14.605 -10.16 0)
+				(length 2.54)
+				(name "IDC_SEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -10.16 180)
+				(length 2.54)
+				(name "PFC_IA_SEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -14.605 -7.62 0)
+				(length 2.54)
+				(name "ENC_HOME"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -7.62 180)
+				(length 2.54)
+				(name "ENC_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -14.605 -5.08 0)
+				(length 2.54)
+				(name "ENC_IDX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31745,7 +32961,25 @@
 						)
 					)
 				)
-				(number "3L"
+				(number "L3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -5.08 180)
+				(length 2.54)
+				(name "ENC_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31763,7 +32997,7 @@
 						)
 					)
 				)
-				(number "4L"
+				(number "L4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31781,7 +33015,7 @@
 						)
 					)
 				)
-				(number "5L"
+				(number "L5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31799,7 +33033,7 @@
 						)
 					)
 				)
-				(number "6L"
+				(number "L6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31817,7 +33051,7 @@
 						)
 					)
 				)
-				(number "7L"
+				(number "L7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31835,7 +33069,7 @@
 						)
 					)
 				)
-				(number "8L"
+				(number "L8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31853,7 +33087,7 @@
 						)
 					)
 				)
-				(number "9L"
+				(number "L9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31884,6 +33118,24 @@
 			)
 		)
 		(symbol "HW.ACIM-MCU_2_0"
+			(pin input line
+				(at -13.97 -40.64 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 13.97 -30.48 180)
 				(length 2.54)
@@ -31894,7 +33146,7 @@
 						)
 					)
 				)
-				(number "10R"
+				(number "R10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31912,7 +33164,7 @@
 						)
 					)
 				)
-				(number "11R"
+				(number "R11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31930,7 +33182,7 @@
 						)
 					)
 				)
-				(number "12R"
+				(number "R12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31948,7 +33200,7 @@
 						)
 					)
 				)
-				(number "13R"
+				(number "R13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31966,7 +33218,7 @@
 						)
 					)
 				)
-				(number "14R"
+				(number "R14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31984,7 +33236,7 @@
 						)
 					)
 				)
-				(number "15R"
+				(number "R15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32002,7 +33254,7 @@
 						)
 					)
 				)
-				(number "16R"
+				(number "R16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32020,7 +33272,7 @@
 						)
 					)
 				)
-				(number "17R"
+				(number "R17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32038,7 +33290,7 @@
 						)
 					)
 				)
-				(number "18R"
+				(number "R18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32056,205 +33308,7 @@
 						)
 					)
 				)
-				(number "19R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -13.97 -40.64 0)
-				(length 2.54)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 13.97 -17.78 180)
-				(length 2.54)
-				(name "MC_PWM_UL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -13.97 -15.24 0)
-				(length 2.54)
-				(name "MC_TEMP_SEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.97 -15.24 180)
-				(length 2.54)
-				(name "MC_VR_DIV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -13.97 -12.7 0)
-				(length 2.54)
-				(name "MC_UU_DIV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.97 -12.7 180)
-				(length 2.54)
-				(name "MC_IU_SEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -13.97 -10.16 0)
-				(length 2.54)
-				(name "MC_UV_DIV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.97 -10.16 180)
-				(length 2.54)
-				(name "MC_IV_SEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -13.97 -7.62 0)
-				(length 2.54)
-				(name "+3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 13.97 -7.62 180)
-				(length 2.54)
-				(name "+3V3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -5.08 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29R"
+				(number "R19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32272,7 +33326,169 @@
 						)
 					)
 				)
-				(number "2R"
+				(number "R2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 -17.78 180)
+				(length 2.54)
+				(name "MC_PWM_UL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -15.24 0)
+				(length 2.54)
+				(name "MC_TEMP_SEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -15.24 180)
+				(length 2.54)
+				(name "MC_VR_DIV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -12.7 0)
+				(length 2.54)
+				(name "MC_UU_DIV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -12.7 180)
+				(length 2.54)
+				(name "MC_IU_SEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -10.16 0)
+				(length 2.54)
+				(name "MC_UV_DIV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -10.16 180)
+				(length 2.54)
+				(name "MC_IV_SEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.97 -7.62 0)
+				(length 2.54)
+				(name "+3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "+3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32281,7 +33497,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -5.08 180)
+				(at -13.97 -5.08 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -32290,7 +33506,7 @@
 						)
 					)
 				)
-				(number "30R"
+				(number "R29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32308,7 +33524,25 @@
 						)
 					)
 				)
-				(number "3R"
+				(number "R3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32326,7 +33560,7 @@
 						)
 					)
 				)
-				(number "4R"
+				(number "R4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32344,7 +33578,7 @@
 						)
 					)
 				)
-				(number "5R"
+				(number "R5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32362,7 +33596,7 @@
 						)
 					)
 				)
-				(number "6R"
+				(number "R6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32380,7 +33614,7 @@
 						)
 					)
 				)
-				(number "7R"
+				(number "R7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32398,7 +33632,7 @@
 						)
 					)
 				)
-				(number "8R"
+				(number "R8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32416,7 +33650,7 @@
 						)
 					)
 				)
-				(number "9R"
+				(number "R9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -40784,7 +42018,7 @@
 				)
 			)
 		)
-		(property "Value" "DEBUGGER"
+		(property "Value" "MCDBG"
 			(at 0 8.89 0)
 			(effects
 				(font
