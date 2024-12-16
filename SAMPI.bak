@@ -2445,7 +2445,7 @@
 			)
 		)
 	)
-	(symbol "ADUM120N"
+	(symbol "ADUM1200"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2508,6 +2508,710 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(symbol "ADUM1200_0_1"
+			(rectangle
+				(start -5.72 -4.44)
+				(end -3.815 -8.25)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5.715 -9.525)
+				(end -3.81 -13.335)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.545 -7.615)
+				(mid -2.0942 -7.4293)
+				(end -1.91 -6.98)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.545 -6.345)
+				(mid -2.096 -6.159)
+				(end -1.91 -5.71)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -12.7)
+				(mid -2.0895 -12.5155)
+				(end -1.905 -12.065)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -11.43)
+				(mid -2.0924 -11.2426)
+				(end -1.905 -10.795)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.91 -6.98)
+				(mid -2.096 -6.531)
+				(end -2.545 -6.345)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.91 -5.71)
+				(mid -2.096 -5.261)
+				(end -2.545 -5.075)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 -12.065)
+				(mid -2.091 -11.616)
+				(end -2.54 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 -10.795)
+				(mid -2.091 -10.346)
+				(end -2.54 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.815 -7.615) (xy -2.545 -7.615)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.815 -5.075) (xy -2.545 -5.075)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -12.7) (xy -2.54 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -10.16) (xy -2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -21.59) (xy -1.27 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -21.59) (xy 1.27 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -7.62) (xy 2.54 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -5.08) (xy 2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.815 -12.705) (xy 2.545 -12.705)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.815 -10.165) (xy 2.545 -10.165)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 -6.985)
+				(mid 2.091 -7.434)
+				(end 2.54 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 -5.715)
+				(mid 2.091 -6.164)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.91 -12.07)
+				(mid 2.096 -12.519)
+				(end 2.545 -12.705)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.91 -10.8)
+				(mid 2.096 -11.249)
+				(end 2.545 -11.435)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -6.35)
+				(mid 2.0892 -6.5357)
+				(end 1.905 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -5.08)
+				(mid 2.0928 -5.2663)
+				(end 1.905 -5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.545 -11.435)
+				(mid 2.0945 -11.6195)
+				(end 1.91 -12.07)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.545 -10.165)
+				(mid 2.0974 -10.3524)
+				(end 1.91 -10.8)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.715 -8.255)
+				(end 3.81 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.72 -13.34)
+				(end 3.815 -9.53)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ADUM1200_1_0"
+			(pin input line
+				(at -13.335 -6.35 0)
+				(length 2.54)
+				(name "VIA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.335 -11.43 0)
+				(length 2.54)
+				(name "VIB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.335 -19.05 0)
+				(length 2.54)
+				(name "GND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -19.05 180)
+				(length 2.54)
+				(name "GND2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -11.43 180)
+				(length 2.54)
+				(name "VOB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -6.35 180)
+				(length 2.54)
+				(name "VOA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.335 -16.51 180)
+				(length 2.54)
+				(name "VDD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ADUM1200_1_1"
+			(rectangle
+				(start -10.795 -3.81)
+				(end 10.795 -21.59)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.795 -13.97) (xy -1.27 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.99 -6.345) (xy -5.72 -6.345)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -11.43) (xy -5.715 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -13.97) (xy 10.795 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 -6.35) (xy 6.985 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.72 -11.435) (xy 6.99 -11.435)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "3KV ISOLATION"
+				(at 0 -12.7 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(text "DEC"
+				(at 5.08 -6.35 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify bottom)
+				)
+			)
+			(text "DEC"
+				(at 5.085 -11.435 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify bottom)
+				)
+			)
+			(text "ENC"
+				(at -5.085 -6.345 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify top)
+				)
+			)
+			(text "ENC"
+				(at -5.08 -11.43 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify top)
+				)
+			)
+			(pin input line
+				(at -13.335 -16.51 0)
+				(length 2.54)
+				(name "VDD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "ADUM120N"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIGI ISO 2-CH"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SAMPI:SOIC8_ALL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DGTL ISO 2500VRMS 2CH GP 8SOIC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "ADUM1200ARZ-RL7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Analog Devices Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "ADUM120N_0_1"
@@ -14599,7 +15303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SOT23"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14617,7 +15321,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BJT NPN 40V 200MA SOT23-3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "MMBT3904"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Diotec Semiconductor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14721,7 +15443,7 @@
 			(pin bidirectional line
 				(at 6.35 -8.89 90)
 				(length 1.27)
-				(name "S"
+				(name "E"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14739,7 +15461,7 @@
 			(pin bidirectional line
 				(at 6.35 -1.27 270)
 				(length 1.27)
-				(name "D"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
