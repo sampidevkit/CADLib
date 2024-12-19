@@ -45665,7 +45665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SOT-223-3"
 			(at 0 -1.905 0)
 			(effects
 				(font
@@ -45779,7 +45779,7 @@
 			(pin passive line
 				(at 7.62 -7.62 180)
 				(length 2.54)
-				(name "GND"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47760,7 +47760,7 @@
 			(pin input line
 				(at -10.16 5.08 0)
 				(length 2.54)
-				(name "DV_TXD"
+				(name "DB_TXD"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47775,10 +47775,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 10.16 -5.08 180)
 				(length 2.54)
-				(name "PGC/SWIO"
+				(name "PGC/SWDCK"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47793,10 +47793,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "DB_RXD"
+				(name "USB_DM"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47811,10 +47811,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 10.16 -7.62 180)
 				(length 2.54)
-				(name "PGM/SWO"
+				(name "VBUS"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47850,7 +47850,7 @@
 			(pin output line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "DV_RXD"
+				(name "DB_RXD"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47886,7 +47886,7 @@
 			(pin input line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "DV_RTS"
+				(name "DV_TXD"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47922,7 +47922,7 @@
 			(pin output line
 				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "DV_CTS"
+				(name "DV_RXD"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47937,10 +47937,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 10.16 -2.54 180)
 				(length 2.54)
-				(name "PGD/SWCK"
+				(name "PGD/SWDIO"
 					(effects
 						(font
 							(size 1.143 1.143)
@@ -47955,10 +47955,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "DB_TXD"
+				(name "UDB_DP"
 					(effects
 						(font
 							(size 1.143 1.143)
