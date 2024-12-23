@@ -141,20 +141,20 @@
 		(uuid "916403d5-7d81-45fd-82c0-2ed0be2452ee")
 	)
 	(pad "3" thru_hole circle
-		(at 21.25 11.4)
-		(size 2 2)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ace58fea-ce93-43ac-9476-52c252c1f241")
-	)
-	(pad "4" thru_hole circle
 		(at 21.25 -11.4)
 		(size 2 2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "450463d0-d2dc-430a-a7ab-00d383fc5ed7")
+	)
+	(pad "4" thru_hole circle
+		(at 21.25 11.4)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ace58fea-ce93-43ac-9476-52c252c1f241")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/HLK-10M.step"
 		(offset
