@@ -53844,7 +53844,7 @@
 				)
 			)
 		)
-		(property "Value" "MP1470"
+		(property "Value" "MT1470"
 			(at 36.83 22.225 0)
 			(effects
 				(font
@@ -53852,7 +53852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SOT-23-6_MCHP"
 			(at 1.2626 9.7725 0)
 			(effects
 				(font
@@ -53870,7 +53870,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BUCK SYNC 4.5V-18V/2A 500KHZ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "MT1470"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "AEROSEMI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54457,6 +54475,176 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MT1470"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 34.29 24.13 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "MT1470"
+			(at 36.83 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.2626 9.7725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.2626 9.7725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MT1470_1_1"
+			(rectangle
+				(start 34.29 20.955)
+				(end 41.91 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 31.75 6.35 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 44.45 19.05 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 31.75 19.05 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 44.45 6.35 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 8.89 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 44.45 8.89 180)
+				(length 2.54)
+				(name "BS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68474,7 +68662,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 0 0)
+			(at -0.635 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68484,7 +68672,7 @@
 			)
 		)
 		(property "Value" "SIL01"
-			(at 0 -1.27 0)
+			(at -0.635 2.54 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -68492,8 +68680,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "SAMPI:QC-6.3"
+			(at -0.635 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68502,7 +68690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -0.635 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68510,8 +68698,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "250 FASTON PCB TAB TPBR"
+			(at -0.635 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "2376591-2"
+			(at -0.635 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "TE"
+			(at -0.635 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68522,7 +68728,7 @@
 		(symbol "SIL01_0_1"
 			(polyline
 				(pts
-					(xy 0.635 -12.7) (xy 4.445 -12.7)
+					(xy 0.635 0) (xy 1.905 0)
 				)
 				(stroke
 					(width 0)
@@ -68534,67 +68740,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 -5.08) (xy 4.445 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -13.97) (xy 3.175 -13.97)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -3.81) (xy 3.175 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -13.335) (xy 2.54 -14.605)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -3.175) (xy 2.54 -4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -15.24) (xy 0.635 -15.24)
+					(xy 1.27 0.635) (xy 1.27 -0.635)
 				)
 				(stroke
 					(width 0)
@@ -68605,18 +68751,7 @@
 				)
 			)
 			(circle
-				(center 2.54 -13.97)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 -3.81)
+				(center 1.27 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -68629,8 +68764,8 @@
 		)
 		(symbol "SIL01_1_1"
 			(rectangle
-				(start 0.635 -2.54)
-				(end 4.445 -15.24)
+				(start 0 1.27)
+				(end 2.54 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -68640,7 +68775,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.905 -3.81 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -68650,24 +68785,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -1.905 -13.97 0)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
