@@ -13972,7 +13972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -7.62 17.8562 0)
+			(at -6.35 17.8562 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13980,7 +13980,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 -5.08 0)
+			(at 1.27 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14010,8 +14010,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 20.32 0)
-				(length 3.81)
+				(at -2.54 20.32 0)
+				(length 2.54)
 				(name "PA7"
 					(effects
 						(font
@@ -14028,8 +14028,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 30.48 180)
-				(length 3.81)
+				(at 36.83 30.48 180)
+				(length 2.54)
 				(name "PD4"
 					(effects
 						(font
@@ -14046,8 +14046,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 27.94 180)
-				(length 3.81)
+				(at 36.83 27.94 180)
+				(length 2.54)
 				(name "PD5"
 					(effects
 						(font
@@ -14064,8 +14064,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 25.4 180)
-				(length 3.81)
+				(at 36.83 25.4 180)
+				(length 2.54)
 				(name "PD6"
 					(effects
 						(font
@@ -14082,8 +14082,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 12.7 180)
-				(length 3.81)
+				(at 36.83 12.7 180)
+				(length 2.54)
 				(name "PD7"
 					(effects
 						(font
@@ -14100,8 +14100,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 0 0)
-				(length 3.81)
+				(at -2.54 0 0)
+				(length 2.54)
 				(name "AVDD"
 					(effects
 						(font
@@ -14118,8 +14118,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -2.54 0)
-				(length 3.81)
+				(at -2.54 -2.54 0)
+				(length 2.54)
 				(name "AGND"
 					(effects
 						(font
@@ -14136,8 +14136,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 17.78 180)
-				(length 3.81)
+				(at 36.83 17.78 180)
+				(length 2.54)
 				(name "PF0/XTAL32K1"
 					(effects
 						(font
@@ -14154,8 +14154,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 20.32 180)
-				(length 3.81)
+				(at 36.83 20.32 180)
+				(length 2.54)
 				(name "PF1/XTAL32K2"
 					(effects
 						(font
@@ -14172,8 +14172,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 15.24 180)
-				(length 3.81)
+				(at 36.83 15.24 180)
+				(length 2.54)
 				(name "PF6/~{RESET}"
 					(effects
 						(font
@@ -14190,8 +14190,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 2.54 180)
-				(length 3.81)
+				(at 36.83 2.54 180)
+				(length 2.54)
 				(name "UPDI"
 					(effects
 						(font
@@ -14208,8 +14208,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 15.24 0)
-				(length 3.81)
+				(at -2.54 15.24 0)
+				(length 2.54)
 				(name "PC0"
 					(effects
 						(font
@@ -14226,8 +14226,8 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 0 180)
-				(length 3.81)
+				(at 36.83 0 180)
+				(length 2.54)
 				(name "VDD"
 					(effects
 						(font
@@ -14244,8 +14244,8 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -2.54 180)
-				(length 3.81)
+				(at 36.83 -2.54 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -14262,8 +14262,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 38.1 0)
-				(length 3.81)
+				(at -2.54 38.1 0)
+				(length 2.54)
 				(name "PA0/EXTCLK"
 					(effects
 						(font
@@ -14280,8 +14280,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 35.56 0)
-				(length 3.81)
+				(at -2.54 35.56 0)
+				(length 2.54)
 				(name "PA1"
 					(effects
 						(font
@@ -14298,8 +14298,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 33.02 0)
-				(length 3.81)
+				(at -2.54 33.02 0)
+				(length 2.54)
 				(name "PA2"
 					(effects
 						(font
@@ -14316,8 +14316,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 30.48 0)
-				(length 3.81)
+				(at -2.54 30.48 0)
+				(length 2.54)
 				(name "PA3"
 					(effects
 						(font
@@ -14334,8 +14334,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 27.94 0)
-				(length 3.81)
+				(at -2.54 27.94 0)
+				(length 2.54)
 				(name "PA4"
 					(effects
 						(font
@@ -14352,8 +14352,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 25.4 0)
-				(length 3.81)
+				(at -2.54 25.4 0)
+				(length 2.54)
 				(name "PA5"
 					(effects
 						(font
@@ -14370,8 +14370,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 22.86 0)
-				(length 3.81)
+				(at -2.54 22.86 0)
+				(length 2.54)
 				(name "PA6"
 					(effects
 						(font
@@ -14388,8 +14388,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 12.7 0)
-				(length 3.81)
+				(at -2.54 12.7 0)
+				(length 2.54)
 				(name "PC1"
 					(effects
 						(font
@@ -14406,8 +14406,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 10.16 0)
-				(length 3.81)
+				(at -2.54 10.16 0)
+				(length 2.54)
 				(name "PC2"
 					(effects
 						(font
@@ -14424,8 +14424,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 7.62 0)
-				(length 3.81)
+				(at -2.54 7.62 0)
+				(length 2.54)
 				(name "PC3"
 					(effects
 						(font
@@ -14442,8 +14442,8 @@
 				)
 			)
 			(pin input line
-				(at -3.81 2.54 0)
-				(length 3.81)
+				(at -2.54 2.54 0)
+				(length 2.54)
 				(name "VDDIO2"
 					(effects
 						(font
@@ -14460,8 +14460,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 38.1 180)
-				(length 3.81)
+				(at 36.83 38.1 180)
+				(length 2.54)
 				(name "PD1"
 					(effects
 						(font
@@ -14478,8 +14478,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 35.56 180)
-				(length 3.81)
+				(at 36.83 35.56 180)
+				(length 2.54)
 				(name "PD2"
 					(effects
 						(font
@@ -14496,8 +14496,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 33.02 180)
-				(length 3.81)
+				(at 36.83 33.02 180)
+				(length 2.54)
 				(name "PD3"
 					(effects
 						(font
@@ -57957,6 +57957,128 @@
 			)
 		)
 	)
+	(symbol "NTC"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "NTC 10K@25°C"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "THERMISTOR 10K OHM 4050 BETA"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "NRCE104K4050B1KS"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Eaton"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NTC_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -6.35) (xy 0 -5.08) (xy 0 -6.35) (xy 0.635 -5.08)
+					(xy 0.635 -6.35) (xy 1.27 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NTC_1_1"
+			(pin bidirectional line
+				(at -3.81 -5.715 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -5.715 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "OLED"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -65919,6 +66041,14 @@
 			)
 		)
 		(symbol "PTC_1_1"
+			(text "+t"
+				(at 1.905 -3.175 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at -2.54 -4.445 0)
 				(length 2.54)
