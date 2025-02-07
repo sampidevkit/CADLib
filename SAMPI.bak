@@ -24003,8 +24003,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF TXRX MOD CELLULARTHROUGH HOLE"
 			(at 142.113 169.291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "CA-01"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Ai-Thinker"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
