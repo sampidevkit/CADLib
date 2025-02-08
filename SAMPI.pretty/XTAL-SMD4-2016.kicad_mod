@@ -1,0 +1,214 @@
+(footprint "XTAL-SMD4-2016"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "45c133e9-cfbd-4079-a2f1-c6ddc11dc05f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XTAL-SMD4-2016"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "ee0cce17-7471-4db3-8e00-3a981d1d26d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cc0e993-c31a-4a57-a591-02db342fcf53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4f335fb-ddb7-47c3-ad41-b2d31247e511")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e030a0e0-8484-473c-9ffa-e9a6c1d9d07f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -1.2)
+		(end -1.4 -0.8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91438614-4a6a-47d7-a86c-ce97aa1910b1")
+	)
+	(fp_line
+		(start -1.4 -1.2)
+		(end 1.4 -1.2)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75b9ca36-9e0a-4e4d-aae3-78d825bfb722")
+	)
+	(fp_line
+		(start -1.4 0.2)
+		(end -1.4 1.2)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b1292d0-cf80-400b-941f-37da5a54795a")
+	)
+	(fp_line
+		(start -1.4 1.2)
+		(end -0.4 1.2)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ebbf36a-ca88-4e10-8dfc-ec732ab462b4")
+	)
+	(fp_line
+		(start 0.6 1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7cfb5655-5046-406f-9312-8c425c90a6f6")
+	)
+	(fp_line
+		(start 1.4 -1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b678a2dc-a4ca-412c-900c-4083de4de994")
+	)
+	(fp_line
+		(start -0.05 -0.05)
+		(end 0.05 0.05)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "90c9646e-5a62-4b84-8359-18da3aa7c2ad")
+	)
+	(fp_line
+		(start -0.05 0.05)
+		(end 0.05 -0.05)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "60b4e8fd-24b2-4301-a163-46402d3a602c")
+	)
+	(fp_rect
+		(start -1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6aac7e66-84d7-41c7-a5fd-a13391f6c482")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc139553-2baf-449f-a73f-9313bf275b4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0659de9f-c12a-400f-9fc2-079cb6b0bd7f")
+	)
+	(pad "2" smd rect
+		(at 0.675 0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f02c6d29-164b-4550-b9c0-96fc9d436adb")
+	)
+	(pad "3" smd rect
+		(at 0.675 -0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7e0ae3f1-0dd3-47bf-b218-280ec71eaf56")
+	)
+	(pad "4" smd rect
+		(at -0.675 -0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "13bee273-3d36-4b49-81d7-82017c510e9b")
+	)
+	(model "${SAMPI_3DMODEL_DIR}/XTAL-SMD4-2016.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
