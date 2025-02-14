@@ -846,4 +846,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bd5ea3da-dc16-4ea4-9f2a-58897c120955")
 	)
+	(model "${SAMPI_3DMODEL_DIR}/SIM7070G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
