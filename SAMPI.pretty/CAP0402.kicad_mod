@@ -1,7 +1,7 @@
 (footprint "CAP0402"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.45 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "32b30e50-901e-48c9-bc49-7d9aa1be67e3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -0.65 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a781b5a7-83cf-490d-818b-e31628365f83")
 		(effects
 			(font
 				(size 1 1)
@@ -155,7 +142,7 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c6d5767d-4d18-4263-8e89-4efaa511225b")
 	)
@@ -175,18 +162,19 @@
 	(pad "1" smd rect
 		(at -0.45 0)
 		(size 0.5 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "8dce6975-766a-43fd-b9dc-db8ad41b9622")
 	)
 	(pad "2" smd rect
 		(at 0.45 0)
 		(size 0.5 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "9f3cd96c-1f41-4676-ada1-e3478d34cd14")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/0402C.step"
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/0402C.step"
 		(offset
 			(xyz 0 0 0)
 		)
