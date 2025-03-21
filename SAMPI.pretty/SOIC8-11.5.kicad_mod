@@ -1,0 +1,210 @@
+(footprint "SOIC8-11.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b322ff71-12bd-4aba-9e58-a22bd99c5b8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SOIC8-11.5"
+		(at 0.05 -1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20c28d52-847d-48c6-a3a3-a80c10a78056")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.05 -2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abff54ed-2c16-4b09-8ee4-4d1016c3c743")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.05 -2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "755cefcb-e244-4630-83fa-9c781d61df3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.75 -2.9)
+		(end -2.75 -2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "92cf185e-8b43-4639-85cd-062347827e4e")
+	)
+	(fp_line
+		(start -3.75 -1.9)
+		(end -3.75 -2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "63ba3032-6e1b-411e-a25a-9b9f5028ec96")
+	)
+	(fp_line
+		(start -3.75 -0.9)
+		(end -3.75 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b041bdf-f5e8-4a99-8669-b581ee8db783")
+	)
+	(fp_line
+		(start -3.75 2.9)
+		(end 3.75 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95c2d805-4008-4c04-a902-1c77be91c567")
+	)
+	(fp_line
+		(start -1.75 -2.9)
+		(end 3.75 -2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e226e4ec-9451-4aa7-843f-7d5322d71dd6")
+	)
+	(fp_line
+		(start 3.75 2.9)
+		(end 3.75 -2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f14072f8-2d62-4193-ad35-64ffe3ae5ae8")
+	)
+	(fp_rect
+		(start -6.5 -3.05)
+		(end 6.5 3.05)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d2d03f38-1e6c-4bac-9951-aed84379dd62")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f3d4bc4-f9ae-4f05-9977-4ec919eaf7e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.45 -1.905)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3fbdb521-f9fa-4d73-9dbd-d502f45d236b")
+	)
+	(pad "2" smd rect
+		(at -5.45 -0.635)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0e6e3d03-0b5a-4ec1-a9cc-b84de077b3f3")
+	)
+	(pad "3" smd rect
+		(at -5.45 0.635)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e14dec24-56fb-4810-b22c-d49fc60f1f0e")
+	)
+	(pad "4" smd rect
+		(at -5.45 1.905)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "83c0d8ad-532b-4855-a965-ad95f3a0783a")
+	)
+	(pad "5" smd rect
+		(at 5.45 1.905)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5b2a743f-3fbd-4c49-8393-bd6f2368a8f7")
+	)
+	(pad "6" smd rect
+		(at 5.45 0.635)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4a5bdf13-a871-4be3-93c0-2a861bf00249")
+	)
+	(pad "7" smd rect
+		(at 5.45 -0.635)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "86d165e8-b05d-4f70-863c-984acebc585e")
+	)
+	(pad "8" smd rect
+		(at 5.45 -1.905)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7355d2e4-744e-4e9e-944c-a92e6dae9055")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/SOIC8-11.5MM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
