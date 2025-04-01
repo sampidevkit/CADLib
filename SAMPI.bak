@@ -13995,7 +13995,7 @@
 		)
 		(symbol "AVRxxDD20-QFN_1_0"
 			(pin bidirectional line
-				(at -11.43 -5.08 0)
+				(at -27.305 -5.08 0)
 				(length 2.54)
 				(name "PA0/XTAL1/TX0/A2SDA/WAO0"
 					(effects
@@ -14013,7 +14013,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -7.62 0)
+				(at -27.305 -7.62 0)
 				(length 2.54)
 				(name "PA1/XTAL2/RX0/A2SCL/WAO1"
 					(effects
@@ -14031,7 +14031,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -10.16 0)
+				(at -27.305 -10.16 0)
 				(length 2.54)
 				(name "PA2*/A1TX0/SDA/WAO2/WB0O"
 					(effects
@@ -14049,7 +14049,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -12.7 0)
+				(at -27.305 -12.7 0)
 				(length 2.54)
 				(name "PA3*/A1RX0/SCL/WB1O"
 					(effects
@@ -14067,7 +14067,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -17.78 0)
+				(at -27.305 -17.78 0)
 				(length 2.54)
 				(name "PA5*/A2RX0/WDOB"
 					(effects
@@ -14085,7 +14085,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -20.32 0)
+				(at -27.305 -20.32 0)
 				(length 2.54)
 				(name "PA6*/WDOC"
 					(effects
@@ -14103,7 +14103,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -22.86 0)
+				(at -27.305 -22.86 0)
 				(length 2.54)
 				(name "PA7*/ACOUT/WDOD"
 					(effects
@@ -14121,7 +14121,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -27.94 0)
+				(at -27.305 -27.94 0)
 				(length 2.54)
 				(name "PC1*/A3TX0/RX1/WAO1"
 					(effects
@@ -14139,7 +14139,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -30.48 0)
+				(at -27.305 -30.48 0)
 				(length 2.54)
 				(name "PC2*/A3RX0/AINNx/A1SDA/WAO2"
 					(effects
@@ -14157,7 +14157,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -33.02 0)
+				(at -27.305 -33.02 0)
 				(length 2.54)
 				(name "PC3*/AINPx/A1SCL0"
 					(effects
@@ -14175,7 +14175,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 -38.1 0)
+				(at -27.305 -38.1 0)
 				(length 2.54)
 				(name "VDDIO2"
 					(effects
@@ -14193,7 +14193,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 -5.08 180)
+				(at 27.305 -5.08 180)
 				(length 2.54)
 				(name "PD4*/A4TX0/WDOC"
 					(effects
@@ -14211,7 +14211,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 -7.62 180)
+				(at 27.305 -7.62 180)
 				(length 2.54)
 				(name "PD5*/A4RX0/WDOD"
 					(effects
@@ -14229,7 +14229,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 -10.16 180)
+				(at 27.305 -10.16 180)
 				(length 2.54)
 				(name "PD6*/A1TX1/AINPx/DACOUT"
 					(effects
@@ -14247,7 +14247,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 -12.7 180)
+				(at 27.305 -12.7 180)
 				(length 2.54)
 				(name "PD7*/A1RX1/AINNx"
 					(effects
@@ -14265,7 +14265,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 -17.78 180)
+				(at 27.305 -17.78 180)
 				(length 2.54)
 				(name "PF6/~{RESET}"
 					(effects
@@ -14283,7 +14283,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 -20.32 180)
+				(at 27.305 -20.32 180)
 				(length 2.54)
 				(name "PF7/UPDI"
 					(effects
@@ -14301,7 +14301,7 @@
 				)
 			)
 			(pin power_in line
-				(at 43.18 -25.4 180)
+				(at 27.305 -25.4 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -14319,7 +14319,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -35.56 180)
+				(at 27.305 -35.56 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -14337,7 +14337,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -38.1 180)
+				(at 27.305 -38.1 180)
 				(length 2.54)
 				(name "EP"
 					(effects
@@ -14357,8 +14357,8 @@
 		)
 		(symbol "AVRxxDD20-QFN_1_1"
 			(rectangle
-				(start -8.89 -3.175)
-				(end 40.64 -40.005)
+				(start -24.765 -3.175)
+				(end 24.765 -40.005)
 				(stroke
 					(width 0)
 					(type solid)
@@ -14368,7 +14368,7 @@
 				)
 			)
 			(text "(*) Analog Inputs"
-				(at 10.16 -38.735 0)
+				(at -5.715 -38.735 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14376,7 +14376,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -15.24 0)
+				(at -27.305 -15.24 0)
 				(length 2.54)
 				(name "PA4*/A2TX0/WDOA"
 					(effects
