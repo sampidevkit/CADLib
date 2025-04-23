@@ -1,7 +1,7 @@
 (footprint "X2SON-4EP-1x1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.4 0)
@@ -21,19 +21,6 @@
 		(layer "Dwgs.User")
 		(hide yes)
 		(uuid "17d72077-3327-46d2-a920-c2b8a1b0475f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -0.9 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "773151a4-8353-4a9f-bb74-1c8ecaf34031")
 		(effects
 			(font
 				(size 1 1)
@@ -135,7 +122,7 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7f53097b-6407-49df-abe8-993a73389c09")
 	)
@@ -146,7 +133,7 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2e6135e0-483e-4659-8c61-294aa3cf5e31")
 	)
@@ -166,7 +153,7 @@
 	(pad "1" smd custom
 		(at -0.52 -0.325 180)
 		(size 0.18 0.21)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -175,7 +162,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.09 0.105) (xy 0.09 -0.105) (xy -0.09 -0.105) (xy -0.275 0.07) (xy -0.275 0.105)
+					(xy 0.14 0.105) (xy 0.14 -0.105) (xy -0.09 -0.105) (xy -0.275 0.07) (xy -0.275 0.105)
 				)
 				(width 0.01)
 				(fill yes)
@@ -186,7 +173,7 @@
 	(pad "2" smd custom
 		(at -0.52 0.325 180)
 		(size 0.18 0.21)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -195,7 +182,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.09 -0.105) (xy 0.09 0.105) (xy -0.09 0.105) (xy -0.275 -0.07) (xy -0.275 -0.105)
+					(xy 0.14 -0.105) (xy 0.14 0.105) (xy -0.09 0.105) (xy -0.275 -0.07) (xy -0.275 -0.105)
 				)
 				(width 0.01)
 				(fill yes)
@@ -206,7 +193,7 @@
 	(pad "3" smd custom
 		(at 0.52 0.325)
 		(size 0.18 0.21)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -215,7 +202,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.09 0.105) (xy 0.09 -0.105) (xy -0.09 -0.105) (xy -0.275 0.07) (xy -0.275 0.105)
+					(xy 0.14 0.105) (xy 0.14 -0.105) (xy -0.09 -0.105) (xy -0.275 0.07) (xy -0.275 0.105)
 				)
 				(width 0.01)
 				(fill yes)
@@ -226,7 +213,7 @@
 	(pad "4" smd custom
 		(at 0.52 -0.325)
 		(size 0.18 0.21)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -235,7 +222,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.09 -0.105) (xy 0.09 0.105) (xy -0.09 0.105) (xy -0.275 -0.07) (xy -0.275 -0.105)
+					(xy 0.14 -0.105) (xy 0.14 0.105) (xy -0.09 0.105) (xy -0.275 -0.07) (xy -0.275 -0.105)
 				)
 				(width 0.01)
 				(fill yes)
@@ -246,12 +233,12 @@
 	(pad "5" smd rect
 		(at 0 0 45)
 		(size 0.48 0.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "cd98a35c-3699-4bf7-9bea-95ef9359df67")
 	)
+	(embedded_fonts no)
 	(model "${SAMPI_3DMODEL_DIR}/X2SON-4EP-1x1.step"
-		(opacity 0.5300)
 		(offset
 			(xyz 0 0 0)
 		)
