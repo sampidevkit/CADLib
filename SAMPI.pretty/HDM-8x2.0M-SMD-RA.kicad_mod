@@ -1,0 +1,214 @@
+(footprint "HDM-8x2.0M-SMD-RA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c2a13493-d5b9-4645-bafc-0aa6f54a6e22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HDM-8x2.0M-SMD-RA"
+		(at -0.1 -6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e86ed89-b316-4bbd-93d5-a92707d3bc79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d64019be-d175-452e-9db1-8faa03a1dd85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e15ac09-36a0-41d5-ba5d-816626bb1971")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10 -3.65)
+		(end -10 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76cae2dc-59a7-4f4a-a3b5-247379d4880a")
+	)
+	(fp_line
+		(start -8.25 5.65)
+		(end 8.25 5.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5d5efe5-22a1-41c0-a7a3-c432041b92a1")
+	)
+	(fp_line
+		(start -7.8 -3.65)
+		(end -10 -3.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f8fb228-76a0-45b5-8078-b2793ee5ddda")
+	)
+	(fp_line
+		(start 10 -3.65)
+		(end 7.8 -3.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "634faf78-c512-46c6-a8d7-e5e90551caf6")
+	)
+	(fp_line
+		(start 10 -3.65)
+		(end 10 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "194a24a8-7c71-40e7-b0f0-81bf444a14f4")
+	)
+	(fp_rect
+		(start -10.35 -5.85)
+		(end 10.35 5.95)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "04d1bbda-c5a7-489e-8391-bd68d18e7367")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a647ee49-aba9-4125-a9c0-8245783c7de7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b93d517c-9dc5-4c4a-88b7-4aca7bd9df0e")
+	)
+	(pad "2" smd rect
+		(at -5 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a43d22d4-c192-4afa-b175-0d5d4249f9ce")
+	)
+	(pad "3" smd rect
+		(at -3 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fbacf628-527e-4bf2-ae00-62faa703b2ac")
+	)
+	(pad "4" smd rect
+		(at -1 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "db1fa613-9b79-4657-aef1-2f82bb1f711a")
+	)
+	(pad "5" smd rect
+		(at 1 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "27468950-a93a-43f4-8c08-fd3fb778fd1c")
+	)
+	(pad "6" smd rect
+		(at 3 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c8a29880-724c-47b7-aba1-7c17710eb934")
+	)
+	(pad "7" smd rect
+		(at 5 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "36adc517-422f-484a-a75f-815ffe894ac6")
+	)
+	(pad "8" smd rect
+		(at 7 -3.85)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ec3474b4-10b9-4978-b0b9-20bc4b0335b7")
+	)
+	(pad "9" smd rect
+		(at -9.3 3.85)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "155500d7-aa16-4e28-80ba-5a9e831e008b")
+	)
+	(pad "9" smd rect
+		(at 9.3 3.85)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6ab5fa70-13b3-4184-a3bb-42e077d9af89")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/HDM-8x2M-SMD-RA_HY2_0-8P.step"
+		(offset
+			(xyz 0 -5.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
