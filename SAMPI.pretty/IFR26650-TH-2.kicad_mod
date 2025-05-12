@@ -1,0 +1,243 @@
+(footprint "IFR26650-TH-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BAT3"
+		(at 0 -14.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "783e1fbb-c14c-4a57-a80c-594c2540ceab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3.2V/3Ah"
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "36f0c771-55af-4566-8764-3c3120d840ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -29.5 -10.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04bd599d-290b-422c-aae0-0180829b6fc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -29.5 -10.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1f708f9-55b5-4f1f-ac4c-a933a183a83b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -32.15 -13)
+		(end -32.15 -8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6aa83ef-f67a-4403-8b24-aa642b7036a4")
+	)
+	(fp_line
+		(start -32.15 -13)
+		(end 33 -13)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb2636cb-93fc-42b6-a8a6-dda6bd255b17")
+	)
+	(fp_line
+		(start -32.15 13)
+		(end -32.15 8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "255491bb-4d67-4a25-81ce-1b01e9a3259f")
+	)
+	(fp_line
+		(start -32.15 13)
+		(end 33 13)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e17baf74-c600-4655-84ab-98a3a7c85229")
+	)
+	(fp_line
+		(start -29 -13)
+		(end -29 -8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4693b84a-f592-41d5-abe5-e76099899cba")
+	)
+	(fp_line
+		(start -29 8)
+		(end -29 13)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74db1e20-508a-4ae2-b75d-3cf311b11856")
+	)
+	(fp_line
+		(start -28 -13)
+		(end -28 -8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b439d63-8c65-4a68-bec8-a39694b2ef9c")
+	)
+	(fp_line
+		(start -28 13)
+		(end -28 8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b1b6c123-3c02-496a-8eff-04ec25a7fd25")
+	)
+	(fp_line
+		(start 33 -13)
+		(end 33 -8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b50cc9dd-3c55-4294-9949-a8a6d80893da")
+	)
+	(fp_line
+		(start 33 13)
+		(end 33 8)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b5af33e-9425-427f-8da2-033cc3b73759")
+	)
+	(fp_line
+		(start -29.9 0)
+		(end 29.9 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1e9e6f4e-50f4-46a6-8e29-1f21af0811eb")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "627e88ea-2541-4396-b3fe-4f733186bafe")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "029ce3f0-b901-4f70-9b23-a8ecffa00194")
+	)
+	(fp_rect
+		(start -35.75 -14)
+		(end 35.75 14)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "58395b14-26f2-4dcf-b29e-031fac47ac00")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ef05efe-bda8-4611-8288-a95fc0bdf4f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "+" smd rect
+		(at -29 0)
+		(size 7.2 15)
+		(drill oval
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14f56c59-7f43-4bc4-8f1a-52c6e393e173")
+	)
+	(pad "-" smd rect
+		(at 29 0 180)
+		(size 7.2 15)
+		(drill oval
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3be33e80-5d78-4140-8ed6-73d5d6e7d865")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/IFR26650.step"
+		(offset
+			(xyz 33 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+)
