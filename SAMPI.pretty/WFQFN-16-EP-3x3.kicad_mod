@@ -1,4 +1,4 @@
-(footprint "Untitled"
+(footprint "WFQFN-16-EP-3x3"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Untitled"
+	(property "Value" "WFQFN-16-EP-3x3"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -157,19 +157,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "db05cfc5-36f0-43b3-8347-54e7b26708e6")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a3ec322d-5ee5-4074-a845-8325e44851ff")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd rect
 		(at -1.475 -0.75)
