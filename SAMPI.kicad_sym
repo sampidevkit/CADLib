@@ -15723,7 +15723,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AVRxxDD20_QFN"
+	(symbol "AVRxxDD28-QFN"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15737,7 +15737,7 @@
 				)
 			)
 		)
-		(property "Value" "AVRxxDD20 QFN"
+		(property "Value" "AVRxxDD28 QFN"
 			(at 0 -1.905 0)
 			(effects
 				(font
@@ -15745,7 +15745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:VQFN-20EP_3x3"
+		(property "Footprint" "SAMPI:VQFN28-4x4-EP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15763,7 +15763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC MCU 8BIT 32KB FLASH 20VQFN"
+		(property "Description" "IC MCU 8BIT 64KB FLASH 28VQFN"
 			(at 0 -1.905 0)
 			(effects
 				(font
@@ -15772,7 +15772,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNP" "AVR32DD20-I/REB"
+		(property "MNP" "AVR64DD28-I/STX"
 			(at 0 -1.905 0)
 			(effects
 				(font
@@ -15790,9 +15790,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "AVRxxDD20_QFN_1_0"
+		(symbol "AVRxxDD28-QFN_1_0"
 			(pin bidirectional line
-				(at -11.43 -5.08 0)
+				(at -17.145 -5.08 0)
 				(length 2.54)
 				(name "PA0/XTAL1"
 					(effects
@@ -15801,7 +15801,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15810,7 +15810,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -7.62 0)
+				(at -17.145 -7.62 0)
 				(length 2.54)
 				(name "PA1/XTAL2"
 					(effects
@@ -15819,7 +15819,7 @@
 						)
 					)
 				)
-				(number "18"
+				(number "27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15828,16 +15828,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -10.16 0)
+				(at -17.145 -10.16 0)
 				(length 2.54)
-				(name "PA2"
+				(name "PA2/AIN22"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15846,16 +15846,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -12.7 0)
+				(at -17.145 -12.7 0)
 				(length 2.54)
-				(name "PA3"
+				(name "PA3/AIN23"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15864,27 +15864,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -17.78 0)
+				(at -17.145 -17.78 0)
 				(length 2.54)
-				(name "PA5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -11.43 -20.32 0)
-				(length 2.54)
-				(name "PA6"
+				(name "PA5/AIN25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15900,9 +15882,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -22.86 0)
+				(at -17.145 -20.32 0)
 				(length 2.54)
-				(name "PA7"
+				(name "PA6/AIN26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15918,9 +15900,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -27.94 0)
+				(at -17.145 -22.86 0)
 				(length 2.54)
-				(name "PC1"
+				(name "PA7/AIN27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15936,9 +15918,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -30.48 0)
+				(at -17.145 -27.94 0)
 				(length 2.54)
-				(name "PC2"
+				(name "PC0/AIN28*"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15954,9 +15936,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -33.02 0)
+				(at -17.145 -30.48 0)
 				(length 2.54)
-				(name "PC3"
+				(name "PC1/AIN29*"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15971,10 +15953,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -11.43 -38.1 0)
+			(pin bidirectional line
+				(at -17.145 -33.02 0)
 				(length 2.54)
-				(name "VDDIO2"
+				(name "PC2/AIN30*"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15990,9 +15972,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -5.08 180)
+				(at -17.145 -35.56 0)
 				(length 2.54)
-				(name "PD4"
+				(name "PC3/AIN31*"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16007,10 +15989,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 10.16 -7.62 180)
+			(pin power_in line
+				(at -17.145 -40.64 0)
 				(length 2.54)
-				(name "PD5"
+				(name "VDDIO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16025,10 +16007,46 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 10.16 -10.16 180)
+			(pin power_in line
+				(at -17.145 -48.26 0)
 				(length 2.54)
-				(name "PD6"
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.145 -50.8 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -5.08 180)
+				(length 2.54)
+				(name "PD1/AIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16044,9 +16062,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -12.7 180)
+				(at 16.51 -7.62 180)
 				(length 2.54)
-				(name "PD7"
+				(name "PD2/AIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16062,9 +16080,45 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -17.78 180)
+				(at 16.51 -10.16 180)
 				(length 2.54)
-				(name "PF6/~{RESET}"
+				(name "PD3/AIN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -12.7 180)
+				(length 2.54)
+				(name "PD4/AIN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -15.24 180)
+				(length 2.54)
+				(name "PD5/AIN5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16080,9 +16134,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -20.32 180)
+				(at 16.51 -17.78 180)
 				(length 2.54)
-				(name "PF7/UPDI"
+				(name "PD6/AIN6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16097,17 +16151,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 10.16 -25.4 180)
+			(pin bidirectional line
+				(at 16.51 -20.32 180)
 				(length 2.54)
-				(name "VDD"
+				(name "PD7/AIN7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16115,17 +16169,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 10.16 -35.56 180)
+			(pin bidirectional line
+				(at 16.51 -27.94 180)
 				(length 2.54)
-				(name "GND"
+				(name "PF0/AIN16/XT32K1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16133,10 +16187,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 10.16 -38.1 180)
+			(pin bidirectional line
+				(at 16.51 -30.48 180)
 				(length 2.54)
-				(name "EP"
+				(name "PF1/AIN17/XT32K2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16151,11 +16205,101 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 16.51 -33.02 180)
+				(length 2.54)
+				(name "PF6/~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -35.56 180)
+				(length 2.54)
+				(name "PF7/UPDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 16.51 -40.64 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -48.26 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -50.8 180)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "AVRxxDD20_QFN_1_1"
+		(symbol "AVRxxDD28-QFN_1_1"
 			(rectangle
-				(start -8.89 -3.175)
-				(end 7.62 -40.005)
+				(start -14.605 -3.175)
+				(end 13.97 -52.705)
 				(stroke
 					(width 0)
 					(type default)
@@ -16165,16 +16309,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -15.24 0)
+				(at -17.145 -15.24 0)
 				(length 2.54)
-				(name "PA4"
+				(name "PA4/AIN24"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64551,6 +64695,75 @@
 						)
 					)
 				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MAX32660-QFN24"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "MAX32660"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "MAX32660GTG+T"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Analog Devices"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(embedded_fonts no)
