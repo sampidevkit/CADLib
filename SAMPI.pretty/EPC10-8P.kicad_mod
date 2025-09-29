@@ -1,0 +1,220 @@
+(footprint "EPC10-8P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d00a0716-d87e-499e-bf37-8cb144d7bff1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EPC10-8P"
+		(at 0 -4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fb715c2a-5f07-4084-8b28-d51a00227fae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -7.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "739faf3b-a490-4f39-9a1d-76d6c859c4d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -7.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "addbfcb2-ca10-4058-829f-fe6f262dc60d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.05 -5.4)
+		(end -4.05 -4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fae4ab4-9cae-4bfe-af09-3ceb94ba4d41")
+	)
+	(fp_line
+		(start -4.05 -5.4)
+		(end -3.05 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2268ea4c-8a22-4460-82c4-cb964e1745fe")
+	)
+	(fp_line
+		(start -4.05 5.4)
+		(end -4.05 -3.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca66b7b5-e582-433f-a81d-f02e67c7bcf6")
+	)
+	(fp_line
+		(start -4.05 5.4)
+		(end 4.05 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75bf6afd-b8ce-4659-83d2-671ac9ecd7ec")
+	)
+	(fp_line
+		(start 4.05 -5.4)
+		(end -2.05 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "245342ae-69a2-4c4e-bb90-f610aefa2a57")
+	)
+	(fp_line
+		(start 4.05 5.4)
+		(end 4.05 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d3e6aab-b2cf-461b-b5b2-5546dc75cd99")
+	)
+	(fp_poly
+		(pts
+			(xy -5.725 -4.3) (xy -5.225 -3.8) (xy -4.725 -4.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "24d6603b-a70a-4ecd-a231-099e3224819c")
+	)
+	(fp_rect
+		(start -6.35 -5.7)
+		(end 6.35 5.7)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "72e70b50-0ec4-42ab-b76d-29e4ca582685")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "247c2c2f-85a2-471d-8472-c6a71365ccad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.25 -3)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7f6fd04d-8baf-45f3-85e8-8720a41027d6")
+	)
+	(pad "2" smd rect
+		(at -5.25 -1)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "338e5e34-723a-45b4-9efe-25b25481f40c")
+	)
+	(pad "3" smd rect
+		(at -5.25 1)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a8325ed4-73c4-4e25-955b-fbbb64d9a5da")
+	)
+	(pad "4" smd rect
+		(at -5.25 3)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d3c65645-e36b-427c-9305-e2527f00b6d6")
+	)
+	(pad "5" smd rect
+		(at 5.25 3)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "70706f68-7a21-4cb6-a118-87653b9e6f73")
+	)
+	(pad "6" smd rect
+		(at 5.25 1)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6d3352e0-6cf2-4ac6-9873-b2be4444ec64")
+	)
+	(pad "7" smd rect
+		(at 5.25 -1)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7d5c42fa-c7c5-4d3b-b5fd-58de44977398")
+	)
+	(pad "8" smd rect
+		(at 5.25 -3)
+		(size 1.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f16cee50-21da-4739-a989-69929297e5ad")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/EPC10-8P.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
