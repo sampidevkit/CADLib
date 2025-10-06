@@ -1,0 +1,136 @@
+(footprint "HLK-20Mxx-57x33x22.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -17.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5443ddba-4c5b-4e56-a494-0cc9f0adefa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HLK-20Mxx-57x33x22.5"
+		(at 0 -16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a3dbeed-c9a0-4966-ac62-3488fb305d4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -25.55 -9.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fec653ed-1ee8-4650-a79a-43a5e5121bbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -25.55 -9.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ab83957-0489-4aa6-9b36-5dcfd954541d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -28.75 -16.75)
+		(end 28.75 16.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "529c3e96-2183-4739-b487-c6108d5a47e8")
+	)
+	(fp_rect
+		(start -29.05 -17.05)
+		(end 29.05 17.05)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2f80b2f1-c32d-4181-88d9-cd0693eb2bf5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3268bad-8d02-4377-a98d-48d1741bb9fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -25.5 -4.5)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "161a7ad9-3f76-4892-a601-dbfbeeeb26fa")
+	)
+	(pad "2" thru_hole circle
+		(at -25.5 4.5)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7cc6245e-3acd-4884-a353-cf8cee97b07f")
+	)
+	(pad "3" thru_hole circle
+		(at 25.5 -13.5)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6758d466-d843-4fcd-9f34-49baddd4fb7d")
+	)
+	(pad "4" thru_hole circle
+		(at 25.5 13.5)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "067fa791-7d5e-48e8-9339-70edb29881bd")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/HLK-20Mxx-57x33x22.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
