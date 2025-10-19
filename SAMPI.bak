@@ -58603,17 +58603,17 @@
 			)
 		)
 		(symbol "ISO154x_1_0"
-			(pin input line
+			(pin bidirectional line
 				(at -11.43 -5.08 0)
 				(length 2.54)
-				(name "INA"
+				(name "SDA1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58624,14 +58624,14 @@
 			(pin input line
 				(at -11.43 -7.62 0)
 				(length 2.54)
-				(name "INB"
+				(name "SCL1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58649,7 +58649,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58660,14 +58660,14 @@
 			(pin output line
 				(at 11.43 -5.08 180)
 				(length 2.54)
-				(name "OUTA"
+				(name "SDA2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58678,14 +58678,14 @@
 			(pin output line
 				(at 11.43 -7.62 180)
 				(length 2.54)
-				(name "OUTB"
+				(name "SCL2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58703,7 +58703,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58721,7 +58721,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58780,18 +58780,6 @@
 			(polyline
 				(pts
 					(xy 0.635 -4.445) (xy 0.635 -5.715) (xy -0.635 -5.08) (xy 0.635 -4.445)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 -8.255) (xy 0.635 -6.985) (xy -0.635 -7.62) (xy 0.635 -8.255)
 				)
 				(stroke
 					(width 0)
@@ -85293,6 +85281,75 @@
 						)
 					)
 				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RECCONN"
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "REC CONN"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN FEMALE SOCKET 14POS IDC GOLD 1.27x1.27MM"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "3230-14-0102-00"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "CNC Tech"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(embedded_fonts no)
