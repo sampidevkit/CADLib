@@ -1,0 +1,226 @@
+(footprint "DFN3810-9L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5ca68f9-613f-49df-97b7-93499b124ae1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DFN3810-9L"
+		(at 0 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9fd39b98-e228-4dcf-b072-cb328814c16d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.25 -9.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdc8b5c2-6685-4894-8f7e-75abc89c85a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.25 -9.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "006ef791-9a33-468c-ae4c-d28d02a33764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -0.5)
+		(end -1.9 -0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a46e8c57-0d28-4c97-84bc-29ff3d651f27")
+	)
+	(fp_line
+		(start -1.7 -0.5)
+		(end -1.9 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca5aa4ed-1e6e-4ce6-8d53-2de0b5b51f9c")
+	)
+	(fp_line
+		(start -1.2 0.5)
+		(end -1.3 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7340c4e1-95cd-498d-a175-f2392259a218")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end -0.9 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3b499bfd-cb1b-4e65-ab10-3be6947a9985")
+	)
+	(fp_line
+		(start 0.9 -0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "73d9d170-eb6a-46cf-b305-86fdb52adea5")
+	)
+	(fp_line
+		(start 1.3 0.5)
+		(end 1.2 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "48fc39c6-d099-452c-94d3-f151700c5db0")
+	)
+	(fp_line
+		(start 1.9 -0.5)
+		(end 1.7 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "978be289-3bda-4413-b4f9-f4aecac57f6d")
+	)
+	(fp_line
+		(start 1.9 -0.5)
+		(end 1.9 -0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b8109b6-5bc8-4256-ad96-0096c6bf6558")
+	)
+	(fp_rect
+		(start -2.2 -1.1)
+		(end 2.2 1.1)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c0ce1d1e-cad4-43ef-984d-e2aadc7a61c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "460509ac-e43b-4b43-937c-f00b842d72ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1ba3a071-1a89-47fa-a270-81037f819b18")
+	)
+	(pad "2" smd rect
+		(at -0.8 0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88244c39-cd5d-4b21-89d0-c07232eab01a")
+	)
+	(pad "3" smd rect
+		(at 0 0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e2ae161-e248-4a5a-a98e-8abc12544ce9")
+	)
+	(pad "4" smd rect
+		(at 0.8 0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e54ecb65-19cb-41c1-a688-e8d09af1d790")
+	)
+	(pad "5" smd rect
+		(at 1.7 0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "314fa96b-a11b-4122-b790-8b1a7fe5187a")
+	)
+	(pad "6" smd rect
+		(at 1.3 -0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18556883-af4d-4dff-b282-59c64df434f3")
+	)
+	(pad "7" smd rect
+		(at 0.4 -0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00b7cc0c-2d83-4772-a2be-2b1d57e790dd")
+	)
+	(pad "8" smd rect
+		(at -0.4 -0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f6802bb-d109-4dbe-9e55-2fdadd74bf47")
+	)
+	(pad "9" smd rect
+		(at -1.3 -0.475)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e04df381-2617-435c-8890-4e1d4e5bc6ec")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/DFN3810-9L.stp"
+		(offset
+			(xyz 164.38 -60 136.95)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)
