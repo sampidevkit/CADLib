@@ -1,4 +1,4 @@
-(footprint "SCREWHOLE-2.5M"
+(footprint "SCREWHOLE-3.5M"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SCREWHOLE-2.5M"
+	(property "Value" "SCREWHOLE-3.5M"
 		(at -0.3 -4.35 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
@@ -76,10 +76,10 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 2.25 0)
+		(end 2.75 0)
 		(stroke
 			(width 0.01)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
@@ -87,8 +87,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 2.5 2.5)
-		(drill 2.5)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(solder_mask_margin 1)
 		(clearance 1)
