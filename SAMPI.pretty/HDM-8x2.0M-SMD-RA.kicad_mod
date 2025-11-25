@@ -116,18 +116,19 @@
 		(layer "F.Fab")
 		(uuid "04d1bbda-c5a7-489e-8391-bd68d18e7367")
 	)
-	(fp_text user "${REFERENCE}"
-		(at -0.1 -5.1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a647ee49-aba9-4125-a9c0-8245783c7de7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+	(pad "0" smd rect
+		(at -9.3 3.85)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "155500d7-aa16-4e28-80ba-5a9e831e008b")
+	)
+	(pad "0" smd rect
+		(at 9.3 3.85)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6ab5fa70-13b3-4184-a3bb-42e077d9af89")
 	)
 	(pad "1" smd rect
 		(at -7 -3.85)
@@ -184,20 +185,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "ec3474b4-10b9-4978-b0b9-20bc4b0335b7")
-	)
-	(pad "9" smd rect
-		(at -9.3 3.85)
-		(size 1.5 3.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "155500d7-aa16-4e28-80ba-5a9e831e008b")
-	)
-	(pad "9" smd rect
-		(at 9.3 3.85)
-		(size 1.5 3.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "6ab5fa70-13b3-4184-a3bb-42e077d9af89")
 	)
 	(embedded_fonts no)
 	(model "${KICAD7_3DMODEL_DIR}/HDM-8x2M-SMD-RA_HY2_0-8P.step"

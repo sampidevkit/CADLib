@@ -168,6 +168,20 @@
 		(layer "F.Fab")
 		(uuid "c770260f-69f6-40ae-abce-995d37d885b1")
 	)
+	(pad "0" smd rect
+		(at -11.35 2.95)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b8861c3f-441d-4b77-925a-f1bef27999d6")
+	)
+	(pad "0" smd rect
+		(at 11.35 2.95)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b7ee18ad-18cc-4bf3-b594-58bac3346c3b")
+	)
 	(pad "1" smd rect
 		(at -9 -2.8)
 		(size 1 3.5)
@@ -237,20 +251,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "8e02af68-a238-4340-8128-30aa3c8d2ccb")
-	)
-	(pad "11" smd rect
-		(at -11.35 2.95)
-		(size 1.5 3.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "b8861c3f-441d-4b77-925a-f1bef27999d6")
-	)
-	(pad "11" smd rect
-		(at 11.35 2.95)
-		(size 1.5 3.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "b7ee18ad-18cc-4bf3-b594-58bac3346c3b")
 	)
 	(embedded_fonts no)
 	(model "${SAMPI_3DMODEL_DIR}/CI0110MxHR0.STEP"
