@@ -1,0 +1,141 @@
+(footprint "LED-3MM-THRA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36b35346-f37a-43d6-b3fa-92cfe0670442")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-3MM-THRA"
+		(at 0 -4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43572dad-4a24-491b-8f1e-2910807278a5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.27 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d24b75c-33ad-4fce-81fb-d56dacce12af")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.27 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1973449-0e96-4ba4-a832-b1c1e9c0269f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.975 -6)
+		(end 1.975 -5)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "22cc3bfe-a0cb-472b-bd73-4daac1a2ea33")
+	)
+	(fp_rect
+		(start -1.52 -5)
+		(end -1.02 -1.1)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9e77b087-22cd-4474-986b-5a802abd4c5b")
+	)
+	(fp_rect
+		(start -1.5 -8.5)
+		(end 1.5 -6)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a290eddc-4b9c-46bd-ac5c-79cb2133cd52")
+	)
+	(fp_rect
+		(start 1.02 -5)
+		(end 1.52 -1.1)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bb19a5c2-b009-45d4-8e43-aa000923152c")
+	)
+	(fp_arc
+		(start -1.5 -8.5)
+		(mid 0 -10)
+		(end 1.5 -8.5)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a07c966f-8882-4f28-8bb2-b3c4632b16f3")
+	)
+	(pad "A" thru_hole rect
+		(at -1.27 0)
+		(size 1.6 1.6)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a45b4ac6-6156-4a93-b460-b98ab09837a3")
+	)
+	(pad "K" thru_hole circle
+		(at 1.27 0)
+		(size 1.6 1.6)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "92ebd50a-2289-40bb-a597-54ed5d2b9085")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/LED-3MM-THRA.stp"
+		(offset
+			(xyz 0 5 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 90)
+		)
+	)
+)
