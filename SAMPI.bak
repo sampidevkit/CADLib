@@ -16288,8 +16288,8 @@
 		)
 		(symbol "ATTINY202_1_1"
 			(rectangle
-				(start 0 -3.175)
-				(end 19.05 -14.605)
+				(start -10.16 -3.175)
+				(end 8.89 -14.605)
 				(stroke
 					(width 0)
 					(type solid)
@@ -16299,7 +16299,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -5.08 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -16317,7 +16317,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -7.62 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -16335,7 +16335,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -10.16 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "PA7"
 					(effects
@@ -16353,7 +16353,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -12.7 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "PA1"
 					(effects
@@ -16371,7 +16371,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -5.08 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -16389,7 +16389,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -7.62 180)
+				(at 11.43 -7.62 180)
 				(length 2.54)
 				(name "PA3/EXTCLK"
 					(effects
@@ -16407,7 +16407,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -10.16 180)
+				(at 11.43 -10.16 180)
 				(length 2.54)
 				(name "PA0/~{RESET}/UPDI"
 					(effects
@@ -16425,7 +16425,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -12.7 180)
+				(at 11.43 -12.7 180)
 				(length 2.54)
 				(name "PA2"
 					(effects
