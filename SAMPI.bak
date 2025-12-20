@@ -67013,6 +67013,388 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "LM66200"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "PWR SW"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:SOT-583"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OR CONTROLLER N+1 ORING CONTROLLER N-CHANNEL 2:1 SOT-583"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "LM66200DRLR"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Texas Instruments"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM66200_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy -1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -7.62) (xy -1.27 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -5.08) (xy 0.635 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -7.62) (xy 0.635 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LM66200_1_1"
+			(rectangle
+				(start -6.35 -3.175)
+				(end 6.35 -17.145)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -4.445) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -6.985) (xy -1.27 -8.255) (xy -0.635 -7.62) (xy -1.27 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -4.445) (xy -0.635 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -6.985) (xy -0.635 -8.255)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.61 -6.38)
+				(radius 0.2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -5.08) (xy 0.635 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -6.35) (xy 1.905 -6.35) (xy 3.175 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 -6.35) (xy 4.445 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.21 -6.38)
+				(radius 0.2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "VI1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -7.62 0)
+				(length 2.54)
+				(name "VI2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -12.7 0)
+				(length 2.54)
+				(name "~{ON}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -12.7 180)
+				(length 2.54)
+				(name "ST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -15.24 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LM74502"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -104347,6 +104729,349 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TPS2116"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "PWR MUX"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:SOT-583"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "POWER SWITCH/DRIVER 2:1 N-CHANNEL 2.5A SOT-583"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "TPS2116DRLR"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "TI"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS2116_1_1"
+			(rectangle
+				(start -6.35 -3.175)
+				(end 6.35 -29.845)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -5.08) (xy 0.635 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -27.94) (xy -0.635 -27.94) (xy -0.635 -7.62) (xy 0.635 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -5.08) (xy 2.54 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.762 -5.08)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0.762 -7.62)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 -4.826) (xy 2.032 -4.826) (xy 2.032 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -7.874) (xy 2.286 -8.128) (xy 2.032 -8.128)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -6.35) (xy 3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -6.35)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 2.286 -8.128)
+				(mid 1.4752 -6.5296)
+				(end 2.032 -4.826)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "VI1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -15.24 0)
+				(length 2.54)
+				(name "PR1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -27.94 0)
+				(length 2.54)
+				(name "VI2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -22.86 180)
+				(length 2.54)
+				(name "ST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -25.4 180)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -27.94 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TPS3435C"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -118351,7 +119076,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at -20.955 1.27 0)
 			(effects
 				(font
@@ -118410,8 +119135,27 @@
 				(hide yes)
 			)
 		)
+		(property "Isd" "6uA"
+			(at -22.225 -71.12 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "MFT" "Microchip"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "WBZ451_0_0"
-			(pin unspecified line
+			(pin power_in line
 				(at -26.035 -1.905 0)
 				(length 3.81)
 				(name "VDD"
@@ -118429,7 +119173,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -26.035 -4.445 0)
 				(length 3.81)
 				(name "VDD"
@@ -118447,7 +119191,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -26.035 -62.865 0)
 				(length 3.81)
 				(name "GND"
@@ -118465,7 +119209,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -26.035 -65.405 0)
 				(length 3.81)
 				(name "GND"
@@ -118483,7 +119227,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -26.035 -67.945 0)
 				(length 3.81)
 				(name "EGND"
@@ -118501,7 +119245,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 38.1 -60.325 180)
 				(length 3.81)
 				(name "GND"
@@ -118519,7 +119263,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 38.1 -62.865 180)
 				(length 3.81)
 				(name "GND"
@@ -118537,7 +119281,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 38.1 -65.405 180)
 				(length 3.81)
 				(name "GND"
@@ -118555,7 +119299,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 38.1 -67.945 180)
 				(length 3.81)
 				(name "GND"
@@ -118575,7 +119319,7 @@
 			)
 		)
 		(symbol "WBZ451_1_0"
-			(pin unspecified line
+			(pin power_in line
 				(at -26.035 -6.985 0)
 				(length 3.81)
 				(name "VDDA"
@@ -118593,7 +119337,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -19.685 0)
 				(length 3.81)
 				(name "PB9/SWDIO"
@@ -118611,7 +119355,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -22.225 0)
 				(length 3.81)
 				(name "PB8/SWCLK"
@@ -118629,7 +119373,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -24.765 0)
 				(length 3.81)
 				(name "PB7/AN3/LVDIN/SWO"
@@ -118647,7 +119391,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -26.035 -29.845 0)
 				(length 3.81)
 				(name "~{MCLR}"
@@ -118665,7 +119409,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -42.545 0)
 				(length 3.81)
 				(name "PB0/AN4/AC_AIN2/COEXCTRL2"
@@ -118683,7 +119427,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -45.085 0)
 				(length 3.81)
 				(name "PB1/AN5/AC_AIN3"
@@ -118701,7 +119445,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -47.625 0)
 				(length 3.81)
 				(name "PB2/AN6/AC_AIN0"
@@ -118719,7 +119463,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -50.165 0)
 				(length 3.81)
 				(name "PB3/AN7/AC_AIN1"
@@ -118737,7 +119481,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -52.705 0)
 				(length 3.81)
 				(name "PB4/AN0/INT0/FECTRL3"
@@ -118755,7 +119499,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -55.245 0)
 				(length 3.81)
 				(name "PB5/AN1/FECTRL4"
@@ -118773,7 +119517,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -26.035 -57.785 0)
 				(length 3.81)
 				(name "PB6/ANN0,AN2/FECTRL5"
@@ -118791,7 +119535,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -1.905 180)
 				(length 3.81)
 				(name "PA2/RTC_IN1/AC_CMP0"
@@ -118809,7 +119553,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -4.445 180)
 				(length 3.81)
 				(name "PA3/RTC_IN0/SCLKI/SERCOM0_PAD2"
@@ -118827,7 +119571,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -6.985 180)
 				(length 3.81)
 				(name "PA4/RTC_OUT/SERCOM0_PAD3"
@@ -118845,7 +119589,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -9.525 180)
 				(length 3.81)
 				(name "PA5/SERCOM0_PAD0"
@@ -118863,7 +119607,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -12.065 180)
 				(length 3.81)
 				(name "PA6/AC_CMP1_ALT/SERCOM0_PAD1"
@@ -118881,7 +119625,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -14.605 180)
 				(length 3.81)
 				(name "PA7/SERCOM1_PAD0"
@@ -118899,7 +119643,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -17.145 180)
 				(length 3.81)
 				(name "PA8/FECTRL0/SERCOM1_PAD1"
@@ -118917,7 +119661,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -19.685 180)
 				(length 3.81)
 				(name "PA9/RTC_IN0_ALT/FECTRL1/SERCOM1_PAD2"
@@ -118935,7 +119679,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -22.225 180)
 				(length 3.81)
 				(name "PA10/RTC_OUT_ALT_/FECTRL2/SERCOM1_PAD3"
@@ -118953,10 +119697,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 38.1 -24.765 180)
 				(length 3.81)
-				(name "PA11/SOSCI"
+				(name "PA11(IN)/SOSCI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118971,10 +119715,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 38.1 -27.305 180)
 				(length 3.81)
-				(name "PA12/SOSCO"
+				(name "PA12(IN)/SOSCO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118989,7 +119733,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -29.845 180)
 				(length 3.81)
 				(name "PA13/COEXCTRL0/SERCOM2_PAD0"
@@ -119007,7 +119751,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -32.385 180)
 				(length 3.81)
 				(name "PA14/COEXCTRL1/SERCOM2_PAD1"
@@ -119025,7 +119769,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -40.005 180)
 				(length 3.81)
 				(name "PB10/QSPI_CS"
@@ -119043,7 +119787,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -42.545 180)
 				(length 3.81)
 				(name "PB11/QSPI_SCK"
@@ -119061,7 +119805,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -45.085 180)
 				(length 3.81)
 				(name "PB12/QSPI_DATA0"
@@ -119079,7 +119823,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -47.625 180)
 				(length 3.81)
 				(name "PB13/QSPI_DATA1/RTCC_EVENT"
@@ -119097,7 +119841,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -50.165 180)
 				(length 3.81)
 				(name "PA0/QSPI_DATA2/RTC_IN3"
@@ -119115,7 +119859,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 38.1 -52.705 180)
 				(length 3.81)
 				(name "PA1/QSPI_DATA3/RTC_IN2/AC_CMP1"
