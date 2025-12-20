@@ -1,0 +1,200 @@
+(footprint "ER14505-2PT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "P?"
+		(at -0.005 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "181538de-10a4-49e4-87da-ec9926d07c1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "ER14505-2PT"
+		(at -25.245 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24fc484e-ff18-4f29-9d2c-93eacc12b24e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -25.245 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a34a2f1-e073-48d4-a727-d7ec0cc00540")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -25.245 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49e14f51-66c5-4a5a-b7fa-d049eee18083")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -25.255 -7.5)
+		(end 25.255 -7.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d8bb05d-9ddd-479b-861a-0c8a788e00a6")
+	)
+	(fp_line
+		(start -25.255 -1.8)
+		(end -25.255 -7.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14c1c682-4ae1-4828-99ae-4f6b958b60bb")
+	)
+	(fp_line
+		(start -25.255 7.5)
+		(end -25.255 1.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e616df39-d83b-413e-ad91-52129f9aebcc")
+	)
+	(fp_line
+		(start -20.255 -7.5)
+		(end -20.255 7.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7a13ae6-6d27-4465-bb2c-b8701bf658ff")
+	)
+	(fp_line
+		(start -19.255 -7.5)
+		(end -19.255 7.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "007ea49c-05b9-4527-880d-1ecb07f1844d")
+	)
+	(fp_line
+		(start 25.255 -7.51)
+		(end 25.255 -1.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7316e57b-1c66-499c-b2f2-a37813f4043a")
+	)
+	(fp_line
+		(start 25.255 1.8)
+		(end 25.255 7.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3eeeef43-04e1-41a8-9238-51b9e023cbfc")
+	)
+	(fp_line
+		(start 25.255 7.5)
+		(end -25.255 7.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f00ac86-1187-4438-b910-ca026a2357be")
+	)
+	(fp_rect
+		(start -26.55 -7.8)
+		(end 26.55 7.8)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "28fa72fb-5c03-4102-8ebf-9944867b9b0b")
+	)
+	(pad "+" thru_hole roundrect
+		(at -25.255 0)
+		(size 2 3)
+		(drill oval 0.7 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "88a77f29-38e0-4db3-8fa7-a188c3c32b97")
+	)
+	(pad "-" thru_hole roundrect
+		(at 25.255 0)
+		(size 2 3)
+		(drill oval 0.7 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "326ac6da-43b6-4f83-8bad-32d9247e8fe7")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/Batt-ER14505.STEP"
+		(offset
+			(xyz 25.255 0 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 90 90)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/Batt-PT.stp"
+		(offset
+			(xyz -25.445 0 2.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 90)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/Batt-PT.stp"
+		(offset
+			(xyz 25.255 0 2.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 90)
+		)
+	)
+)
