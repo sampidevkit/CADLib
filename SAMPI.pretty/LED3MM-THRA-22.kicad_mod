@@ -1,0 +1,318 @@
+(footprint "LED3MM-THRA-22"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f13fd8d8-7d6f-4e02-8b69-dfab81af7160")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED3MM-THRA-22"
+		(at 0 -10.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef8b1a17-b88b-4e73-ad37-8e4af95968a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.05 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e946766-a9a4-4539-9dc0-9ccb3d89b797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.05 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ec92663-5d75-42f3-9ff2-6e2923a49bcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -2)
+		(end -1.5 -5.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c3f2f40-30d5-4464-86f7-4c38e17673f6")
+	)
+	(fp_line
+		(start -1.495 -1.1)
+		(end -1.495 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f135d3e-ffbb-4bb7-a54b-537771d2115e")
+	)
+	(fp_line
+		(start -1.045 -2)
+		(end -1.045 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0025c05d-9bb7-4360-8d49-ad86eb61d7ff")
+	)
+	(fp_line
+		(start -1.045 -1.1)
+		(end -1.495 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "363d45a5-e226-417b-accb-0fe60447f95e")
+	)
+	(fp_line
+		(start 1.045 -1.1)
+		(end 1.045 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "badcef2f-4ce8-47fe-892a-2ca8212fe013")
+	)
+	(fp_line
+		(start 1.495 -2)
+		(end 1.495 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80496e66-de75-4bef-8c26-8c49a0372892")
+	)
+	(fp_line
+		(start 1.495 -1.1)
+		(end 1.045 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0af66456-5b89-496b-8fb9-aa0767335124")
+	)
+	(fp_line
+		(start 1.5 -5.8)
+		(end 1.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "972a1378-37cc-4a5d-9ec0-78ca6cf26c9b")
+	)
+	(fp_line
+		(start 1.5 -3)
+		(end 2 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1328b5c5-1141-4187-8aae-1b33ebbf087a")
+	)
+	(fp_line
+		(start 2 -3)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1010bc90-957a-4a88-98cc-bdbf68c04da9")
+	)
+	(fp_line
+		(start 2 -2)
+		(end -1.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0ddfba4-8e4d-47c7-b8b5-a5771f3457c2")
+	)
+	(fp_arc
+		(start -1.5 -5.8)
+		(mid 0 -7.3)
+		(end 1.5 -5.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd2010c4-c19a-4e59-b284-71ead247603b")
+	)
+	(fp_rect
+		(start -1.5 -5.8)
+		(end 1.5 -3)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "28ae1228-fd32-4097-85af-f46abfa24e22")
+	)
+	(fp_rect
+		(start -1.5 -3)
+		(end 1.5 -2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6a5977bd-dfed-4537-a50b-284e787bc859")
+	)
+	(fp_rect
+		(start -1.495 -2)
+		(end -1.045 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6777ca2-8778-4c24-a5c2-6ff1b1b08852")
+	)
+	(fp_rect
+		(start 1.045 -2)
+		(end 1.495 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "193293a6-3597-44cd-8e72-07b6f9e75d82")
+	)
+	(fp_rect
+		(start 1.5 -3)
+		(end 2 -2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bf927d3a-952a-4308-9c13-eda437abc316")
+	)
+	(fp_arc
+		(start -1.5 -5.8)
+		(mid 0 -7.3)
+		(end 1.5 -5.8)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f8cba0fe-efc7-417c-af5e-7306f2417ee5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da4eb470-2b59-40c7-b36e-4a32ab0dbea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" thru_hole roundrect
+		(at -1.27 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "e5a9552f-8787-4f39-a4ff-ae0e4453eca4")
+	)
+	(pad "K" thru_hole circle
+		(at 1.27 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5654848a-78eb-485b-a291-e600da3cb761")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/LED3MM-THRA-ORG2.stp"
+		(offset
+			(xyz 0 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/LED3MM-THRA-RED2.stp"
+		(offset
+			(xyz 0 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/LED3MM-THRA-GRN2.stp"
+		(offset
+			(xyz 0 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/LED3MM-THRA-YEL2.stp"
+		(offset
+			(xyz 0 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
