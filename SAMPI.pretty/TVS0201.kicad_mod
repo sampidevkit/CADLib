@@ -1,0 +1,106 @@
+(footprint "TVS0201"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b5bf51f-6742-40c9-ba7c-90d94c7167ce")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TVS0201"
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ee90dfe-3821-46ff-af8a-45cca0f13caa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6aa95b3a-ceca-4d0d-9de6-35d25c2c5fd1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56ea9712-5ce6-4c5c-961b-824996e50e0a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.425 -0.2)
+		(end 0.425 0.2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fd516ed5-1a37-4eb9-90c7-9ace99aeb075")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34f59c8f-8aa8-49e2-92ed-5377932b8dd0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.225 0)
+		(size 0.256 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e277cf7-d5fa-4ec8-b927-3015221ae4b9")
+	)
+	(pad "2" smd rect
+		(at 0.225 0)
+		(size 0.256 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ae37ea0-35b8-409a-b32b-7eb884a0fe87")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/TVS0201.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,255 @@
+(footprint "VAR_B72207S2321K101"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "RV1"
+		(at 0 3.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "09d3704c-acf1-4fd0-8930-eee72220265e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "360V/1.2kA"
+		(at -0.01 3.37 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b62bae52-1310-41d7-884a-d2cedd9fc113")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97e2ca69-a7b4-4061-b5d6-7f102e4dc173")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "VARISTOR T/H DISC7 TYP360V 1.2KA 17J 1-CH"
+		(at 94.64 59.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55dda544-250c-4f2c-af39-524755a7bff0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFT" "EPCO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e6b94c4-6d4f-4446-9801-c187be51b822")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MNP" "B72207S0231K311"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f0ec95a-99c2-46e8-ae4c-2f6c6733ab9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8021ce54-1711-448c-8cca-bfbb387fde51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -2.3)
+		(end -4.5 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bc980fe-5a4f-467d-89a1-fb2633b27c1d")
+	)
+	(fp_line
+		(start -4.5 -2.3)
+		(end 4.5 -2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab204d2c-5efb-4579-8a8a-8b40786b958f")
+	)
+	(fp_line
+		(start -4.5 2.3)
+		(end 4.5 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "340984a6-316d-49fe-8a45-3e432cf39a38")
+	)
+	(fp_line
+		(start 4.5 -2.3)
+		(end 4.5 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65a7465c-c134-4eb9-9e5a-5c7937409b54")
+	)
+	(fp_line
+		(start -4.75 -2.55)
+		(end -4.75 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99caac8b-0ab8-4ea5-91e8-a58cdfe11d4e")
+	)
+	(fp_line
+		(start -4.75 -2.55)
+		(end 4.75 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1cdf3c8-094c-42da-bf06-1e143dafe8f8")
+	)
+	(fp_line
+		(start 4.75 -2.55)
+		(end 4.75 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb73924a-1b7b-4d7f-a60b-057daf77620c")
+	)
+	(fp_line
+		(start 4.75 2.55)
+		(end -4.75 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f98d0b2b-eee4-497e-8933-f7e652859c9a")
+	)
+	(fp_line
+		(start -4.5 -2.3)
+		(end -4.5 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2005bb01-5fdc-4e87-8c1f-a3f6a78baba4")
+	)
+	(fp_line
+		(start -4.5 -2.3)
+		(end 4.5 -2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6942e1b9-88fd-4527-a779-436d545e1211")
+	)
+	(fp_line
+		(start 4.5 -2.3)
+		(end 4.5 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d38a155d-4624-48dd-bd72-714a032ca538")
+	)
+	(fp_line
+		(start 4.5 2.3)
+		(end -4.5 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7d123a7-0394-470c-8b38-ccd312d78949")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be37c9a3-1d81-4974-9985-29d342e1d90c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -0.95)
+		(size 1.2 1.2)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0655981-3bd9-4236-8dbe-0000abff1d3b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0.95)
+		(size 1.2 1.2)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "790a073e-ebb2-41a9-b2bd-cf9380fc8c93")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/My_3D/MOV-07D470K.STEP"
+		(offset
+			(xyz 0 0 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

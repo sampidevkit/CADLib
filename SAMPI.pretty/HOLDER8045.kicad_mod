@@ -1,0 +1,92 @@
+(footprint "HOLDER8045"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84e9a234-16cf-41e7-ab58-1e4c5da501c2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HOLDER8045"
+		(at 0 -5.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc27f75f-bc02-448e-8f6c-65f9eea427f8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.15 -6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3af2b693-6dcf-470c-9d92-57c95c11825d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.15 -6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f4aad6-5505-4a80-ad24-d43128c3764a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5 -3.25)
+		(end 5 3.25)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bf0b6da6-ddc0-4f26-93d2-9b8d41e7c375")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f0de4a9-11ba-42d3-97e5-fa33ac95f441")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 8 4.5)
+		(drill oval 8 4.5)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1)
+		(clearance 1)
+		(uuid "5d2fea94-156d-49b6-ab6b-c0976115fa59")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,425 @@
+(footprint "RPDBG_TESTPIN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "faa7519b-609b-49e2-b209-1ed33df3f3d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RPDBG_TESTPIN"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c91fedd-797d-4a5e-94f8-1891335898ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -3.069268 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "297cc9ee-0ac2-4a9b-adf5-a34798edc8e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -3.069268 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2124e64-c0c6-4635-aeb7-5ed0e1146af6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -3.069268 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e6bf387-690c-45ac-a144-50591e503ded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.301768 0)
+		(end 5.301768 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e6168181-b2cc-4b40-8601-3a4f49226a5c")
+	)
+	(fp_rect
+		(start -5.3 -3.4)
+		(end 5.3 3.4)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dbfb83ff-0714-411d-a98b-e35cf4f0e4eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4900dc1f-adc8-4ad0-be66-f6f3a58d8d09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 4.748232 -2.540732)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "b4c445c2-f4e2-42ca-806b-7357f6b93a65")
+	)
+	(pad "2" smd custom
+		(at 4.748232 -2.540732)
+		(size 0.45 1.05)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "aacad90c-b039-46da-a0ec-69e46d78adcd")
+	)
+	(pad "3" smd custom
+		(at 4.748232 -1.270732)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "537162c0-d53e-43f7-9847-72fbd05ae367")
+	)
+	(pad "4" smd custom
+		(at 4.748232 -1.270732)
+		(size 0.45 1.05)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "09941621-b9e6-4ef9-a959-3798d15bc37b")
+	)
+	(pad "5" smd custom
+		(at 4.748232 -0.000732)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "becdcb4f-2f54-48a7-b71d-e469c2451399")
+	)
+	(pad "6" smd custom
+		(at 4.748232 -0.000732)
+		(size 0.45 1.05)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "d00d279c-68a6-4fa0-af26-cfbf42688a39")
+	)
+	(pad "7" smd custom
+		(at 4.748232 1.269268)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "84fac6a4-64e0-41d1-b005-b08490d260cc")
+	)
+	(pad "8" smd custom
+		(at 4.748232 1.269268)
+		(size 0.45 1.05)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "522b02f0-64f6-486b-ba94-17ff45e1a48a")
+	)
+	(pad "9" smd custom
+		(at 4.748232 2.539268)
+		(size 0.45 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "eaa96431-7b43-488b-bd41-50de7da50b87")
+	)
+	(pad "10" smd custom
+		(at 4.748232 2.539268)
+		(size 0.45 1.05)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -9.75 -0.525) (xy -9.75 -0.225) (xy -0.25 -0.225) (xy -0.25 0.225) (xy -9.75 0.225) (xy -9.75 0.525)
+					(xy 0.25 0.525) (xy 0.25 -0.525)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "fd1e3f7e-4db3-49f0-ad75-d3105006a898")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 0 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 0 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 1.27 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 1.27 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 2.54 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 2.54 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 -1.27 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 -1.27 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 -2.54 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/TOP050W05.stp"
+		(offset
+			(xyz -32.5 -2.54 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+)

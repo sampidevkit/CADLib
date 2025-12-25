@@ -1,0 +1,235 @@
+(footprint "LED0603-0805-1206-1210"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "14d15875-181d-4223-86b2-9480883da80c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED0603-0805-1206-1210"
+		(at 0 -0.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec354d83-e4f0-4c74-9e1f-566de6c4c883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e064a337-a3f9-40af-9d1e-aab130c5f6e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "615b84c4-8171-4d01-9260-d7c16dd99116")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1.2)
+		(end 0.7 -1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "541102f4-05f5-4512-ab2c-2c39d4121ab0")
+	)
+	(fp_line
+		(start -0.7 1.2)
+		(end 0.7 1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b263d42d-22e0-4e04-bf0d-2ac587230c95")
+	)
+	(fp_poly
+		(pts
+			(xy -0.1 0.5) (xy 0.1 0) (xy -0.1 -0.5)
+		)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a54f8ffe-f6a6-4aa8-afff-be39485e5eed")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "74f6524f-f370-4298-8509-dceda878db79")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "28ddb71f-f54d-4ce2-bf10-ad4a9b75dcf8")
+	)
+	(fp_rect
+		(start -2.3 -1.7)
+		(end 2.3 1.7)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "18e61bdd-ae4d-43d0-9688-06ededd5a5b5")
+	)
+	(fp_rect
+		(start -1.6 -1.2)
+		(end 1.6 1.2)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e3f07b1a-5822-4aaa-bf0c-66d3a9ee4c8f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4841850b-1308-4716-8ae8-51b7aa09a637")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd custom
+		(at -1.5 0 180)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.15 -0.4) (xy -1.15 0.4) (xy -1 0.4) (xy -1 0.65) (xy -0.5 0.65) (xy -0.5 1.4) (xy 0.5 1.4)
+					(xy 0.5 -1.4) (xy -0.5 -1.4) (xy -0.5 -0.65) (xy -1 -0.65) (xy -1 -0.4)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "19a00c81-3c8d-4e01-b8e0-6fde9655dcae")
+	)
+	(pad "K" smd custom
+		(at 1.5 0)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.15 -0.4) (xy -1.15 0.4) (xy -1 0.4) (xy -1 0.65) (xy -0.5 0.65) (xy -0.5 1.4) (xy 0.5 1.4)
+					(xy 0.5 -1.4) (xy -0.5 -1.4) (xy -0.5 -0.65) (xy -1 -0.65) (xy -1 -0.4)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "2c7144ca-55a3-4edc-ba38-0ac052302a84")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/LED_IR_1206.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/LED_0603_WS.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/IR-1210.stp"
+		(offset
+			(xyz 142.15 352.61 0.46)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

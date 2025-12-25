@@ -1,0 +1,161 @@
+(footprint "VSON04Z1114A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.01 -4.45 0)
+		(layer "F.SilkS")
+		(uuid "c29e9cef-374a-42f3-9c56-b51b9a003b32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VSON04Z1114A_ROM"
+		(at 0.61 -2.95 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c1fd05cc-9182-44c1-89a5-ca9ad67d0c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80e26787-4a15-4d9d-aa8c-dc073771b485")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7d8533c-bb8c-4a50-809f-db439fce36ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f279f569-d70f-438a-b746-6a2f8f1a0a42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.7 -0.65)
+		(end 0.7 -0.65)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "feb5de76-b18c-47b9-ad25-3ead31b990d8")
+	)
+	(fp_line
+		(start -0.7 0.65)
+		(end -0.3 0.65)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9360c1e-9a82-4bb6-a6b3-5da70a293591")
+	)
+	(fp_line
+		(start 0.3 0.65)
+		(end 0.7 0.65)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f28767ef-7c92-45ce-b7e0-7057a484dd86")
+	)
+	(fp_rect
+		(start -0.7 -0.55)
+		(end 0.7 0.55)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f8362322-b650-4f69-911d-c06e83ab8d5d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb87d084-a837-4ca6-b52f-7ff464b2e0d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7493 0.254)
+		(size 0.5 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cd538233-bda6-49e8-a496-bb5761ddb001")
+	)
+	(pad "2" smd rect
+		(at 0.7493 0.254)
+		(size 0.5 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f47d3fbd-91dd-4021-b811-4d5db22d9136")
+	)
+	(pad "3" smd rect
+		(at 0.7493 -0.254)
+		(size 0.5 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d83914c4-ee90-448b-b7b6-e54fd62d3179")
+	)
+	(pad "4" smd rect
+		(at -0.7493 -0.254)
+		(size 0.5 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3b18fa05-c58b-4bf6-8609-bd781404419d")
+	)
+	(pad "5" smd rect
+		(at 0 0)
+		(size 0.6096 0.8128)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90954622-ade6-476b-b672-2933e68dc12b")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/My_3D/VSON04Z1114A_ROM_Edited.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

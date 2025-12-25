@@ -1,0 +1,213 @@
+(footprint "DFN3x3-10L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e2ed796d-6acf-4238-a4dd-68c7bd559570")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DFN3x3-10L"
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8a7ed65-711d-4c16-bbc7-aca51ffad6cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30c78dcc-b6cd-4b00-a56f-f18d8bf33f89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82f6dbdf-1f39-4b51-931b-de7f8b0f06bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f17ba48b-9ba4-482d-bd12-b09ffae12719")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.55 -1.5)
+		(end -1.55 0.500001)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "edcc1c86-7933-431c-b38a-9068a89c2c4a")
+	)
+	(fp_line
+		(start -1.55 1.5)
+		(end -1.55 1)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9c3c979-d2ac-40e9-99fe-1917b94e652b")
+	)
+	(fp_line
+		(start 1.55 -1.5)
+		(end 1.55 1.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa82fc94-ad55-4251-81c1-38975333917b")
+	)
+	(fp_rect
+		(start -1.95 -2.1)
+		(end 1.95 2.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a3652843-099a-477b-b993-940de2320b0f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6b4d82c-7c5e-4792-91c3-b320a05aac33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "826617f1-4e9a-4388-94ea-1ebce9d4755f")
+	)
+	(pad "2" smd rect
+		(at -0.5 1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "21156994-4b73-49c8-8a3e-c552ae3ccf1a")
+	)
+	(pad "3" smd rect
+		(at 0 1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "48be4edf-c7f7-4cda-ad78-295846e51afb")
+	)
+	(pad "4" smd rect
+		(at 0.5 1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8b80a14f-9010-4f25-ba5d-9ebd71bab772")
+	)
+	(pad "5" smd rect
+		(at 1 1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8af1b252-91e6-4e7e-9631-155e218dbce7")
+	)
+	(pad "6" smd rect
+		(at 1 -1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8aaccc67-d9fe-4b17-a9fd-3a5d071361a4")
+	)
+	(pad "7" smd rect
+		(at 0.5 -1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "813da21b-5b30-4b30-bf75-bf4f9c7ce76f")
+	)
+	(pad "8" smd rect
+		(at 0 -1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "58029d2c-d555-4d54-9c3d-8838b02458e2")
+	)
+	(pad "9" smd rect
+		(at -0.5 -1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8b39668f-7dac-44ea-9ae9-25cb33ffe8ca")
+	)
+	(pad "10" smd rect
+		(at -1 -1.45)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "85f14049-2d5a-47fa-b88b-0a43c7ad217d")
+	)
+	(pad "11" smd rect
+		(at 0 0)
+		(size 2.5 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c72687c9-6814-4925-ad82-06b65ed6c245")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/DFN3x3-10L.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,86 @@
+(footprint "RCT-0C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b61fd94e-4a49-48e2-ab36-72414cef4891")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RCT-0C"
+		(at 0 -0.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22903a78-58ee-4032-b566-acaabc56168a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c7d7dbb-cb65-412f-8254-c558744c77dc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6ade963-8a3c-4867-aa75-96b432a8b545")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.45 -1.075)
+		(end 1.45 1.075)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "67a0216a-a1cc-40ca-9b6f-2f18744fdef5")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.3 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dec816ce-d871-4881-b93a-42aff854840d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/RCT-0C.STEP"
+		(offset
+			(xyz 0 0 0.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

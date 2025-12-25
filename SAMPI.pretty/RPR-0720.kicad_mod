@@ -1,0 +1,228 @@
+(footprint "RPR-0720"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9eddfb07-b563-4cba-b680-5be30c9dd18a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RPR-0720"
+		(at 0 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "359e26c9-4f30-465e-a35e-e882edac84cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c5b3f13-748c-4a3f-b41f-c95c9a86bf4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32afbc9b-0565-4b8b-a3fb-6ae25f192b87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fa40a54-5eb0-4119-b7aa-d35dbd6a89f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -0.85)
+		(end -1.35 0.85)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf4f3b54-c4b8-4571-a336-04a758334ada")
+	)
+	(fp_line
+		(start -1.35 -0.85)
+		(end -0.75 -0.85)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2806f6d8-583c-431d-b9fa-2db537471725")
+	)
+	(fp_line
+		(start -1.35 0.85)
+		(end -0.75 0.85)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "46167185-9784-4830-ac8f-dff6a42e993b")
+	)
+	(fp_line
+		(start 0 -0.85)
+		(end 1.35 -0.85)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4ff8c1d-cdaf-44b0-8b10-e07f1c812323")
+	)
+	(fp_line
+		(start 1.35 -0.85)
+		(end 1.35 0.85)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f3906e6-edd5-40e1-9983-df6d31861cce")
+	)
+	(fp_line
+		(start 1.35 0.85)
+		(end 0 0.85)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b2c3a0f-a65a-4a4a-bd51-02bd0dbb7592")
+	)
+	(fp_line
+		(start -0.1 0.1)
+		(end 0.1 -0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6393193d-f7ed-42c6-9567-3fd9d9e120f9")
+	)
+	(fp_line
+		(start 0.1 0.1)
+		(end -0.1 -0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "da21c0e5-604a-4871-8967-690f1dc5cd22")
+	)
+	(fp_rect
+		(start -1.6 -1.1)
+		(end 1.6 1.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b90c6716-33a6-4de0-a6e0-a308c1f76d71")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d3d7e30-548b-402f-9680-da2d63910ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0.35)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ce42f4c5-bdb1-4eb8-998c-01aef47b2961")
+	)
+	(pad "2" smd rect
+		(at 0 0.35)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c4b1483e-48b6-47ba-af2f-014996c04d18")
+	)
+	(pad "3" smd rect
+		(at 0.8 0.35)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7164e095-23f4-45a8-801c-298c77c8d9d4")
+	)
+	(pad "4" smd rect
+		(at 0.8 -0.35)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "99e68667-e3ab-41f1-b436-6dad2631d8e6")
+	)
+	(pad "5" smd rect
+		(at 0 -0.35)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b90e2912-0967-4e5f-9d65-8a5d91fe5785")
+	)
+	(pad "6" smd rect
+		(at -0.8 -0.35)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c61b2f45-d19b-49b7-9e88-e195d7ede3ca")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/My_3D/RPR-0720.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,208 @@
+(footprint "TSSOP14-4.4MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29644b80-a7df-4fbb-ac4b-ba2f75d02a2e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSSOP14-4.4MM"
+		(at 0.05 -2.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b99027ca-c6ec-443f-9bd9-9dfc6fd3153f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.05 -3.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e496fce9-6c46-4b08-baf8-4fc56a284d62")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.05 -3.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfe834b8-b300-4e8e-996b-b54044627c5b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.2)
+		(end -2.5 0.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b69f16c-f9fa-43a5-b663-765e5336932e")
+	)
+	(fp_line
+		(start -2.5 2.2)
+		(end -2.5 1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66b0e264-c6ba-4bdb-b2c7-375d130ee742")
+	)
+	(fp_line
+		(start 2.5 -2.2)
+		(end 2.5 2.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "703712f7-2296-459b-b245-0099d23bb1d0")
+	)
+	(fp_rect
+		(start -2.9 -4)
+		(end 2.9 4)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ee54d1dc-5d44-4f5f-b337-318a4d828b04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -1.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "269aeb9a-c063-438c-8436-4ee5734d9be2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.95 2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4751352-4c20-4122-b561-6856fc636abc")
+	)
+	(pad "2" smd rect
+		(at -1.3 2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69093cc3-dc9f-40be-a816-0cb995ce3f93")
+	)
+	(pad "3" smd rect
+		(at -0.65 2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5bb74cf7-b68c-4902-a3b3-6ef13475b776")
+	)
+	(pad "4" smd rect
+		(at 0 2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ce2e018-476c-40ce-89ab-092afed2ff8f")
+	)
+	(pad "5" smd rect
+		(at 0.65 2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6427674-cf27-429b-96a3-287b86516fa0")
+	)
+	(pad "6" smd rect
+		(at 1.3 2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac525d24-5181-4118-b79b-6aa5e60bbe7f")
+	)
+	(pad "7" smd rect
+		(at 1.95 2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5704b055-5d02-4cb6-acc8-08c1937cbd74")
+	)
+	(pad "8" smd rect
+		(at 1.95 -2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c14197c-8ac5-4ea1-9e7b-70046b474eaa")
+	)
+	(pad "9" smd rect
+		(at 1.3 -2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df4d25f1-07f7-49f7-99b5-4c8fee8a68af")
+	)
+	(pad "10" smd rect
+		(at 0.65 -2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f400ab0-1a14-4f88-88d8-5083a165b614")
+	)
+	(pad "11" smd rect
+		(at 0 -2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86527f56-ca9c-426e-9b4e-b4e32e49c40a")
+	)
+	(pad "12" smd rect
+		(at -0.65 -2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a75109d6-b8f4-4b60-a250-8de4b9e9321e")
+	)
+	(pad "13" smd rect
+		(at -1.3 -2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c9372ca-cc85-47de-8c76-15ca8130c191")
+	)
+	(pad "14" smd rect
+		(at -1.95 -2.95)
+		(size 0.45 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b596843-349e-4ac6-aa0a-d2400293f1c3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
