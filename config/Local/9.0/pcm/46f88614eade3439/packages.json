@@ -1514,13 +1514,13 @@
             "type": "plugin",
             "versions": [
                 {
-                    "download_sha256": "0dc6ad2fbd9e0be58cf2be029979871fe12b437416047b537aa57f9410eab290",
-                    "download_size": 20797,
-                    "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/5.1.0/JLC-Plugin-for-KiCad-5.1.0.zip",
-                    "install_size": 55836,
+                    "download_sha256": "4561b8feeeb37446caabeb815bc56b6e863760604bd1342781bccc91c767077a",
+                    "download_size": 21235,
+                    "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/5.2.0/JLC-Plugin-for-KiCad-5.2.0.zip",
+                    "install_size": 58037,
                     "kicad_version": "6.00",
                     "status": "stable",
-                    "version": "5.1.0"
+                    "version": "5.2.0"
                 },
                 {
                     "download_sha256": "2285113715d24d6e581ee1bee4c8e2fd92ad92bc72737e1dd05f7c05210e0e67",
@@ -1852,6 +1852,36 @@
             ],
             "type": "plugin",
             "versions": [
+                {
+                    "download_sha256": "0eeafd1093962bf8fc18a38cbabd0ad9af64c0ad2d30e5a222a541e7adde92ff",
+                    "download_size": 51943,
+                    "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v9.0-0.7.0/kicad-action-scripts_v9.0-0.7.0.zip",
+                    "install_size": 296475,
+                    "kicad_version": "9.0",
+                    "kicad_version_max": "9.0",
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ],
+                    "status": "stable",
+                    "version": "9.0.7"
+                },
+                {
+                    "download_sha256": "9b3768f085eaf0bc3ab7e96dd161f3d63580ab0057e1c572c5334d70d3158114",
+                    "download_size": 51954,
+                    "download_url": "https://github.com/jsreynaud/kicad-action-scripts/releases/download/v9.0-0.6.0/kicad-action-scripts_v9.0-0.6.0.zip",
+                    "install_size": 296521,
+                    "kicad_version": "9.0",
+                    "kicad_version_max": "9.0",
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ],
+                    "status": "stable",
+                    "version": "9.0.6"
+                },
                 {
                     "download_sha256": "79f0c0b4b0a2d99d1606a3d391139eba3b9990447a9a23f8d9c3fccab0d861c0",
                     "download_size": 51689,
@@ -2441,6 +2471,15 @@
             "type": "plugin",
             "versions": [
                 {
+                    "download_sha256": "2ee18b679a833761030dc8726681004782254f9fa480ee9275687ee795554db5",
+                    "download_size": 170315,
+                    "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.10.18/Import-LIB-KiCad-Plugin.zip",
+                    "install_size": 791309,
+                    "kicad_version": "8.0.4",
+                    "status": "stable",
+                    "version": "2025.10.18"
+                },
+                {
                     "download_sha256": "f8113ff67d74ffb92b736a3bf48752e5d62ba14bae558e3579ea61131054901e",
                     "download_size": 169367,
                     "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.08.25/Import-LIB-KiCad-Plugin.zip",
@@ -2878,13 +2917,13 @@
             "type": "plugin",
             "versions": [
                 {
-                    "download_sha256": "ca4a8fa9ce43bdf498a57cc956dd0d861b86e6bf477664fcfadf82144108cf12",
-                    "download_size": 26647,
-                    "download_url": "https://github.com/sparkfun/SparkFun_KiCad_Panelizer/releases/download/v1.4.0/SparkFunKiCadPanelizer-1.4.0-pcm.zip",
-                    "install_size": 107242,
+                    "download_sha256": "cd4aa8641fc75ab1d73a68f4ba442f3314478cd0b47ac6597120a3f7eb452a03",
+                    "download_size": 26709,
+                    "download_url": "https://github.com/sparkfun/SparkFun_KiCad_Panelizer/releases/download/v1.4.1/SparkFunKiCadPanelizer-1.4.1-pcm.zip",
+                    "install_size": 107409,
                     "kicad_version": "7.0",
                     "status": "stable",
-                    "version": "1.4.0"
+                    "version": "1.4.1"
                 }
             ]
         },
@@ -3130,6 +3169,20 @@
             "type": "plugin",
             "versions": [
                 {
+                    "download_sha256": "0c5bfa43bc72b77d86c9d69d667813079022d7419c48f085864e6e8e0b18193f",
+                    "download_size": 24460,
+                    "download_url": "https://github.com/DIaLOGIKa-GmbH/kicad-coil-creator/releases/download/v2.1.3/coil_creator_v2.1.3.zip",
+                    "install_size": 54166,
+                    "kicad_version": "8.00",
+                    "platforms": [
+                        "linux",
+                        "macos",
+                        "windows"
+                    ],
+                    "status": "stable",
+                    "version": "2.1.3"
+                },
+                {
                     "download_sha256": "824ed7f50e244f3b56a4a748e41e88b8413bd583b88c6c84c57802646deb7761",
                     "download_size": 24351,
                     "download_url": "https://github.com/DIaLOGIKa-GmbH/kicad-coil-creator/releases/download/v2.1.2/coil_creator_v2.1.2.zip",
@@ -3229,13 +3282,13 @@
             "type": "plugin",
             "versions": [
                 {
-                    "download_sha256": "73d18769319eb9e40a18f4740162837279f1deae0b9f4911525a71f48781bb63",
-                    "download_size": 15665,
-                    "download_url": "https://github.com/sparkfun/SparkFun_KiCad_CAMmer/releases/download/v1.2.0/SparkFunKiCadCAMmer-1.2.0-pcm.zip",
+                    "download_sha256": "7ba7599f5bc4076b87adcbb206085a2e969870d53e2153a0f9f1d1d1472f1c31",
+                    "download_size": 15670,
+                    "download_url": "https://github.com/sparkfun/SparkFun_KiCad_CAMmer/releases/download/v1.2.1/SparkFunKiCadCAMmer-1.2.1-pcm.zip",
                     "install_size": 42259,
                     "kicad_version": "7.0",
                     "status": "stable",
-                    "version": "1.2.0"
+                    "version": "1.2.1"
                 }
             ]
         },
@@ -3417,6 +3470,16 @@
             },
             "type": "plugin",
             "versions": [
+                {
+                    "download_sha256": "1600133bafa55fe422e830ca00003030e2a828ec5dc41cbcf77a4059d0f100c1",
+                    "download_size": 19685,
+                    "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.17.1-k9.0-b4.2lts/pcb2blender_exporter_v2-17-1_k9-0.zip",
+                    "install_size": 40162,
+                    "kicad_version": "9.0",
+                    "kicad_version_max": "9.0",
+                    "status": "stable",
+                    "version": "2.17.1"
+                },
                 {
                     "download_sha256": "cc4a8e1735f99c50eee67307153921d8cf683622f0e1f3e46abf2fa49821e257",
                     "download_size": 19637,
@@ -3653,6 +3716,15 @@
             },
             "type": "plugin",
             "versions": [
+                {
+                    "download_sha256": "963a6e32f24f9a921979136e07fa2fa66a825fa7fdb752fe798378381a09b39e",
+                    "download_size": 47059,
+                    "download_url": "https://pcm.kivar.markh.de/kivar-0.5.2-pcm.zip",
+                    "install_size": 121197,
+                    "kicad_version": "8.0",
+                    "status": "stable",
+                    "version": "0.5.2"
+                },
                 {
                     "download_sha256": "6a270a16c9f97bb848f92ca2bdad8a22f1be3632817459ae632e9b0c760e5c29",
                     "download_size": 47060,
@@ -4033,6 +4105,15 @@
             "type": "plugin",
             "versions": [
                 {
+                    "download_sha256": "3f5dfc51322968cc0415d469bf38c382f72fe874abe59c7f800caa99eb52dc95",
+                    "download_size": 13670,
+                    "download_url": "https://github.com/TheJigsApp/kicad-parts-placer-pcm/releases/download/v0.1.14/kicad-parts-placer-0.1.14-pcm.zip",
+                    "install_size": 31010,
+                    "kicad_version": "8.0",
+                    "status": "stable",
+                    "version": "0.1.14"
+                },
+                {
                     "download_sha256": "a42e7e17f16f7a89bbc77d08e414f89a806e46dab84d58cc64c045a298ec3c11",
                     "download_size": 13656,
                     "download_url": "https://github.com/TheJigsApp/kicad-parts-placer-pcm/releases/download/v0.1.13/kicad-parts-placer-0.1.13-pcm.zip",
@@ -4153,7 +4234,7 @@
                 "name": "jacmie"
             },
             "description": "Positioning & Orientation of footprints in the PCB Editor",
-            "description_full": "Positioning & Orientation of footprints in the PCB Editor\n- get footprints position and orientation\n- work interactively, drag footprints and update data table\n- go on the list to the footprint selected in the PCB editor\n- set new position and orientation and update PCB editor\n- sort data in the table by the columns\n- save/open position and orientation configuration files\n- check log for changes\n- GUI highlighting and tooltips",
+            "description_full": "Positioning & Orientation of footprints in the PCB Editor\n- get footprints position and orientation\n- work interactively, drag footprints and update data table\n- go on the list to the footprint selected in the PCB editor\n- work with footprints groups\n- set new position and orientation and update PCB editor\n- sort data in the table by the columns\n- save/open position and orientation configuration files\n- check log for changes\n- GUI highlighting and tooltips",
             "identifier": "com.github.jacmie.PosOrient",
             "license": "GPL-3.0",
             "maintainer": {
@@ -4174,6 +4255,15 @@
             ],
             "type": "plugin",
             "versions": [
+                {
+                    "download_sha256": "5ce834fe72f557bd57357add48823d5b88012511370904c102d22afbf0e2312b",
+                    "download_size": 14300,
+                    "download_url": "https://github.com/jacmie/PosOrient/releases/download/v2.0.0/PosOrient_v2.0.0.zip",
+                    "install_size": 43547,
+                    "kicad_version": "8.0",
+                    "status": "stable",
+                    "version": "2.0.0"
+                },
                 {
                     "download_sha256": "ab9c2f5b5f262701301af5b47a7fd7d450eaccaa52d40c185273d86e4d5a60ce",
                     "download_size": 9300,
@@ -4449,6 +4539,340 @@
                     "kicad_version": "9.0",
                     "status": "stable",
                     "version": "1.0.0"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "github": "https://github.com/sagarHackeD"
+                },
+                "name": "Sagar Naik"
+            },
+            "description": "Snap all selected footprints to the nearest grid point",
+            "description_full": "Snap all selected footprints to the nearest grid point. This is useful for quickly aligning multiple footprints to a grid.",
+            "identifier": "com.github.sagarHackeD.SnapToGridKiCAD",
+            "license": "GPL-3.0",
+            "maintainer": {
+                "contact": {
+                    "github": "https://github.com/sagarHackeD"
+                },
+                "name": "Sagar Naik"
+            },
+            "name": "Snap To Grid",
+            "resources": {
+                "homepage": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD"
+            },
+            "tags": [
+                "snap",
+                "footprint",
+                "grid"
+            ],
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "236bbeaaab77988f716dd7d467bffe30ea00eb3c5f3ad7374795fa2191e19087",
+                    "download_size": 9592,
+                    "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.1/kicad-package.zip",
+                    "install_size": 11223,
+                    "kicad_version": "6.0",
+                    "status": "stable",
+                    "version": "1.0.1"
+                },
+                {
+                    "download_sha256": "fdb60cdda0c448c43811bc34354a7e7b0d0fe36c3f92af974e4ebe2dd353f783",
+                    "download_size": 8897,
+                    "download_url": "https://github.com/sagarHackeD/Snap_To_Grid_KiCAD/releases/download/v1.0.0/kicad-package.zip",
+                    "install_size": 10130,
+                    "kicad_version": "6.0",
+                    "status": "stable",
+                    "version": "1.0.0"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "github": "https://github.com/dragonmux"
+                },
+                "name": "Rachel Mant"
+            },
+            "description": "dragonmux' dark theme",
+            "description_full": "A dark theme designed by dragonmux",
+            "identifier": "network.dragonmux.dragonmux",
+            "license": "CC0-1.0",
+            "maintainer": {
+                "contact": {
+                    "github": "https://github.com/dragonmux"
+                },
+                "name": "Rachel Mant"
+            },
+            "name": "dragonmux (Dark)",
+            "resources": {
+                "GitHub": "https://github.com/dragonmux/kicad-dragonmux-theme"
+            },
+            "type": "colortheme",
+            "versions": [
+                {
+                    "download_sha256": "a30dbbc9a169371995e262c44bdd787ce6f66f26790f717d53f754782be578f8",
+                    "download_size": 7332,
+                    "download_url": "https://github.com/dragonmux/kicad-dragonmux-theme/releases/download/2025.09.26/kicad-dragonmux-theme.zip",
+                    "install_size": 13185,
+                    "kicad_version": "9.0",
+                    "status": "stable",
+                    "version": "2025.09.26"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "github": "https://github.com/BatNoize"
+                },
+                "name": "BatNoize"
+            },
+            "description": "Customized dial scale frontpanel footprints.",
+            "description_full": "Customized dial scale frontpanel footprints. Users can input various parameters in the dialog to define the characteristics of the dial scale, such as hole configuration, tick marks, arc fill, center handle, and help circle for orientation.",
+            "identifier": "com.github.BatNoize.Dial-Scale-FrontPanel-Footprint-Wizard",
+            "license": "GPL-3.0",
+            "maintainer": {
+                "contact": {
+                    "github": "https://github.com/BatNoize"
+                },
+                "name": "BatNoize"
+            },
+            "name": "Dial Scale FrontPanel Footprint Wizard",
+            "resources": {
+                "homepage": "https://github.com/BatNoize/Dial-Scale-FrontPanel-Footprint-Wizard"
+            },
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "888d53577450e7908d5f31b294047c8d0b9e18702fa31f2bae9e5daf2b9abece",
+                    "download_size": 22701,
+                    "download_url": "https://github.com/BatNoize/Dial-Scale-FrontPanel-Footprint-Wizard/releases/download/0.2.0/Dial_Scale_FrontPanel_FootprintWizard_0.2.0.zip",
+                    "install_size": 95955,
+                    "kicad_version": "8.00",
+                    "status": "stable",
+                    "version": "0.2.0"
+                },
+                {
+                    "download_sha256": "4049789f407a68d715d14c8fd81a249a5038816715d9d597501592c939c402bf",
+                    "download_size": 15831,
+                    "download_url": "https://github.com/BatNoize/Dial-Scale-FrontPanel-Footprint-Wizard/releases/download/0.1.0/Dial_Scale_FrontPanel_FootprintWizard_0.1.0.zip",
+                    "install_size": 52575,
+                    "kicad_version": "8.00",
+                    "status": "stable",
+                    "version": "0.1.0"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "github": "https://github.com/sparkfun",
+                    "twitter": "https://twitter.com/sparkfun",
+                    "web": "https://sparkfun.com"
+                },
+                "name": "SparkFun"
+            },
+            "description": "SparkFun's Libraries for KiCad 7 / 8 / 9",
+            "description_full": "This library contains SparkFun's commonly used parts.\nIt is a cultivated combination of KiCad stock parts, SparkFun-unique footprints, and open-source 3D models.\n\nCheck your settings in Preferences -> Packages and Updates.\nIf you have the default Library nickname prefix 'PCM_', you can proceed to install the libraries through the PCM.\nIf you don't want that prefix, leave that field blank and install the libraries from zip file instead.\nThe installation link below has more details.",
+            "identifier": "com.github.sparkfun.SparkFun-KiCad-Libraries",
+            "license": "CC-BY-4.0",
+            "maintainer": {
+                "contact": {
+                    "github": "https://github.com/sparkfun",
+                    "twitter": "https://twitter.com/sparkfun",
+                    "web": "https://sparkfun.com"
+                },
+                "name": "SparkFun"
+            },
+            "name": "SparkFun KiCad Libraries",
+            "resources": {
+                "homepage": "https://github.com/sparkfun/SparkFun-KiCad-Libraries",
+                "installation": "https://github.com/sparkfun/SparkFun-KiCad-Libraries#installing-and-using-these-libraries"
+            },
+            "type": "library",
+            "versions": [
+                {
+                    "download_sha256": "87119b9f2152413ebf943fe6261338483143636c3c075bee856c2d0a999d58bb",
+                    "download_size": 34532916,
+                    "download_url": "https://github.com/sparkfun/SparkFun-KiCad-Libraries/releases/download/v9.0.0/SparkFun-KiCad-Libraries-9.0.0-with-pcm.zip",
+                    "install_size": 205743035,
+                    "kicad_version": "7.0",
+                    "status": "stable",
+                    "version": "9.0.0"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "web": "https://github.com/ymich9963"
+                },
+                "name": "Yiannis Michael"
+            },
+            "description": "Net Class Clearance Matrix.",
+            "description_full": "A matrix table GUI to add custom rule clearances between different net classes.",
+            "identifier": "com.github.Mage-Control-Systems-Ltd.NCCM",
+            "license": "GPL-3.0",
+            "maintainer": {
+                "contact": {
+                    "web": "https://github.com/ymich9963"
+                },
+                "name": "Yiannis Michael"
+            },
+            "name": "Net Class Clearance Matrix (NCCM)",
+            "resources": {
+                "homepage": "https://github.com/Mage-Control-Systems-Ltd/NCCM"
+            },
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "a1f5802dab8610601ae42018e3505024a226bf4558be5bc184a0e60270ca9887",
+                    "download_size": 11922,
+                    "download_url": "https://github.com/Mage-Control-Systems-Ltd/NCCM/releases/download/v0.1.2/nccm-archive0.1.2.zip",
+                    "install_size": 29132,
+                    "kicad_version": "9.0",
+                    "runtime": "ipc",
+                    "status": "stable",
+                    "version": "0.1.2"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "github": "https://github.com/sagarHackeD"
+                },
+                "name": "Sagar Naik"
+            },
+            "description": "Plugin to place footprints in PCB from schematic positions.",
+            "description_full": "Place By Sch is a KiCad plugin that allows users to place footprints in the PCB layout based on their positions in the schematic. This tool helps streamline the PCB design process by ensuring that components are positioned logically and efficiently according to the schematic layout. It is particularly useful for complex designs where manual placement can be time-consuming and error-prone.",
+            "identifier": "com.github.sagarHackeD.PlaceBySchKiCad",
+            "license": "GPL-3.0",
+            "maintainer": {
+                "contact": {
+                    "github": "https://github.com/sagarHackeD"
+                },
+                "name": "Sagar Naik"
+            },
+            "name": "Place By Sch",
+            "resources": {
+                "homepage": "https://github.com/sagarHackeD/Place_By_Sch_KiCad"
+            },
+            "tags": [
+                "shematics",
+                "placement",
+                "grid",
+                "footprint",
+                "snap",
+                "pcb",
+                "layout"
+            ],
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "52935962cbfe6557ce3852253af3d5d41f8634a5e4e02658e674d5c536ee3804",
+                    "download_size": 13119,
+                    "download_url": "https://github.com/sagarHackeD/Place_By_Sch_KiCad/releases/download/v1.0.0/kicad-package.zip",
+                    "install_size": 22092,
+                    "kicad_version": "6.0",
+                    "status": "stable",
+                    "version": "1.0.0"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "web": "https://jaseg.de/"
+                },
+                "name": "jaseg"
+            },
+            "description": "Planar inductor supporting spiral coils, toroidal coils, and hybrids",
+            "description_full": "KiCoil generates planar inductors as footprints. Currently, circular spiral and toroid inductors are supported. KiCoil supports arbitrary intermediates between spiral and toroid inductors. By playing around with this, you can create inductors that have lower parasitics and higher self-resonant frequency than standard multilayer spiral inductors.",
+            "identifier": "de.jaseg.kicoil",
+            "license": "Apache-2.0",
+            "name": "KiCoil",
+            "resources": {
+                "git": "https://git.jaseg.de/kicoil",
+                "homepage": "https://jaseg.de/projects/kicoil",
+                "issues": "https://codeberg.org/jaseg/kicoil/issues"
+            },
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "8c1f66c91fab315d76d640da1d197463412e4ee3d855428c37a5c66414b26b76",
+                    "download_size": 38942,
+                    "download_url": "https://git.jaseg.de/kimesh.git/plain/de.jaseg.kicoil-v0.9.0.zip?h=v0.9.0",
+                    "install_size": 119659,
+                    "kicad_version": "9.00",
+                    "status": "stable",
+                    "version": "0.9.0"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "web": "https://fabacademy.org"
+                },
+                "name": "Krisjanis Rijnieks and Fab Academy Community"
+            },
+            "description": "KiCad component library compatible with the Fab Inventory",
+            "description_full": "FabLib makes it easy to produce PCBs at a standard Fab Lab. There are more than 2k Fab Labs in the world and many of them will have electronics components from the official Fab Inventory. The goal of FabLib is to have 1:1 mapping with the parts from the Fab Inventory which reduces friction when learning electronics and boosts confidence when prototyping rapidly at a Fab Lab.",
+            "identifier": "org.fabcloud.gitlab.electronics.kicad",
+            "license": "CC-BY-4.0",
+            "maintainer": {
+                "contact": {
+                    "web": "https://rijnieks.com"
+                },
+                "name": "Krisjanis Rijnieks"
+            },
+            "name": "KiCad FabLib",
+            "resources": {
+                "GitLab": "https://gitlab.fabcloud.org/pub/libraries/electronics/kicad"
+            },
+            "type": "library",
+            "versions": [
+                {
+                    "download_sha256": "3a68e0ee3f5cad12d875e2635eec59f088c1f8cb8de3a6ec9d3e83584593d126",
+                    "download_size": 1983615,
+                    "download_url": "https://gitlab.fabcloud.org/pub/libraries/electronics/kicad/-/jobs/artifacts/v0.0.1/raw/release-assets/kicad-fablib_0.0.1.zip?job=release",
+                    "install_size": 10080293,
+                    "kicad_version": "9.0",
+                    "status": "stable",
+                    "version": "0.0.1"
+                }
+            ]
+        },
+        {
+            "author": {
+                "contact": {
+                    "web": "https://pcbtools.xyz"
+                },
+                "name": "PCBtools.xyz"
+            },
+            "description": "Smart Engineering Notes for KiCad 9+ with Smart-Link, time tracking, and PDF export",
+            "description_full": "KiNotes brings engineering notes directly inside KiCad pcbnew — with zero friction.\n\nFeatures:\n• Smart-Link: Click R1, U3, C5 → highlights component on PCB\n• Click net names (VCC, GND, SDA) → highlights traces\n• Hover tooltips show Value, MPN, Layer\n• Visual WYSIWYG editor (Notion-like)\n• Dark/Light themes with custom colors\n• Auto-save (never lose work)\n• Task list with time tracking\n• Export to PDF\n• Git-friendly .kinotes/ folder storage\n\nBuilt for KiCad 9.0+ by PCBtools.xyz",
+            "identifier": "com.pcbtools.kinotes",
+            "license": "Apache-2.0",
+            "name": "KiNotes",
+            "resources": {
+                "homepage": "https://github.com/way2pramil/KiNotes"
+            },
+            "type": "plugin",
+            "versions": [
+                {
+                    "download_sha256": "e158b954ab252803ab4b8fa9f913a22b57581c2e781fc87cff528f344c9c4887",
+                    "download_size": 165478,
+                    "download_url": "https://github.com/way2pramil/KiNotes/releases/download/v1.5.0/KiNotes-1.5.0-pcm.zip",
+                    "install_size": 668325,
+                    "kicad_version": "9.0",
+                    "status": "stable",
+                    "version": "1.5.0"
                 }
             ]
         }

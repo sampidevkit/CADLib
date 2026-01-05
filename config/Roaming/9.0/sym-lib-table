@@ -228,5 +228,5 @@
   (lib (name "TUANLIB")(type "KiCad")(uri "${RP_LIB_DIR}/symbols/TUANLIB.kicad_sym")(options "")(descr ""))
   (lib (name "My_Library")(type "KiCad")(uri "${RP_LIB_DIR}/symbols/My_Library.kicad_sym")(options "")(descr ""))
   (lib (name "Liem")(type "KiCad")(uri "${RP_LIB_DIR}/symbols/Liem.kicad_sym")(options "")(descr ""))
-  (lib (name "TrietLIB")(type "KiCad")(uri "${RP_LIB_DIR}/symbols/Triet_KiCAD_Sym/Triet_KiCAD_Sym.kicad_sym")(options "")(descr ""))
+  (lib (name "TrietLIB")(type "KiCad")(uri "${RP_LIB_DIR}/symbols/Triet_KiCAD_Sym/Triet_KiCAD_Sym.kicad_sym")(options "")(descr "")(disabled)(hidden))
 )

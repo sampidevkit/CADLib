@@ -149,6 +149,6 @@
   (lib (name "SAMPI")(type "KiCad")(uri "${SAMPI_LIB_DIR}/SAMPI.pretty")(options "1")(descr "SAMPI"))
   (lib (name "My_Library")(type "KiCad")(uri "${RP_LIB_DIR}/footprints/My_Library.pretty")(options "1")(descr "My_Library"))
   (lib (name "tuanlib")(type "KiCad")(uri "${RP_LIB_DIR}/footprints/tuanlib.pretty")(options "1")(descr "tuanlib"))
-  (lib (name "Triet_KiCAD_Fprint")(type "KiCad")(uri "${RP_LIB_DIR}/footprints/Triet_KiCAD_Fprint.pretty")(options "1")(descr "Triet_KiCAD_Fprint"))
+  (lib (name "Triet_KiCAD_Fprint")(type "KiCad")(uri "${RP_LIB_DIR}/footprints/Triet_KiCAD_Fprint.pretty")(options "1")(descr "Triet_KiCAD_Fprint")(disabled))
   (lib (name "Liem")(type "KiCad")(uri "${RP_LIB_DIR}/footprints/Liem.pretty")(options "1")(descr "Liem"))
 )
