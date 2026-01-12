@@ -68959,6 +68959,288 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "LS0502SCD33S"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "LS0502SCD33S"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:DFN3x3-10L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SINGLE CELL SUPERCAP PROTECTION"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "LS0502SCD33S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Littelfuse Inc"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LS0502SCD33S_1_0"
+			(pin power_in line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -8.89 -11.43 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 -15.24 0)
+				(length 2.54)
+				(name "PFLTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -17.78 0)
+				(length 2.54)
+				(name "PFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -20.32 0)
+				(length 2.54)
+				(name "ILIMIT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -25.4 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -27.94 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -15.24 180)
+				(length 2.54)
+				(name "VCAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -25.4 180)
+				(length 2.54)
+				(name "CFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -27.94 180)
+				(length 2.54)
+				(name "ICHG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LS0502SCD33S_1_1"
+			(rectangle
+				(start -6.35 -3.175)
+				(end 6.35 -29.845)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LS2405IDD23"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -83554,7 +83836,7 @@
 		(symbol "NOT_1_1"
 			(polyline
 				(pts
-					(xy 0 -10.16) (xy 0 -15.24) (xy 3.81 -12.7) (xy 0 -10.16)
+					(xy 2.54 -3.175) (xy 2.54 -8.255) (xy 6.35 -5.715) (xy 2.54 -3.175)
 				)
 				(stroke
 					(width 0)
@@ -83566,7 +83848,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -10.16) (xy 1.905 -11.43)
+					(xy 4.445 -3.175) (xy 4.445 -4.445)
 				)
 				(stroke
 					(width 0)
@@ -83578,7 +83860,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -15.24) (xy 1.905 -13.97)
+					(xy 4.445 -8.255) (xy 4.445 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -83589,7 +83871,7 @@
 				)
 			)
 			(circle
-				(center 4.445 -12.7)
+				(center 6.985 -5.715)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -83600,7 +83882,7 @@
 				)
 			)
 			(text "+\n-"
-				(at 1.27 -12.7 0)
+				(at 3.81 -5.715 0)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -83608,7 +83890,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -2.54 -10.795 0)
+				(at 0 -3.81 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -83627,7 +83909,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -12.7 0)
+				(at 0 -5.715 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -83645,7 +83927,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.905 -8.89 270)
+				(at 4.445 -1.905 270)
 				(length 1.27)
 				(name "VCC"
 					(effects
@@ -83663,7 +83945,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.905 -16.51 90)
+				(at 4.445 -9.525 90)
 				(length 1.27)
 				(name "GND"
 					(effects
@@ -83681,7 +83963,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -12.7 180)
+				(at 10.16 -5.715 180)
 				(length 2.54)
 				(name "Y"
 					(effects
