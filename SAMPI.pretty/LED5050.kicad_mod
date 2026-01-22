@@ -1,0 +1,158 @@
+(footprint "LED5050"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66828c3e-6edd-41ca-a5fa-f87c0be060a4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED5050"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27051c15-4791-4dd3-9c90-8f98d6b0846f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.35 -5.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbee6982-725f-42da-929f-72fc818cdf4a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.35 -5.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46d455b5-3a4a-496c-840d-fff5cff7062c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.6)
+		(end -1.5 -2.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6612e5c5-05d5-465f-a1ed-c119a584b2a2")
+	)
+	(fp_line
+		(start -2.5 2.6)
+		(end 2.5 2.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c11f7567-4bcd-4ffa-8358-f17a081420cc")
+	)
+	(fp_line
+		(start 2.5 -2.6)
+		(end 0 -2.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff91a6b9-d9f8-4200-a112-3d77c210fc19")
+	)
+	(fp_rect
+		(start -3.35 -2.9)
+		(end 3.35 2.9)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d5f4e3ac-7f46-4e1e-861a-8f54a2a47c2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af6b4d88-097e-4f1d-8a15-0f60210700ec")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.3 -1.6)
+		(size 1.5 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5e754a7-c228-4a00-be4b-5ed34550a87b")
+	)
+	(pad "2" smd rect
+		(at 2.3 -1.6)
+		(size 1.5 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa5e0323-7f83-48a8-9a2e-1d942613e1df")
+	)
+	(pad "3" smd rect
+		(at -2.3 0)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a368c987-e9f2-474f-b492-6bc619536ba8")
+	)
+	(pad "4" smd rect
+		(at 2.3 0)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8021d03-6a30-4e52-b471-0d0cb4b7605e")
+	)
+	(pad "5" smd rect
+		(at -2.3 1.6)
+		(size 1.5 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f903c442-8ed6-4879-af80-c0aa2dc67a2f")
+	)
+	(pad "6" smd rect
+		(at 2.3 1.6)
+		(size 1.5 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "82c6b751-beb8-49f0-93de-12353b53eb84")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/LED5050.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
