@@ -1,0 +1,223 @@
+(footprint "0900FM15D0039001E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "91f3bae8-dba9-4ee4-8c35-96133656deee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0900FM15D0039001E"
+		(at 0 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33103fd3-c6ed-43e6-92b9-3cef414d694d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.65 -8.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc9e26df-381c-48b0-9da0-b4174ee39138")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.65 -8.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36ef5564-7e2f-40bc-a660-797421db6fc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.45)
+		(end -1.2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1fa382e-a1f9-45be-abe5-fa10d95bd578")
+	)
+	(fp_line
+		(start -1.2 1)
+		(end -1.2 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c483eb7b-e236-4a36-a4f1-a22bbf02d09c")
+	)
+	(fp_line
+		(start -1.2 1)
+		(end -0.700001 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "139ada25-8c38-4994-ba4f-e1ff44e0d1a9")
+	)
+	(fp_line
+		(start 1.2 -1)
+		(end -1.2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1ee17fa-d0e8-4c7c-a199-0854c41d4bc5")
+	)
+	(fp_line
+		(start 1.2 -0.5)
+		(end 1.2 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f755f47-b06a-45cb-965c-1a35a43d3d47")
+	)
+	(fp_line
+		(start 1.2 0.45)
+		(end 1.2 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e16fcce-de97-4347-b5fb-f764ea3e43e9")
+	)
+	(fp_line
+		(start 1.2 1)
+		(end -0.200002 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7dc816a3-2e04-4ff2-9f5a-82f44f774e36")
+	)
+	(fp_rect
+		(start -1.4 -1.05)
+		(end 1.4 1.05)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "34c50be1-c4d6-44c1-86cb-76ee98b687f4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cc78f87e-49ea-4794-8e89-9f042c92488f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a450fe27-53aa-4cd6-b686-936b2d8fb07b")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cea1b685-beab-4e04-9c19-e4344b854f09")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43eb72e3-f6ca-4604-9bb2-ad51878dbc58")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d5a412a-05be-49e5-89f7-21d59ec9c37e")
+	)
+	(pad "5" smd rect
+		(at 0.95 0)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "015207f4-5868-4ec4-b4cc-a31264f028a6")
+	)
+	(pad "6" smd rect
+		(at 0.75 -0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b883515d-14e2-43f6-9784-79d8f9d40fa7")
+	)
+	(pad "7" smd rect
+		(at 0.25 -0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a2004f69-80c7-4b83-99f4-2e28b86e5d8a")
+	)
+	(pad "8" smd rect
+		(at -0.25 -0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f494819-0d4d-443f-8790-b3124a867eb1")
+	)
+	(pad "9" smd rect
+		(at -0.75 -0.575)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "99f86da9-867d-46c2-b99d-8572f80857de")
+	)
+	(pad "10" smd rect
+		(at -0.95 0)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab6c3fc6-8613-4454-8348-54a3d902fa31")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/0900FM15D0039001E.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
