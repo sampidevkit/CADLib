@@ -1,0 +1,174 @@
+(footprint "DIN-DRG-06A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4afca6d3-f129-4865-909d-4fc0ee0f564c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIN-DRG-06A"
+		(at 0 -8.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95adb452-f78a-4c5b-81f2-33dc58cd6f37")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -9.025 -10.405 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bf0ffe1-360c-4c26-81c5-029ca3ba656c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -9.025 -10.405 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cca6077-06b5-4491-b379-e49d02281c78")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 34.505 -4.925)
+		(end 30.355 -4.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6baddb5f-0ae1-40a7-9630-078b3d580447")
+	)
+	(fp_line
+		(start 34.505 4.915)
+		(end 30.355 4.915)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5ea8163-eb8e-4a88-9335-7b32a451f0f7")
+	)
+	(fp_line
+		(start 35.005 4.415)
+		(end 35.005 -4.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b94bc5fc-2263-4a91-8832-af76f4e37770")
+	)
+	(fp_rect
+		(start -30.325 -9.075)
+		(end 30.325 9.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fb031fea-5f83-4837-9f33-3d693b0bc35e")
+	)
+	(fp_arc
+		(start 34.505 -4.925)
+		(mid 34.858553 -4.778553)
+		(end 35.005 -4.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cba7deda-7308-46e2-933d-fdc10eb1c8bd")
+	)
+	(fp_arc
+		(start 35.005 4.415)
+		(mid 34.858553 4.768553)
+		(end 34.505 4.915)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b85d8b1-25e6-4441-ab1c-ffa164f187cf")
+	)
+	(fp_line
+		(start 0 -9.075)
+		(end 0 9.075)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2c49a8a1-b996-434f-8981-136a9b5e24fa")
+	)
+	(fp_rect
+		(start -30.625 -9.375)
+		(end 35.325 9.375)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ca617d1-a287-40d9-a075-050a5265cc69")
+	)
+	(pad "" np_thru_hole circle
+		(at -19.575 -0.005)
+		(size 4.5 4.5)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ae3febba-6bc4-426f-802e-f06b4ac0aa4b")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.575 -0.005)
+		(size 4.5 4.5)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d6a7ed9a-c96c-40a0-9f94-8ce0a96b4477")
+	)
+	(pad "" np_thru_hole circle
+		(at 13.925 -0.005)
+		(size 4.5 4.5)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3f3f1ae7-73c4-4710-a9c8-92c0d0f0ed36")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/DRG-06A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
