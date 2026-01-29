@@ -25166,6 +25166,232 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "BME688"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "BME688"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR GAS/HUM/PRES/TEMP I2C SPI"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "BME688"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Bosch"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BME688_1_1"
+			(rectangle
+				(start -6.35 -3.175)
+				(end 6.35 -14.605)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -7.62 0)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -10.16 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -12.7 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "CSB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "SCK/SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -10.16 180)
+				(length 2.54)
+				(name "SDI/SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -12.7 180)
+				(length 2.54)
+				(name "SDO/ADDR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "BMI323"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53894,7 +54120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:HW.FD-ENC-CB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53924,7 +54150,7 @@
 		(symbol "HW.FD-ENC-CB_1_1"
 			(rectangle
 				(start -6.35 -3.175)
-				(end 6.35 -22.225)
+				(end 6.35 -24.765)
 				(stroke
 					(width 0)
 					(type default)
@@ -53961,7 +54187,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -53972,7 +54198,25 @@
 			(pin passive line
 				(at -8.89 -10.16 0)
 				(length 2.54)
-				(name "~{MCLR}"
+				(name "3V3/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -12.7 0)
+				(length 2.54)
+				(name "VIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -53987,10 +54231,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -8.89 -12.7 0)
+			(pin passive line
+				(at -8.89 -17.78 0)
 				(length 2.54)
-				(name "PGD"
+				(name "~{MCLR}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -54005,10 +54249,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -8.89 -15.24 0)
+			(pin bidirectional line
+				(at -8.89 -20.32 0)
 				(length 2.54)
-				(name "PGC"
+				(name "PGD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -54023,10 +54267,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -8.89 -17.78 0)
+			(pin input line
+				(at -8.89 -22.86 0)
 				(length 2.54)
-				(name "GND"
+				(name "PGC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -54034,24 +54278,6 @@
 					)
 				)
 				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 -20.32 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -54105,7 +54331,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -54123,7 +54349,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -54178,6 +54404,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -22.86 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -115932,6 +116176,349 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS2113A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TPS2113A"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:TSSOP8-5.8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC OR CTRLR SRC SELECT 8TSSOP"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "TPS2113APWR"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "TI"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS2113A_1_1"
+			(rectangle
+				(start -6.35 -3.175)
+				(end 6.35 -29.845)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -5.08) (xy -0.635 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -27.94) (xy -1.905 -27.94) (xy -1.905 -7.62) (xy -0.635 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.508 -5.08)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -5.08) (xy 1.27 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.508 -7.62)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -4.826) (xy 0.762 -4.826) (xy 0.762 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -7.874) (xy 1.016 -8.128) (xy 0.762 -8.128)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.35) (xy 2.54 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 -6.35)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 1.016 -8.128)
+				(mid 0.2052 -6.5296)
+				(end 0.762 -4.826)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "IN1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -15.24 0)
+				(length 2.54)
+				(name "VSNS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -27.94 0)
+				(length 2.54)
+				(name "IN2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -6.35 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -20.32 180)
+				(length 2.54)
+				(name "~{EN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 -22.86 180)
+				(length 2.54)
+				(name "STAT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -25.4 180)
+				(length 2.54)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -27.94 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
