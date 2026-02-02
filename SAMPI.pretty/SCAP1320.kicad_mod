@@ -1,7 +1,7 @@
 (footprint "SCAP1320"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -10 -0.5 0)
@@ -21,19 +21,6 @@
 		(layer "Dwgs.User")
 		(hide yes)
 		(uuid "f951b57a-606a-4144-bb30-c7ee3f3dbe04")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -10 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0943341c-b958-41e8-a669-d3588333cddf")
 		(effects
 			(font
 				(size 1 1)
@@ -77,6 +64,36 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b5aafec6-3e99-4bbf-8651-fc333b43eaa3")
+	)
+	(fp_line
+		(start -6.5 -5)
+		(end -5.5 -5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a9304496-4bdb-4325-9e34-e530e80abc1c")
+	)
+	(fp_line
+		(start -6.5 5)
+		(end -5.499999 5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01081dee-628a-447b-81f8-c77accee5ba8")
+	)
+	(fp_line
+		(start -5.999999 5.5)
+		(end -5.999998 4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "932b4741-ce1c-4340-b678-cf874b2f504f")
 	)
 	(fp_line
 		(start -1.25 -2.5)
@@ -145,7 +162,7 @@
 			(width 0.154)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d67925b8-e338-46a6-83ca-94b2e054eea5")
 	)
@@ -198,22 +215,9 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a0ee6b79-8ddc-4492-a5af-1aea0ca178f1")
-	)
-	(fp_text user "${REFERENCE}"
-		(at -10 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "407609ea-e78b-4f64-8285-787a4aaeae7d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "+" thru_hole roundrect
 		(at 0 2.5)
@@ -232,6 +236,7 @@
 		(remove_unused_layers no)
 		(uuid "2257cafe-8153-47c8-abe5-889810cac287")
 	)
+	(embedded_fonts no)
 	(model "${SAMPI_3DMODEL_DIR}/SCAP_10x20xD5_BCAP0005.step"
 		(offset
 			(xyz -5 0 5)
