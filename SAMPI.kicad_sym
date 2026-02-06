@@ -106916,7 +106916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:XBEE-PRO-FORM-SMD"
+		(property "Footprint" "SAMPI:XBEE-PRO"
 			(at -3.81 1.27 0)
 			(effects
 				(font
@@ -106936,7 +106936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER SMD 10POS 2MM"
+		(property "Description" "CONN RCPT 10POS 0.079 TIN PCB"
 			(at -3.81 1.27 0)
 			(effects
 				(font
@@ -106946,7 +106946,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "ADAMT"
+		(property "MFT" "Samtec"
 			(at 7.62 1.27 0)
 			(effects
 				(font
@@ -106955,7 +106955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "2PH1-10-UA-SMT-B"
+		(property "MPN" "MMS-110-01-T-SV"
 			(at 7.62 1.27 0)
 			(effects
 				(font
@@ -106979,7 +106979,7 @@
 				)
 			)
 			(text "(*) Logic 1.8V"
-				(at -1.27 -2.54 0)
+				(at -0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -107167,10 +107167,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 13.97 -5.08 180)
 				(length 2.54)
-				(name "GPIOC*"
+				(name "PWR_CFG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -107188,7 +107188,7 @@
 			(pin bidirectional line
 				(at 13.97 -7.62 180)
 				(length 2.54)
-				(name "GPIOB*"
+				(name "COM_CFG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -107206,7 +107206,7 @@
 			(pin bidirectional line
 				(at 13.97 -10.16 180)
 				(length 2.54)
-				(name "GPIOA*"
+				(name "GPIOA/UPDI"
 					(effects
 						(font
 							(size 1.27 1.27)

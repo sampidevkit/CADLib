@@ -61158,29 +61158,33 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "T"
+		(property "Reference" "T1"
 			(at 0 0 0)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "IND 3PIN"
+			(at 0 0.635 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:CD75-3"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -61189,12 +61193,50 @@
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Addr" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Iq" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isd" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -61314,17 +61356,39 @@
 			)
 		)
 		(symbol "IND-3P_1_1"
+			(circle
+				(center -1.3 -2.6)
+				(radius 0.2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.6 -2.6)
+				(radius 0.2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
 				(at -5.715 -2.54 0)
 				(length 1.27)
-				(name "1"
+				(name "2"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -61335,14 +61399,14 @@
 			(pin passive line
 				(at -0.635 -5.08 90)
 				(length 1.27)
-				(name "2"
+				(name "1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -106915,7 +106979,7 @@
 				)
 			)
 			(text "(*) Logic 1.8V"
-				(at -1.27 -2.54 0)
+				(at -0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -107103,10 +107167,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 13.97 -5.08 180)
 				(length 2.54)
-				(name "GPIOC*"
+				(name "PWR_CFG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -107124,7 +107188,7 @@
 			(pin bidirectional line
 				(at 13.97 -7.62 180)
 				(length 2.54)
-				(name "GPIOB*"
+				(name "COM_CFG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -107142,7 +107206,7 @@
 			(pin bidirectional line
 				(at 13.97 -10.16 180)
 				(length 2.54)
-				(name "GPIOA*"
+				(name "GPIOA/UPDI"
 					(effects
 						(font
 							(size 1.27 1.27)
