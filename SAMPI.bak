@@ -106916,7 +106916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:XBEE-PRO-FORM-SMD"
+		(property "Footprint" "SAMPI:XBEE-PRO"
 			(at -3.81 1.27 0)
 			(effects
 				(font
@@ -106936,7 +106936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER SMD 10POS 2MM"
+		(property "Description" "CONN RCPT 10POS 0.079 TIN PCB"
 			(at -3.81 1.27 0)
 			(effects
 				(font
@@ -106946,7 +106946,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "ADAMT"
+		(property "MFT" "Samtec"
 			(at 7.62 1.27 0)
 			(effects
 				(font
@@ -106955,7 +106955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "2PH1-10-UA-SMT-B"
+		(property "MPN" "MMS-110-01-T-SV"
 			(at 7.62 1.27 0)
 			(effects
 				(font
