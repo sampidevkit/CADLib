@@ -1,0 +1,137 @@
+(footprint "LED1204-SIDE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0449aba0-a0d3-46cf-b229-37bb1f5e32bf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED1204-SIDE"
+		(at 0 -1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f469d7d6-d3e6-4de7-908d-c767b3581910")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.05 -16.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9c582bd-099e-48de-a348-8cc5e2b2f329")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.05 -16.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a9b8356-1ca5-4fee-9141-59c518ffa0d3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.4)
+		(end 0.7 -0.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e68b887-35ea-4b6f-a9db-342ce972002f")
+	)
+	(fp_arc
+		(start -1.1 -0.75)
+		(mid 0 -1.55434)
+		(end 1.1 -0.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d28b5af0-cced-41b8-85b8-61fc2ee0737e")
+	)
+	(fp_rect
+		(start -2.25 -0.8)
+		(end 2.25 0.8)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "450fd27a-a95a-4be8-884a-a7ef7edefd26")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "802a3471-2101-4468-9a12-d68ea40f68b7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.4 0.225)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e2248ed0-385b-4e05-a6d8-18de41e6d0ad")
+	)
+	(pad "2" smd rect
+		(at -0.4 0.225)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "964d6250-03a6-4e13-b6c5-e6bc6be3b663")
+	)
+	(pad "3" smd rect
+		(at 1.475 0)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79f64fc1-0b25-4127-b7f1-3cfa90d09186")
+	)
+	(pad "4" smd rect
+		(at -1.475 0)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "366c802a-4a9a-4b85-bb97-1cf6800d841f")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/LED1204-SIDE.stp"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
