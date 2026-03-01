@@ -65131,26 +65131,27 @@
 			(hide yes)
 		)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "JP"
-			(at 1.27 3.175 0)
+		(property "Reference" "J"
+			(at 0 0 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(size 1.27 1.27)
+					(thickness 0.254)
 					(bold yes)
 				)
 			)
 		)
-		(property "Value" "JUMP02"
-			(at 1.27 0.635 0)
+		(property "Value" "JUMPER 02"
+			(at 0 -1.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:JP0603"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -65178,9 +65179,22 @@
 			)
 		)
 		(symbol "JUMP02_1_1"
+			(rectangle
+				(start -2.54 -8.89)
+				(end 2.54 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
-					(xy 0 -1.905) (xy 0 -3.175) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 0.635 -1.905) (xy 0 -1.905)
+					(xy -1.905 -8.255) (xy 1.905 -8.255) (xy 1.905 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.445) (xy 1.905 -4.445)
+					(xy 1.905 -3.81) (xy -1.905 -3.81) (xy -1.905 -4.445) (xy -1.27 -4.445) (xy -1.27 -5.08) (xy -1.905 -5.08)
+					(xy -1.905 -8.255)
 				)
 				(stroke
 					(width 0)
@@ -65192,8 +65206,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.905) (xy 2.54 -3.175) (xy 1.905 -3.175) (xy 1.27 -3.175) (xy 1.905 -2.54) (xy 1.27 -1.905)
-					(xy 2.54 -1.905)
+					(xy -1.524 -8.89) (xy -1.016 -8.89) (xy -1.016 -6.35) (xy -1.27 -5.842) (xy -1.524 -6.35) (xy -1.524 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -65203,8 +65216,20 @@
 					(type outline)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -2.54 0)
+			(polyline
+				(pts
+					(xy 1.016 -8.89) (xy 1.524 -8.89) (xy 1.524 -6.35) (xy 1.27 -5.842) (xy 1.016 -6.35) (xy 1.016 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -1.27 -12.7 90)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -65221,8 +65246,149 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 5.08 -2.54 180)
+			(pin passive line
+				(at 1.27 -12.7 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "JUMP02-N"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "JUMPER 02"
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "JUMP02-N_1_1"
+			(rectangle
+				(start -2.54 -8.89)
+				(end 2.54 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -8.255) (xy 1.905 -8.255) (xy 1.905 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.445) (xy 1.905 -4.445)
+					(xy 1.905 -3.81) (xy -1.905 -3.81) (xy -1.905 -4.445) (xy -1.27 -4.445) (xy -1.27 -5.08) (xy -1.905 -5.08)
+					(xy -1.905 -8.255)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -8.89) (xy -1.016 -8.89) (xy -1.016 -6.35) (xy -1.27 -5.842) (xy -1.524 -6.35) (xy -1.524 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -8.89) (xy 1.524 -8.89) (xy 1.524 -6.35) (xy 1.27 -5.842) (xy 1.016 -6.35) (xy 1.016 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -1.27 -12.7 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -12.7 90)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -65403,6 +65569,122 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "JUMP2"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 1.27 3.175 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "JUMP2"
+			(at 1.27 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:JP0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "JUMP2_1_1"
+			(polyline
+				(pts
+					(xy 0 -1.905) (xy 0 -3.175) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 0.635 -1.905) (xy 0 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.905) (xy 2.54 -3.175) (xy 1.905 -3.175) (xy 1.27 -3.175) (xy 1.905 -2.54) (xy 1.27 -1.905)
+					(xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -106647,7 +106929,7 @@
 			(pin input line
 				(at 10.795 -17.78 180)
 				(length 2.54)
-				(name "DIO5/RF_EN"
+				(name "DIO5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -106665,7 +106947,7 @@
 			(pin output line
 				(at 10.795 -20.32 180)
 				(length 2.54)
-				(name "DIO4/BUSY"
+				(name "DIO4"
 					(effects
 						(font
 							(size 1.27 1.27)
