@@ -1,13 +1,14 @@
 (footprint "SOT-89"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "U5"
 		(at 0 -3.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7eba7cf3-a110-4e78-a042-19eb36384149")
+		(hide yes)
+		(uuid "c2fc0604-c2fa-4023-a338-e1795906149e")
 		(effects
 			(font
 				(size 1 1)
@@ -15,25 +16,12 @@
 			)
 		)
 	)
-	(property "Value" "SOT-89"
+	(property "Value" "LDO 3.3V"
 		(at 0 -1.75 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(hide yes)
-		(uuid "4278b910-a86a-47c3-b37e-d51f50399a8b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -2.425 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ec40b8d2-d5ad-4142-bba9-4b8e2edd2343")
+		(uuid "73060bde-d761-4987-a47a-5027c68fc67d")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c93e0560-35bb-43c3-b490-73106f57ad1c")
+		(uuid "f3df57a9-7a52-49cf-b6d3-c6fb4702b4e4")
 		(effects
 			(font
 				(size 1 1)
@@ -54,12 +42,38 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "PMIC LDO SMD SOT89-3 POSFIX 5V 250mA 13.2VIMAX 0.33VDROP"
 		(at 0 -2.425 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "23daf36e-a89b-4c75-9115-762fcc1f67b1")
+		(uuid "a754c7b9-a0a6-4892-bdd1-c1331a0656c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MNP" "MCP1702T-5002E/MB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6af19378-c596-4454-9d0e-4509e54f59e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFT" "Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40cfd10d-7a81-4cec-9255-3e3b8a955f7f")
 		(effects
 			(font
 				(size 1 1)
@@ -76,7 +90,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "375d0abb-2ce9-4905-aa56-df89bcf3bb28")
+		(uuid "27a2eefc-94ff-429e-b413-a0842ebbf1f0")
 	)
 	(fp_line
 		(start -2.4 1.35)
@@ -86,7 +100,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4e482b98-9566-46ab-87aa-de24f7765de5")
+		(uuid "4a8d99fc-c95a-441d-88e2-391ccc8b9fc3")
 	)
 	(fp_line
 		(start -2.4 1.35)
@@ -96,7 +110,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "dd31c65c-e3b0-4f6e-b1a1-bf6680e320af")
+		(uuid "5d7780ff-f5e5-4e39-b97a-f64c3dc9fe9d")
 	)
 	(fp_line
 		(start -0.9 1.35)
@@ -106,7 +120,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "28ae6dcb-3573-4594-ad7e-b8980d8eae14")
+		(uuid "549aa77e-7c90-4441-9e7b-79cd25229746")
 	)
 	(fp_line
 		(start 0.7 1.35)
@@ -116,7 +130,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c6842822-7da2-4881-ac38-0deee11bdc1d")
+		(uuid "91662c24-c8d4-4889-9163-61664c0fb48d")
 	)
 	(fp_line
 		(start 1.3 -1.325)
@@ -126,7 +140,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3b09e848-18a8-4476-bcc3-7c270dffea75")
+		(uuid "b0ee7afe-9897-4d70-8d99-80f1be43d450")
 	)
 	(fp_line
 		(start 2.1 1.35)
@@ -136,17 +150,17 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9f2e4955-bb2a-4cb5-887f-307ce39e389f")
+		(uuid "b1e61b14-fbb5-48f1-92e5-fec40e00b8ec")
 	)
 	(fp_line
 		(start 2.4 1.35)
-		(end 2.4 -1.15)
+		(end 2.4 -1.325)
 		(stroke
 			(width 0.154)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "da882730-f17c-4cf5-986c-a979285708d9")
+		(uuid "021e4cf3-a2d5-49f4-b332-1c707ba9614f")
 	)
 	(fp_rect
 		(start -2.65 -2.75)
@@ -155,34 +169,21 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "854fb2fc-99f3-4cfd-9497-1cd51be41ef0")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -0.25 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "25be3e7b-415f-459b-805e-b9b4b57e1360")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(uuid "1c11eac7-d4a0-4d66-a202-ba147beccefa")
 	)
 	(pad "1" smd rect
 		(at -1.5 1.65)
 		(size 0.6 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "2c16d55a-c542-4524-89be-8c5ee1346085")
+		(uuid "b5c834b3-c6a0-4b8a-8a91-c844d10918dd")
 	)
 	(pad "2" smd custom
 		(at 0 1.65)
 		(size 0.8 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -198,15 +199,16 @@
 				(fill yes)
 			)
 		)
-		(uuid "188c633c-554a-4579-84ee-f86aa86baa69")
+		(uuid "c09cefc3-16cb-4e27-8523-544752c96e1b")
 	)
 	(pad "3" smd rect
 		(at 1.5 1.65)
 		(size 0.6 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "3c466725-7ed7-4e3d-9be6-b9e598b03d62")
+		(uuid "b463b6e4-f451-467b-8bcc-489d34554b83")
 	)
+	(embedded_fonts no)
 	(model "${SAMPI_3DMODEL_DIR}/SOT-89.STEP"
 		(offset
 			(xyz -0.25 0 0.8)

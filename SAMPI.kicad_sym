@@ -101656,7 +101656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:ALQ312-A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101674,7 +101674,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RELAY GEN PURPOSE SPST 10A 12V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "ALQ312"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Panasonic"
 			(at 0 0 0)
 			(effects
 				(font
