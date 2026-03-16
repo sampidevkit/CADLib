@@ -106439,7 +106439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My_Library:SON_PR-0521RS_ROM-L"
+		(property "Footprint" "SAMPI:PR-0521RS"
 			(at 8.255 4.445 0)
 			(effects
 				(font
@@ -109632,7 +109632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SHT4x"
 			(at 0 0 0)
 			(effects
 				(font
