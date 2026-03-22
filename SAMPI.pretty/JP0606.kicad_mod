@@ -148,4 +148,15 @@
 		(uuid "94de72e8-6d18-4b0d-b792-27fd805363be")
 	)
 	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/RES0606.step"
+		(offset
+			(xyz 0.7 -0.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

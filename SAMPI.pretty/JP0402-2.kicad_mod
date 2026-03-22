@@ -158,7 +158,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.125 -0.3) (xy -0.125 0.3) (xy 0.73 0.3) (xy 0.125 0) (xy 0.73 -0.3)
+					(xy -0.125 -0.3) (xy -0.125 0.3) (xy 0.63 0.3) (xy 0.125 0) (xy 0.63 -0.3)
 				)
 				(width 0.01)
 				(fill yes)
@@ -178,7 +178,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.125 0.3) (xy -0.125 0.3) (xy -0.75 0) (xy -0.125 -0.3) (xy 0.125 -0.3)
+					(xy 0.125 0.3) (xy -0.125 0.3) (xy -0.65 0) (xy -0.125 -0.3) (xy 0.125 -0.3)
 				)
 				(width 0.01)
 				(fill yes)
@@ -187,7 +187,7 @@
 		(uuid "9f3cd96c-1f41-4676-ada1-e3478d34cd14")
 	)
 	(embedded_fonts no)
-	(model "${SAMPI_3DMODEL_DIR}/0402C.step"
+	(model "${SAMPI_3DMODEL_DIR}/0402R.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -195,7 +195,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

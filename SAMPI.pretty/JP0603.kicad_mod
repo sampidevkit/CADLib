@@ -1,7 +1,7 @@
 (footprint "JP0603"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.3 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "19380b0a-ccd1-457e-ab85-768a031a8ec6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -0.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "88c6380f-eb56-46bc-b0de-8ab8d7c16263")
 		(effects
 			(font
 				(size 1 1)
@@ -95,27 +82,14 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d0c3d0f0-b25a-42be-b802-a71c03b19af3")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 1.7 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eb47c0c8-a9e1-4a8d-bf00-a93acf637dc9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd custom
 		(at -0.725 0 180)
 		(size 0.65 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -135,7 +109,7 @@
 	(pad "2" smd custom
 		(at 0.725 0 180)
 		(size 0.65 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -151,5 +125,17 @@
 			)
 		)
 		(uuid "c30f9268-c9ed-4a4d-8c77-443e7b383992")
+	)
+	(embedded_fonts no)
+	(model "${SAMPI_3DMODEL_DIR}/RES0603.STEP"
+		(offset
+			(xyz 0 -0.06 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
 	)
 )

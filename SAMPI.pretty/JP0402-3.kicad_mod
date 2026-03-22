@@ -215,7 +215,7 @@
 		(uuid "866111c0-5f0c-4e04-8095-5ef42b4ccb3c")
 	)
 	(embedded_fonts no)
-	(model "${SAMPI_3DMODEL_DIR}/0402C.step"
+	(model "${SAMPI_3DMODEL_DIR}/0402R.step"
 		(offset
 			(xyz -0.58 0 0)
 		)
@@ -223,7 +223,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
