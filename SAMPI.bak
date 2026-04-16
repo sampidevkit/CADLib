@@ -33089,7 +33089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:QFN28-5x5"
+		(property "Footprint" "SAMPI:QFN28-5x5-EP"
 			(at 1.27 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
