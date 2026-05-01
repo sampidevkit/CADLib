@@ -149158,7 +149158,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U?"
-			(at 5.08 5.715 0)
+			(at 6.35 3.175 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149167,18 +149167,16 @@
 					(thickness 0.254)
 					(bold yes)
 				)
-				(justify left top)
 			)
 		)
 		(property "Value" "NRF52840-QIAA"
-			(at 5.08 3.81 0)
+			(at 21.59 3.175 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left top)
 			)
 		)
 		(property "Footprint" "SAMPI:VFQFN-73D-7x7-EP"
@@ -149217,7 +149215,7 @@
 			)
 		)
 		(property "MNP" "NRF52840-QIAA-F-R"
-			(at 12.065 3.175 0)
+			(at 24.13 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -149228,7 +149226,7 @@
 			)
 		)
 		(property "MFT" "Nordic"
-			(at 12.065 3.175 0)
+			(at 24.13 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -149241,7 +149239,7 @@
 		(symbol "nRF52840-QIAA-T_1_1"
 			(rectangle
 				(start 5.08 1.905)
-				(end 43.18 -93.345)
+				(end 26.67 -121.285)
 				(stroke
 					(width 0)
 					(type solid)
@@ -149251,8 +149249,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 0 0)
-				(length 5.08)
+				(at 1.27 -83.82 0)
+				(length 3.81)
 				(name "P0.31/AIN7"
 					(effects
 						(font
@@ -149263,14 +149261,14 @@
 				(number "A8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -2.54 0)
-				(length 5.08)
+				(at 1.27 -81.28 0)
+				(length 3.81)
 				(name "P0.29/AIN5"
 					(effects
 						(font
@@ -149281,14 +149279,14 @@
 				(number "A10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -5.08 0)
-				(length 5.08)
+				(at 1.27 -5.08 0)
+				(length 3.81)
 				(name "P0.02/AIN0"
 					(effects
 						(font
@@ -149299,14 +149297,14 @@
 				(number "A12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -7.62 0)
-				(length 5.08)
+				(at 30.48 -55.88 180)
+				(length 3.81)
 				(name "P1.15"
 					(effects
 						(font
@@ -149317,14 +149315,14 @@
 				(number "A14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -10.16 0)
-				(length 5.08)
+				(at 30.48 -53.34 180)
+				(length 3.81)
 				(name "P1.13"
 					(effects
 						(font
@@ -149335,14 +149333,14 @@
 				(number "A16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
-				(length 5.08)
+				(at 30.48 -116.84 180)
+				(length 3.81)
 				(name "DEC2"
 					(effects
 						(font
@@ -149353,14 +149351,14 @@
 				(number "A18"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -15.24 0)
-				(length 5.08)
+				(at 30.48 -43.18 180)
+				(length 3.81)
 				(name "P1.10"
 					(effects
 						(font
@@ -149371,14 +149369,14 @@
 				(number "A20"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 0)
-				(length 5.08)
+				(at 1.27 -111.76 0)
+				(length 3.81)
 				(name "VDD"
 					(effects
 						(font
@@ -149389,14 +149387,14 @@
 				(number "A22"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 0)
-				(length 5.08)
+				(at 30.48 -81.28 180)
+				(length 3.81)
 				(name "XC2"
 					(effects
 						(font
@@ -149407,14 +149405,14 @@
 				(number "A23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 48.26 -33.02 180)
-				(length 5.08)
+				(at 30.48 -60.96 180)
+				(length 3.81)
 				(name "SWDCLK"
 					(effects
 						(font
@@ -149425,14 +149423,14 @@
 				(number "AA24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 48.26 -35.56 180)
-				(length 5.08)
+				(at 1.27 -99.06 0)
+				(length 3.81)
 				(name "DCCH"
 					(effects
 						(font
@@ -149443,14 +149441,14 @@
 				(number "AB2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 48.26 -38.1 180)
-				(length 5.08)
+				(at 30.48 -96.52 180)
+				(length 3.81)
 				(name "DECUSB"
 					(effects
 						(font
@@ -149461,14 +149459,14 @@
 				(number "AC5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -40.64 180)
-				(length 5.08)
+				(at 1.27 -38.1 0)
+				(length 3.81)
 				(name "P0.14"
 					(effects
 						(font
@@ -149479,14 +149477,14 @@
 				(number "AC9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -43.18 180)
-				(length 5.08)
+				(at 1.27 -43.18 0)
+				(length 3.81)
 				(name "P0.16"
 					(effects
 						(font
@@ -149497,14 +149495,14 @@
 				(number "AC11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -45.72 180)
-				(length 5.08)
+				(at 1.27 -50.8 0)
+				(length 3.81)
 				(name "P0.18/~{RESET}"
 					(effects
 						(font
@@ -149515,14 +149513,14 @@
 				(number "AC13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -48.26 180)
-				(length 5.08)
+				(at 1.27 -53.34 0)
+				(length 3.81)
 				(name "P0.19"
 					(effects
 						(font
@@ -149533,14 +149531,14 @@
 				(number "AC15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -50.8 180)
-				(length 5.08)
+				(at 1.27 -58.42 0)
+				(length 3.81)
 				(name "P0.21"
 					(effects
 						(font
@@ -149551,14 +149549,14 @@
 				(number "AC17"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -53.34 180)
-				(length 5.08)
+				(at 1.27 -63.5 0)
+				(length 3.81)
 				(name "P0.23"
 					(effects
 						(font
@@ -149569,14 +149567,14 @@
 				(number "AC19"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -55.88 180)
-				(length 5.08)
+				(at 1.27 -71.12 0)
+				(length 3.81)
 				(name "P0.25"
 					(effects
 						(font
@@ -149587,14 +149585,14 @@
 				(number "AC21"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -58.42 180)
-				(length 5.08)
+				(at 30.48 -63.5 180)
+				(length 3.81)
 				(name "SWDIO"
 					(effects
 						(font
@@ -149605,14 +149603,14 @@
 				(number "AC24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 48.26 -60.96 180)
-				(length 5.08)
+				(at 30.48 -93.98 180)
+				(length 3.81)
 				(name "VBUS"
 					(effects
 						(font
@@ -149623,14 +149621,14 @@
 				(number "AD2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -63.5 180)
-				(length 5.08)
+				(at 30.48 -91.44 180)
+				(length 3.81)
 				(name "D-"
 					(effects
 						(font
@@ -149641,14 +149639,14 @@
 				(number "AD4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -66.04 180)
-				(length 5.08)
+				(at 30.48 -88.9 180)
+				(length 3.81)
 				(name "D+"
 					(effects
 						(font
@@ -149659,14 +149657,14 @@
 				(number "AD6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -68.58 180)
-				(length 5.08)
+				(at 1.27 -35.56 0)
+				(length 3.81)
 				(name "P0.13"
 					(effects
 						(font
@@ -149677,14 +149675,14 @@
 				(number "AD8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -71.12 180)
-				(length 5.08)
+				(at 1.27 -40.64 0)
+				(length 3.81)
 				(name "P0.15"
 					(effects
 						(font
@@ -149695,14 +149693,14 @@
 				(number "AD10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -73.66 180)
-				(length 5.08)
+				(at 1.27 -48.26 0)
+				(length 3.81)
 				(name "P0.17"
 					(effects
 						(font
@@ -149713,14 +149711,14 @@
 				(number "AD12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 48.26 -76.2 180)
-				(length 5.08)
+				(at 1.27 -104.14 0)
+				(length 3.81)
 				(name "VDD"
 					(effects
 						(font
@@ -149731,14 +149729,14 @@
 				(number "AD14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -78.74 180)
-				(length 5.08)
+				(at 1.27 -55.88 0)
+				(length 3.81)
 				(name "P0.20"
 					(effects
 						(font
@@ -149749,14 +149747,14 @@
 				(number "AD16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -81.28 180)
-				(length 5.08)
+				(at 1.27 -60.96 0)
+				(length 3.81)
 				(name "P0.22"
 					(effects
 						(font
@@ -149767,14 +149765,14 @@
 				(number "AD18"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -83.82 180)
-				(length 5.08)
+				(at 1.27 -66.04 0)
+				(length 3.81)
 				(name "P0.24"
 					(effects
 						(font
@@ -149785,14 +149783,14 @@
 				(number "AD20"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -86.36 180)
-				(length 5.08)
+				(at 30.48 -15.24 180)
+				(length 3.81)
 				(name "P1.00"
 					(effects
 						(font
@@ -149803,14 +149801,14 @@
 				(number "AD22"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 48.26 -88.9 180)
-				(length 5.08)
+				(at 1.27 -106.68 0)
+				(length 3.81)
 				(name "VDD"
 					(effects
 						(font
@@ -149821,14 +149819,14 @@
 				(number "AD23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 0 -22.86 0)
-				(length 5.08)
+				(at 1.27 -114.3 0)
+				(length 3.81)
 				(name "VDD"
 					(effects
 						(font
@@ -149839,14 +149837,14 @@
 				(number "B1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 0 -25.4 0)
-				(length 5.08)
+				(at 30.48 -101.6 180)
+				(length 3.81)
 				(name "DCC"
 					(effects
 						(font
@@ -149857,14 +149855,14 @@
 				(number "B3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -27.94 0)
-				(length 5.08)
+				(at 30.48 -109.22 180)
+				(length 3.81)
 				(name "DEC4"
 					(effects
 						(font
@@ -149875,14 +149873,14 @@
 				(number "B5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -30.48 0)
-				(length 5.08)
+				(at 1.27 -116.84 0)
+				(length 3.81)
 				(name "VSS"
 					(effects
 						(font
@@ -149893,14 +149891,14 @@
 				(number "B7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -33.02 0)
-				(length 5.08)
+				(at 1.27 -86.36 0)
+				(length 3.81)
 				(name "P0.30/AIN6"
 					(effects
 						(font
@@ -149911,14 +149909,14 @@
 				(number "B9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -35.56 0)
-				(length 5.08)
+				(at 1.27 -78.74 0)
+				(length 3.81)
 				(name "P0.28/AIN4"
 					(effects
 						(font
@@ -149929,14 +149927,14 @@
 				(number "B11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
-				(length 5.08)
+				(at 1.27 -7.62 0)
+				(length 3.81)
 				(name "P0.03/AIN1"
 					(effects
 						(font
@@ -149947,14 +149945,14 @@
 				(number "B13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -40.64 0)
-				(length 5.08)
+				(at 30.48 -50.8 180)
+				(length 3.81)
 				(name "P1.14"
 					(effects
 						(font
@@ -149965,14 +149963,14 @@
 				(number "B15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -43.18 0)
-				(length 5.08)
+				(at 30.48 -48.26 180)
+				(length 3.81)
 				(name "P1.12"
 					(effects
 						(font
@@ -149983,14 +149981,14 @@
 				(number "B17"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -45.72 0)
-				(length 5.08)
+				(at 30.48 -45.72 180)
+				(length 3.81)
 				(name "P1.11"
 					(effects
 						(font
@@ -150001,14 +149999,14 @@
 				(number "B19"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -48.26 0)
-				(length 5.08)
+				(at 30.48 -71.12 180)
+				(length 3.81)
 				(name "XC1"
 					(effects
 						(font
@@ -150019,14 +150017,14 @@
 				(number "B24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 0 -50.8 0)
-				(length 5.08)
+				(at 30.48 -119.38 180)
+				(length 3.81)
 				(name "DEC1"
 					(effects
 						(font
@@ -150037,14 +150035,14 @@
 				(number "C1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -53.34 0)
-				(length 5.08)
+				(at 1.27 0 0)
+				(length 3.81)
 				(name "P0.00/XL1"
 					(effects
 						(font
@@ -150055,14 +150053,14 @@
 				(number "D2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 0 -55.88 0)
-				(length 5.08)
+				(at 30.48 -114.3 180)
+				(length 3.81)
 				(name "DEC3"
 					(effects
 						(font
@@ -150073,15 +150071,15 @@
 				(number "D23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -58.42 0)
-				(length 5.08)
-				(name "DEC2"
+				(at 30.48 -106.68 180)
+				(length 3.81)
+				(name "DEC6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -150091,18 +150089,18 @@
 				(number "E24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 48.26 -91.44 180)
-				(length 5.08)
+				(at 1.27 -119.38 0)
+				(length 3.81)
 				(name "VSS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -150114,9 +150112,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -60.96 0)
-				(length 5.08)
+			(pin bidirectional line
+				(at 1.27 -2.54 0)
+				(length 3.81)
 				(name "P0.01/XL2"
 					(effects
 						(font
@@ -150127,14 +150125,14 @@
 				(number "F2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -63.5 0)
-				(length 5.08)
+				(at 30.48 -10.16 180)
+				(length 3.81)
 				(name "VSS_PA"
 					(effects
 						(font
@@ -150145,14 +150143,14 @@
 				(number "F23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -66.04 0)
-				(length 5.08)
+				(at 1.27 -73.66 0)
+				(length 3.81)
 				(name "P0.26"
 					(effects
 						(font
@@ -150163,14 +150161,14 @@
 				(number "G1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -68.58 0)
-				(length 5.08)
+				(at 1.27 -76.2 0)
+				(length 3.81)
 				(name "P0.27"
 					(effects
 						(font
@@ -150181,14 +150179,14 @@
 				(number "H2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -71.12 0)
-				(length 5.08)
+				(at 30.48 0 180)
+				(length 3.81)
 				(name "ANT"
 					(effects
 						(font
@@ -150199,14 +150197,14 @@
 				(number "H23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -73.66 0)
-				(length 5.08)
+				(at 1.27 -10.16 0)
+				(length 3.81)
 				(name "P0.04/AIN2"
 					(effects
 						(font
@@ -150217,14 +150215,14 @@
 				(number "J1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -76.2 0)
-				(length 5.08)
+				(at 1.27 -27.94 0)
+				(length 3.81)
 				(name "P0.10/NFC2"
 					(effects
 						(font
@@ -150235,14 +150233,14 @@
 				(number "J24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -78.74 0)
-				(length 5.08)
+				(at 1.27 -12.7 0)
+				(length 3.81)
 				(name "P0.05"
 					(effects
 						(font
@@ -150253,14 +150251,14 @@
 				(number "K2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -81.28 0)
-				(length 5.08)
+				(at 1.27 -15.24 0)
+				(length 3.81)
 				(name "P0.06"
 					(effects
 						(font
@@ -150271,14 +150269,14 @@
 				(number "L1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -83.82 0)
-				(length 5.08)
+				(at 1.27 -25.4 0)
+				(length 3.81)
 				(name "P0.09/NFC1"
 					(effects
 						(font
@@ -150289,14 +150287,14 @@
 				(number "L24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -86.36 0)
-				(length 5.08)
+				(at 1.27 -17.78 0)
+				(length 3.81)
 				(name "P0.07"
 					(effects
 						(font
@@ -150307,14 +150305,14 @@
 				(number "M2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -88.9 0)
-				(length 5.08)
+				(at 1.27 -22.86 0)
+				(length 3.81)
 				(name "P0.08"
 					(effects
 						(font
@@ -150325,14 +150323,14 @@
 				(number "N1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 0 -91.44 0)
-				(length 5.08)
+				(at 30.48 -111.76 180)
+				(length 3.81)
 				(name "DEC5"
 					(effects
 						(font
@@ -150343,14 +150341,14 @@
 				(number "N24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 0 180)
-				(length 5.08)
+				(at 30.48 -38.1 180)
+				(length 3.81)
 				(name "P1.08"
 					(effects
 						(font
@@ -150361,14 +150359,14 @@
 				(number "P2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -2.54 180)
-				(length 5.08)
+				(at 30.48 -33.02 180)
+				(length 3.81)
 				(name "P1.07"
 					(effects
 						(font
@@ -150379,14 +150377,14 @@
 				(number "P23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -5.08 180)
-				(length 5.08)
+				(at 30.48 -40.64 180)
+				(length 3.81)
 				(name "P1.09"
 					(effects
 						(font
@@ -150397,14 +150395,14 @@
 				(number "R1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -7.62 180)
-				(length 5.08)
+				(at 30.48 -30.48 180)
+				(length 3.81)
 				(name "P1.06"
 					(effects
 						(font
@@ -150415,14 +150413,14 @@
 				(number "R24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -10.16 180)
-				(length 5.08)
+				(at 1.27 -30.48 0)
+				(length 3.81)
 				(name "P0.11"
 					(effects
 						(font
@@ -150433,14 +150431,14 @@
 				(number "T2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -12.7 180)
-				(length 5.08)
+				(at 30.48 -27.94 180)
+				(length 3.81)
 				(name "P1.05"
 					(effects
 						(font
@@ -150451,14 +150449,14 @@
 				(number "T23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -15.24 180)
-				(length 5.08)
+				(at 1.27 -33.02 0)
+				(length 3.81)
 				(name "P0.12"
 					(effects
 						(font
@@ -150469,14 +150467,14 @@
 				(number "U1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -17.78 180)
-				(length 5.08)
+				(at 30.48 -25.4 180)
+				(length 3.81)
 				(name "P1.04"
 					(effects
 						(font
@@ -150487,14 +150485,14 @@
 				(number "U24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -20.32 180)
-				(length 5.08)
+				(at 30.48 -22.86 180)
+				(length 3.81)
 				(name "P1.03"
 					(effects
 						(font
@@ -150505,14 +150503,14 @@
 				(number "V23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 48.26 -22.86 180)
-				(length 5.08)
+				(at 1.27 -109.22 0)
+				(length 3.81)
 				(name "VDD"
 					(effects
 						(font
@@ -150523,14 +150521,14 @@
 				(number "W1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -25.4 180)
-				(length 5.08)
+				(at 30.48 -20.32 180)
+				(length 3.81)
 				(name "P1.02"
 					(effects
 						(font
@@ -150541,14 +150539,14 @@
 				(number "W24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 48.26 -27.94 180)
-				(length 5.08)
+				(at 1.27 -93.98 0)
+				(length 3.81)
 				(name "VDDH"
 					(effects
 						(font
@@ -150559,14 +150557,14 @@
 				(number "Y2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -30.48 180)
-				(length 5.08)
+				(at 30.48 -17.78 180)
+				(length 3.81)
 				(name "P1.01"
 					(effects
 						(font
@@ -150577,7 +150575,7 @@
 				(number "Y23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
