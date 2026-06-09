@@ -115553,7 +115553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:VDFN-12-3x3-0.5-EP"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -119417,8 +119417,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "R"
-			(at 0 0 0)
+		(property "Reference" "R?"
+			(at 4.445 -3.175 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -119429,13 +119429,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHUNT"
-			(at 0 -1.905 0)
+		(property "Value" "50mR"
+			(at 1.905 -3.175 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -119476,7 +119476,7 @@
 		(symbol "SHUNT_0_1"
 			(polyline
 				(pts
-					(xy -2.54 -6.35) (xy 1.27 -6.35) (xy 1.27 -5.08)
+					(xy -1.905 -6.35) (xy 1.905 -6.35) (xy 1.905 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -119488,7 +119488,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -6.35) (xy 5.08 -6.35) (xy 5.08 -5.08)
+					(xy 8.255 -6.35) (xy 4.445 -6.35) (xy 4.445 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -119548,7 +119548,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -7.62 90)
+				(at -1.905 -7.62 90)
 				(length 1.27)
 				(name "3"
 					(effects
@@ -119566,7 +119566,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -7.62 90)
+				(at 8.255 -7.62 90)
 				(length 1.27)
 				(name "4"
 					(effects
@@ -129760,6 +129760,248 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPM8837E"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "H-BRIDGE"
+			(at 0 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "H-BRIDGE DRIVER 17V 1A 8-DFN"
+			(at 0 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MNP" "TPM8837E-DF4R"
+			(at 0 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MFT" "3PEAK"
+			(at 0 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(symbol "TPM8837E_1_1"
+			(rectangle
+				(start -5.08 -3.175)
+				(end 5.08 -14.605)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "VM"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name "OUT1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -7.62 -10.16 0)
+				(length 2.54)
+				(name "OUT2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -12.7 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -12.7 180)
+				(length 2.54)
+				(name "IN2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name "IN1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name "~{SLEEP}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
