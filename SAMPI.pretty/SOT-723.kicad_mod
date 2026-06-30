@@ -1,13 +1,13 @@
 (footprint "SOT-723"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.45 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "75182927-7f87-4a05-afe5-a8980038643d")
+		(uuid "625030cd-5b22-41cb-960d-83ca410acdb4")
 		(effects
 			(font
 				(size 1 1)
@@ -20,20 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1948072e-5957-4594-b8c4-d9f007cb7a6b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -0.95 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5fc89f5e-8ed9-454b-b4cc-61227f41a0b9")
+		(uuid "843473ab-1861-4da7-81e8-ff375d27f89b")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "caa102f9-511e-4ecb-b0f1-471cb194400d")
+		(uuid "3f72c0fa-7470-4f4c-a4b3-8f4e41617f4a")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +46,20 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "87ed1482-2120-475e-9cc9-cdf77725e517")
+		(uuid "f1746ee4-0247-413e-a93f-bc129a6a4592")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field4" "${REFERENCE}"
+		(at 0 1.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7143397d-1b1b-4519-9984-b7c2ce8b1bea")
 		(effects
 			(font
 				(size 1 1)
@@ -68,6 +68,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.6 0.05)
 		(end -0.6 -0.4)
@@ -76,7 +77,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "53d251ae-43a5-4c22-bdeb-fe13c7d50eae")
+		(uuid "e62d0cc6-cc86-44ef-a81b-0397fb29336a")
 	)
 	(fp_line
 		(start -0.5 -0.4)
@@ -86,7 +87,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f77c12f2-393b-4cef-ab1a-ebacdbb91aff")
+		(uuid "8bdc137c-99f9-444a-b197-13cb96a6de60")
 	)
 	(fp_line
 		(start 0.6 -0.4)
@@ -96,7 +97,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "357d2caf-3ba8-44e7-b4b5-00c2d540b32a")
+		(uuid "484f549f-f293-4255-9702-fbee8cc337b7")
 	)
 	(fp_line
 		(start 0.6 0.05)
@@ -106,7 +107,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a46ebfe6-d918-4855-a7ca-08ee34bcda27")
+		(uuid "362ed0ea-558e-4abd-bc22-a6e5927e050b")
 	)
 	(fp_line
 		(start -0.1 -0.1)
@@ -116,7 +117,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "aff955f7-fbb9-40e7-bd64-d1f3d6462cb2")
+		(uuid "95d0cb30-567e-4e60-936b-fd67da6f337f")
 	)
 	(fp_line
 		(start 0.1 -0.1)
@@ -126,7 +127,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "7b17398d-7322-4d6b-aaaf-4a3c95d97144")
+		(uuid "dbfdb928-7805-4fc1-9b21-60f1e367efcd")
 	)
 	(fp_rect
 		(start -0.95 -0.95)
@@ -135,44 +136,32 @@
 			(width 0.01)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "16d691c2-369e-4a87-84dd-04328fa68ee3")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 1.55 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "65f9b53f-2fc7-4b6a-a136-f83c84678426")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(uuid "56b92be0-962a-42f3-b0c3-273dfaf8dcc6")
 	)
 	(pad "1" smd rect
 		(at -0.4 0.5)
-		(size 0.32 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "fe5d2863-4486-4798-a556-c09485492657")
+		(uuid "ba3dc255-1f48-4109-b61e-1c998af7e61b")
 	)
 	(pad "2" smd rect
 		(at 0.4 0.5)
-		(size 0.32 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "853f965a-03ba-4eec-b1b5-72d0a232f655")
+		(uuid "ba2d99ef-47da-4785-8e9d-9a88ba38f61d")
 	)
 	(pad "3" smd rect
 		(at 0 -0.5)
-		(size 0.42 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 0.45 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "eb31cf0e-87b4-48d9-9728-6fe70ef173d2")
+		(uuid "29eee1c7-5eac-474d-add8-8abf0b329afb")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/SOT-723_SC-105AA_VMT3_1.2x0.8x0.55.step"
 		(offset
 			(xyz 0 0 0)
