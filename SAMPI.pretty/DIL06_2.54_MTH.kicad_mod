@@ -1,0 +1,224 @@
+(footprint "DIL06_2.54_MTH"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "486869ed-04cc-4df0-99f6-cf9406998716")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DIL06_2.54_MTH"
+		(at -1.27 -1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e55da691-834e-4be6-9412-a5bff1fa1db8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.27 -2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "864786b8-3edc-4d82-b02b-d05f0d792d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.27 -2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41f3cf91-ebad-4830-be9c-488d17ddfe30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field4" "${REFERENCE}"
+		(at -1.27 -0.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9d87d25-e419-4691-aee8-b4215432c071")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.77 -2.5)
+		(end 3.77 -2.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b927664a-090a-4740-8de7-978eb71bbd02")
+	)
+	(fp_line
+		(start -3.77 -0.35)
+		(end -3.77 -2.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad8c96f9-b3ff-4fc5-aacc-f7dbd0ba6d69")
+	)
+	(fp_line
+		(start -3.77 2.5)
+		(end -3.77 1)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40d23917-ea74-4668-aef7-89f486050d4c")
+	)
+	(fp_line
+		(start -3.77 2.5)
+		(end -2.27 2.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2a26ed2d-6408-4931-ac39-68e57a1d1ede")
+	)
+	(fp_line
+		(start -0.92 2.5)
+		(end 3.77 2.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af39a284-583c-4edf-9e98-7356450afae5")
+	)
+	(fp_line
+		(start 3.77 2.5)
+		(end 3.77 -2.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33821415-cb30-4651-8125-9910c1fddf49")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a62e7344-6c57-401f-9955-0595274f231e")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e7699b08-c61f-4f48-a4a4-0fef3339e0ac")
+	)
+	(fp_rect
+		(start -4.17 -2.9)
+		(end 4.17 2.9)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d4a77c76-07d3-442c-9b07-258352687f7d")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 1.27)
+		(size 1.8 1.8)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "2a32b526-1f86-4251-afe9-2c378a91502b")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -1.27)
+		(size 1.8 1.8)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fba6841b-a15d-457d-abd0-d2472f2ff0c6")
+	)
+	(pad "3" thru_hole circle
+		(at 0 1.27)
+		(size 1.8 1.8)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13b3cd97-c074-47ab-bee3-f0b92f57b89b")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -1.27)
+		(size 1.8 1.8)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf99c970-417f-42f5-bdab-13f83e0a071f")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 1.27)
+		(size 1.8 1.8)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "590bb52d-4dc5-4a38-9df7-995cf0722dd7")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 -1.27)
+		(size 1.8 1.8)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c54a6fd-550a-49b8-8c25-75b79d10dccf")
+	)
+	(embedded_fonts no)
+	(model "${RP_3DMODEL_DIR}/PH2-06-UA.step"
+		(offset
+			(xyz -2.54 1.27 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

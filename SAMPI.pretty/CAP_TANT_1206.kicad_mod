@@ -1,0 +1,134 @@
+(footprint "CAP_TANT_1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f93571b0-90ef-41d1-bb86-3aea8b9cc260")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP_TANT_1206"
+		(at 2.47 -2.883 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2679f71-4bec-4f4e-ae22-6954cd696194")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.47 -3.683 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0a3fc08-d9d8-42a5-ad1d-1db55b9382bc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.47 -3.683 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7527c83e-fdd6-4129-a9ff-c7a3f43c8c02")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.6 -1)
+		(end -0.85 -1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ebb05050-4a12-47e6-81dc-ee8affe6c535")
+	)
+	(fp_line
+		(start -1.6 1)
+		(end -0.85 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e9a957a-b91f-48ae-a954-8c5b5a2cddce")
+	)
+	(fp_line
+		(start 0 -1)
+		(end 1.6 -1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27bbf6cc-d561-4fdc-a6ef-0cab29d59c3e")
+	)
+	(fp_line
+		(start 0 1)
+		(end 1.6 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff70222c-92bd-4300-b531-0cd974c28c9a")
+	)
+	(fp_rect
+		(start -2.15 -1.3)
+		(end 2.15 1.3)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b1542266-5405-4048-9806-0a9e523064fa")
+	)
+	(pad "+" smd rect
+		(at -1.35 0)
+		(size 1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a9a14029-fad7-446e-ae8c-2e6abbcc73e1")
+	)
+	(pad "-" smd rect
+		(at 1.35 0)
+		(size 1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ff67605-4d5d-4edb-936e-2e2b195ee480")
+	)
+	(embedded_fonts no)
+	(model "${RP_3DMODEL_DIR}/CAP_TAN_C3216_1206.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

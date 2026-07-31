@@ -1,0 +1,172 @@
+(footprint "SMOKE CHAMBER 2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6b7c685-4a50-4218-9ffb-e89e64e1dbf2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMOKE CHAMBER 2"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02664cb3-6fb3-40cb-bdef-1904193d3e33")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa1c906-c482-4bbb-90c3-77233f532f68")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3ab64a-71c9-4522-827d-61442f1bd611")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 27.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6f00a535-b334-4af4-8a97-849db5d7ed2d")
+	)
+	(fp_rect
+		(start -2 -26)
+		(end 2 -24)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4c3663e8-1982-4a31-9840-7c5124c9ba06")
+	)
+	(fp_rect
+		(start -2 24)
+		(end 2 26)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "75414d57-730e-4cea-9783-1e1b18b15c02")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 23 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a63887bf-9291-46e9-8252-9191f577084f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 27.8 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a5edf12a-754f-4070-9191-b5dae1e6e7e9")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0 -25)
+		(size 5 3)
+		(drill oval 5 3)
+		(layers "*.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "bfcf4929-71c2-49c1-95a6-f92030535b0e")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0 25)
+		(size 5 3)
+		(drill oval 5 3)
+		(layers "*.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "6f367ace-fe0e-4da0-be3c-2639299b840a")
+	)
+	(pad "1" thru_hole circle
+		(at -16 -1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b62106c-2d5a-491e-a118-bda0268c0efe")
+	)
+	(pad "2" thru_hole circle
+		(at -16 1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bedb3b30-3aba-4ccf-b7c0-6524e9385212")
+	)
+	(pad "3" thru_hole circle
+		(at 16 1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fee2ac55-042e-4ef9-b09d-f473132b5562")
+	)
+	(pad "4" thru_hole circle
+		(at 16 -1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2608219-0d4c-4e56-b7c8-3b6af6c800f3")
+	)
+	(embedded_fonts no)
+	(model "${HWDD_3D}/Chamber2.stp"
+		(offset
+			(xyz 0 0 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

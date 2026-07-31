@@ -1,0 +1,289 @@
+(footprint "PT0805-1206-1210"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "D4"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "da1aaaa0-e50b-4231-a1cf-410f204c1dfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RX"
+		(at 0 -0.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23a63650-ecee-4ad2-98d9-bc4e03e4c754")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de974fc-368a-46b0-b076-923c9e71d3f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PT42-21B/TR8"
+		(at -0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d872240a-a2fa-4793-a38d-b7ae7298773d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFT" "Harvatek"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2050a5f-5d69-4d57-ab4e-f9ef2e6e2604")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MNP" "SENSOR PHOTO 940NM TOP VIEW 1210"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05f9f737-958e-4e14-829f-fa05f75bb735")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6503cb1-7bca-442f-872f-071fbeab839a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+	(sheetname "/COMMON/CONFIGURE/")
+	(sheetfile "../CONFIGURE.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -1.2)
+		(end 0.7 -1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30e9818d-27b6-4350-90bf-aa3382323dae")
+	)
+	(fp_line
+		(start -0.7 1.2)
+		(end 0.7 1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ebfc3f8f-4cff-4a58-95a4-3ea6e9e74175")
+	)
+	(fp_circle
+		(center 1.5 -1.95)
+		(end 1.7 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ae509490-644a-49a6-971e-48885f4901e2")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1cece805-a66c-423a-bc5c-3fe10f483e2c")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "71442520-c794-42bc-b024-55bc987f3797")
+	)
+	(fp_poly
+		(pts
+			(xy -2.3 1.7) (xy -2.3 -1.7) (xy 2.3 -1.7) (xy 2.3 1.7)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "689f3067-6e2b-4c1b-a589-fd6a2a0273a2")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 1.2) (xy -1.6 -1.2) (xy 1.6 -1.2) (xy 1.6 1.2)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "69be30da-d027-49d1-861a-ce476af74d08")
+	)
+	(pad "C" smd custom
+		(at 1.5 0)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1 -0.4) (xy -1 0.4) (xy -1 0.65) (xy -0.5 0.65) (xy -0.5 1.4) (xy 0.5 1.4) (xy 0.5 -1.4) (xy -0.5 -1.4)
+					(xy -0.5 -0.65) (xy -1 -0.65)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 0.7)
+			(best_width_ratio 1)
+			(max_width 1.5)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "81db1389-e1df-4b60-a0e9-83fa764a23e8")
+	)
+	(pad "E" smd custom
+		(at -1.5 0 180)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1 -0.4) (xy -1 0.4) (xy -1 0.65) (xy -0.5 0.65) (xy -0.5 1.4) (xy 0.5 1.4) (xy 0.5 -1.4) (xy -0.5 -1.4)
+					(xy -0.5 -0.65) (xy -1 -0.65)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 0.7)
+			(best_width_ratio 1)
+			(max_width 1.5)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "3cee2f0f-0772-4ded-a2f1-092c93a3cf0d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/LED_IR_1206.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/LED_0603_WS.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/IR-1210.stp"
+		(offset
+			(xyz 142.15 352.61 0.46)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

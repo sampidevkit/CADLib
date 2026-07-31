@@ -1,0 +1,149 @@
+(footprint "TUMT3_SOT-323T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TUMT3_2022")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "367b6076-2f2a-42b7-a138-50f79a37b127")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TUMT3_SOT-323T"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5363ef23-7b9a-4220-b259-ccf553632491")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca9e1f78-00cc-4123-a75c-b21f7ca7ba4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1.5V Drive Pch MOSFET"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb6fe639-df00-4836-abf9-4580534eefa0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(fp_line
+		(start -0.9906 -0.85)
+		(end -0.9906 0.4826)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f041076-f9e0-4e99-b488-351424bbb5a9")
+	)
+	(fp_line
+		(start -0.4224 -0.85)
+		(end -0.9906 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8410f81b-2c18-4119-bf43-a23a6b97ed9d")
+	)
+	(fp_line
+		(start -0.2493 0.8636)
+		(end 0.2681 0.8636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a4d6df6-b1c4-4f8b-81f8-babd05750739")
+	)
+	(fp_line
+		(start 0.492 -0.85)
+		(end 1.0094 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5933483-e455-4213-88f7-0c2524cb96c6")
+	)
+	(fp_line
+		(start 1.0094 -0.85)
+		(end 1.0094 0.5334)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cc0a615-4f39-4b99-9fda-b1e1071776a5")
+	)
+	(fp_rect
+		(start -1.3 -1.55)
+		(end 1.3 1.55)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b3ae634c-3428-411f-8707-aafa68a36b4f")
+	)
+	(pad "1" smd rect
+		(at -0.6406 0.95)
+		(size 0.45 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe971c76-e12d-41cc-bcd0-d6be987f08ec")
+	)
+	(pad "2" smd rect
+		(at 0.6594 0.95)
+		(size 0.45 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1534442-82df-4221-8134-847ecf6ba649")
+	)
+	(pad "3" smd rect
+		(at 0.0094 -0.95)
+		(size 0.45 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b863f1e9-4acb-4791-af75-ab0e467aec07")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/My_3D/RAF040P01TCL.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

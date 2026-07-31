@@ -1,0 +1,148 @@
+(footprint "IND-CDR32"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "02b4366c-0865-4672-90ee-5a0c96491b12")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-CDR32"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fdf84aae-4c6e-45b0-8b70-59405c7ff085")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.25 -4.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b556b0b1-322e-4b4e-886a-6599abe8e05f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.25 -4.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f66c171d-bbc4-4cca-b33b-d9b902a6a78c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.1 -1.5)
+		(end 0.1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d81078d2-2a17-41ff-946b-27aeecc4b6c3")
+	)
+	(fp_line
+		(start -0.1 1.5)
+		(end 0.1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04d4583a-e5c1-43e4-a780-e8169e76eb13")
+	)
+	(fp_rect
+		(start -2.3 -2.05)
+		(end 2.3 2.05)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cc4b7152-7b0d-4b7a-a8ac-46fb95902aaa")
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c58e2e4-2e68-4b12-a5b7-f737d9bbe4c1")
+	)
+	(pad "2" smd rect
+		(at 1.2 0)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69092b2a-208a-4449-b6fa-a1843f703730")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "a51750f2-e844-4aef-8738-215368fe700e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.4 -1.75) (xy 0.4 -1.75) (xy 0.4 1.75) (xy -0.4 1.75)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${HWDD_3D}/CD32.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

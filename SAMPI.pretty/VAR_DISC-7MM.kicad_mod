@@ -1,0 +1,249 @@
+(footprint "VAR_DISC-7MM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "RV1"
+		(at 0 -3.15 180)
+		(layer "F.SilkS")
+		(uuid "14285aad-3199-4f92-9c15-1ac817176d8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "360V/1.2KA"
+		(at 7.315 2.735 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5e4511b-07a5-4c9c-a55c-07f67bed9249")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a0c7b3e-aaea-4d2a-8164-167787ef1c57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "VARISTOR T/H DISC7 TYP360V 1.2KA 17J 1-CH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "707b6ca5-98e9-43d1-8730-41b2d402773c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFT" "EPCO"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1397950c-503c-4263-8a0f-f1d18d8377d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MNP" "B72207S0231K311"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29992755-698f-41e2-8b01-6fb54c33eccf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "No" "15"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87e62214-e911-438d-b149-e01f9f00722a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "RV_* Varistor*")
+	(sheetname "/")
+	(sheetfile "HWVN026.kicad_sch")
+	(attr through_hole exclude_from_bom dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.5 -1.65)
+		(end -4.5 -0.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18256d6d-515c-4de3-9e48-cb5aafff6bc8")
+	)
+	(fp_line
+		(start -4.5 -1.65)
+		(end 4.5 -1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afd72cc0-4008-454d-9b6e-3957c86da289")
+	)
+	(fp_line
+		(start -4.5 1.65)
+		(end -4.5 -0.54)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "421d4a9a-1767-4070-b310-3246bce6b88f")
+	)
+	(fp_line
+		(start -4.19 1.65)
+		(end -4.5 1.65)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a83779d-59c0-4627-92b5-d4175b8d2eb1")
+	)
+	(fp_line
+		(start -3.1 1.65)
+		(end -4.19 1.65)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7369ff2-d23f-4e0f-bcfc-acf1f0bc9efc")
+	)
+	(fp_line
+		(start -3.1 1.65)
+		(end 4.5 1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b468c760-f32d-492f-ac62-73436ac26037")
+	)
+	(fp_line
+		(start 4.5 -1.65)
+		(end 4.5 1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0779e29c-3061-4a26-8ad5-cfaafb98da6d")
+	)
+	(fp_line
+		(start -4.5 -1.65)
+		(end -4.5 1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e26c526-96d6-438f-b599-38f894f0dc5a")
+	)
+	(fp_line
+		(start -4.5 -1.65)
+		(end 4.5 -1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92915459-4f43-413f-832d-c8ddc5741ae6")
+	)
+	(fp_line
+		(start 4.5 -1.65)
+		(end 4.5 1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7f826ac-fd11-45e2-a710-05e49d18b76f")
+	)
+	(fp_line
+		(start 4.5 1.65)
+		(end -4.5 1.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76cb29a8-f192-47c5-8143-c150deacce33")
+	)
+	(fp_rect
+		(start -4.8 -1.95)
+		(end 4.8 1.95)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cabfcd02-3162-4fe5-9d83-3220eec2d435")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -0.65)
+		(size 1.5 1.5)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1ca46af1-8435-4e81-bb7e-407e19ada35b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0.65)
+		(size 1.5 1.5)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "30641629-1730-4850-ac50-61bec3a3d55e")
+	)
+	(embedded_fonts no)
+	(model "${RP_3DMODEL_DIR}/My_3D/s07k275e2.step"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
